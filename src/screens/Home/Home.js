@@ -8,7 +8,7 @@ import callButton from '../../assets/images/callButton.png'
 import {animated, useSpring,config} from 'react-spring'
 
 function FirstContainer() {
-    const props = useSpring({marginTop: 0, from: {marginTop: 500 }})
+    const props = useSpring({marginTop: 0, from: {marginTop: 1500 }})
     // return <animated.div style={props}>I will fade in</animated.div>
     return (
         <animated.div style={props} className='firstContainer'>
@@ -83,10 +83,10 @@ class Home extends Component {
             const that = this
             setTimeout(() => {
                 that.myRef.current.scrollIntoView({ behavior: 'smooth' })
-            }, 1000)
+            }, 1500)
             setTimeout(() => {
                 this.setState({flowerLoad:true})
-            }, 1300)
+            }, 1900)
         }
     }
 
