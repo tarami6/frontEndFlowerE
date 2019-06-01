@@ -5,6 +5,7 @@
     height: 100vh;
     background-image: url("../../assets/images/igardeHomeFirstBackground01.jpg");
     background-size: 100vw 100vh;
+    transition: width 0.5s, height 0.5s, opacity 0.5s 0.5s;
 }
 .logoContainer{
     width: 100vw;
@@ -18,10 +19,24 @@
 .contentContainer{
     display: flex;
     width: 100vw;
-    margin-top: 10vh;
+    padding-top: 10vh;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+}
+.callButtonContainer{
+    width: 15vw;
+    height: 15vw;
+    margin-left: var(--main-padding);
+    position: fixed;
+    left: 0;
+    bottom: 2vh;
+    z-index: 3;
+}
+.tester{
+    background: red;
+    height: 10vh;
+    width: 100vw;
 }
 
 
