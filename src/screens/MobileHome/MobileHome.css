@@ -1,0 +1,104 @@
+
+.firstContainer {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    background-image: url("../../assets/imagesMobile/igardeHomeFirstBackground01.jpg");
+    background-size: 100vw 100vh;
+}
+.logoContainer{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.2);
+}
+.logoTransparent{
+    width: 100vw;
+    margin-top: 10vh;
+}
+.contentContainer{
+    display: flex;
+    width: 100vw;
+    padding-top: 10vh;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.callButtonContainer{
+    width: 15vw;
+    height: 15vw;
+    margin-left: var(--main-padding);
+    position: fixed;
+    left: 0;
+    bottom: 2vh;
+    z-index: 3;
+}
+.tester{
+    background: red;
+    height: 10vh;
+    width: 100vw;
+}
+.footer{
+    width: 100vw;
+    height: 100vh;
+    background-image: url("../../assets/imagesMobile/igardeHomeFirstBackground01.jpg");
+    background-size: 100vw 100vh;
+}
+.footerContainer{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.4);
+    align-items: center;
+}
+.footerTitle{
+    color: #fff;
+    text-align: center;
+    margin-top: 10vh;
+}
+.footerStory{
+    color: #ffffff;
+    padding-right: var(--main-padding);
+    padding-left: var(--main-padding);
+    text-align:justify
+
+}
+.footerSocialMenu{
+    margin-top: 10vh;
+    width: 90vw;
+    height: 10vh;
+    display: flex;
+    justify-content: space-evenly;
+    padding-right: var(--main-padding);
+    padding-left: var(--main-padding);
+
+}
+
+.socialIconMenu{
+    width: 15vw;
+    height: 15vw;
+}
+.poweredBy{
+    width: 100vw;
+    height: 5vh;
+    background-color: black;
+    position: relative;
+    display: flex;
+    bottom: 0;
+    justify-content: center;
+    align-items: center;
+    border-top: black solid 2px;
+}
+.poweredByText{
+    color: white;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+

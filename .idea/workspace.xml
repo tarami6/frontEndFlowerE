@@ -2,7 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cf6233b1-380a-47a6-88cf-bf5b7addc960" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/screens/Home/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/Home/Home.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/screens/MobileHome/MobileHome.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/screens/MobileHome/MobileHome.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/callButton.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/imagesMobile/callButton.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/igardeHomeFirstBackground.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/imagesMobile/igardeHomeFirstBackground.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/igardeHomeFirstBackground01.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/imagesMobile/igardeHomeFirstBackground01.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/logoTransparent.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/imagesMobile/logoTransparent.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/zerHahaveKfula.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/imagesMobile/zerHahaveKfula.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/screens/Home/Home.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/screens/Home/Home.js" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -15,14 +25,14 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5759599">
+    <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/App.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="15">
-                  <caret line="3" selection-start-line="3" selection-end-line="3" />
+                <state relative-caret-position="480">
+                  <caret line="32" column="24" selection-start-line="32" selection-start-column="24" selection-end-line="32" selection-end-column="24" />
                   <folding>
                     <element signature="e#0#26#0" expanded="true" />
                   </folding>
@@ -31,10 +41,22 @@
             </entry>
           </file>
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/screens/Home/Home.js">
+            <entry file="file://$PROJECT_DIR$/src/screens/DeskHome/DeskHome.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="285">
-                  <caret line="88" column="17" selection-start-line="88" selection-start-column="17" selection-end-line="88" selection-end-column="17" />
+                <state relative-caret-position="225">
+                  <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+                  <folding>
+                    <element signature="e#0#37#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/screens/MobileHome/MobileHome.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="92">
+                  <caret line="22" selection-start-line="22" selection-end-line="40" selection-end-column="1" />
                   <folding>
                     <element signature="e#0#49#0" expanded="true" />
                   </folding>
@@ -43,13 +65,10 @@
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/components/FlowerBox/FlowerBox.js">
+            <entry file="file://$PROJECT_DIR$/src/services/Const/const.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="15">
-                  <caret line="2" selection-start-line="2" selection-end-line="2" />
-                  <folding>
-                    <element signature="e#0#25#0" expanded="true" />
-                  </folding>
+                <state relative-caret-position="542">
+                  <caret line="60" column="6" selection-start-line="60" selection-start-column="6" selection-end-line="60" selection-end-column="6" />
                 </state>
               </provider>
             </entry>
@@ -73,22 +92,43 @@
       <split-second>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/components/FlowerBox/FlowerBox.js">
+            <entry file="file://$PROJECT_DIR$/src/screens/MobileHome/MobileHome.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="60">
-                  <caret line="4" column="36" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="36" />
+                <state relative-caret-position="1335">
+                  <caret line="89" column="31" selection-start-line="89" selection-start-column="31" selection-end-line="89" selection-end-column="31" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/screens/DeskHome/DeskHome.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="240">
+                  <caret line="16" column="18" lean-forward="true" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/screens/MobileHome/MobileHome.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="129">
+                  <caret line="29" column="31" selection-start-line="27" selection-start-column="16" selection-end-line="37" selection-end-column="19" />
                   <folding>
-                    <element signature="e#0#25#0" expanded="true" />
+                    <element signature="e#0#49#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/screens/Home/Home.css">
+            <entry file="file://$PROJECT_DIR$/src/components/FlowerBox/FlowerBox.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="243">
-                  <caret line="33" column="15" selection-start-line="27" selection-start-column="3" selection-end-line="33" selection-end-column="15" />
+                <state relative-caret-position="300">
+                  <caret line="20" column="14" lean-forward="true" selection-start-line="6" selection-start-column="7" selection-end-line="20" selection-end-column="14" />
+                  <folding>
+                    <element signature="e#0#25#0" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -109,6 +149,8 @@
       <find>contentContainer</find>
       <find>flowerPrice</find>
       <find>storyContainer</find>
+      <find>footerSocialMenu</find>
+      <find>flowerLoad</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -117,7 +159,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/App.js" />
         <option value="$PROJECT_DIR$/src/screens/Home.js" />
         <option value="$PROJECT_DIR$/src/components/FlowerBox.js" />
         <option value="$PROJECT_DIR$/src/components/FlowerBox/FlowerBox.css" />
@@ -125,6 +166,12 @@
         <option value="$PROJECT_DIR$/src/App.css" />
         <option value="$PROJECT_DIR$/src/screens/Home/Home.css" />
         <option value="$PROJECT_DIR$/src/screens/Home/Home.js" />
+        <option value="$PROJECT_DIR$/src/screens/DeskHome/DskHome.js" />
+        <option value="$PROJECT_DIR$/src/App.js" />
+        <option value="$PROJECT_DIR$/src/services/Const/const.js" />
+        <option value="$PROJECT_DIR$/src/screens/MobileHome/MobileHome.js" />
+        <option value="$PROJECT_DIR$/src/screens/DeskHome/DeskHome.css" />
+        <option value="$PROJECT_DIR$/src/screens/DeskHome/DeskHome.js" />
       </list>
     </option>
   </component>
@@ -134,7 +181,7 @@
     <other-services-enabled>true</other-services-enabled>
     <auto-save>true</auto-save>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="y" value="23" />
     <option name="width" value="1219" />
     <option name="height" value="960" />
@@ -154,6 +201,23 @@
             <path>
               <item name="IGARDE" type="b2602c69:ProjectViewProjectNode" />
               <item name="IGARDE" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="IGARDE" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IGARDE" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="IGARDE" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IGARDE" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="IGARDE" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IGARDE" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="services" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -182,13 +246,14 @@
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/assets/images" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/components/FlowerBox" />
       <recent name="$PROJECT_DIR$/src/assets/images" />
+      <recent name="$PROJECT_DIR$/src/components/FlowerBox" />
       <recent name="$PROJECT_DIR$/src/screens/Home" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/assets/imagesDesk" />
+      <recent name="$PROJECT_DIR$/src/assets/images" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -229,18 +294,19 @@
       <option name="presentableId" value="Default" />
       <updated>1559292954359</updated>
       <workItem from="1559292955572" duration="15183000" />
-      <workItem from="1559385389319" duration="505000" />
+      <workItem from="1559385389319" duration="2334000" />
+      <workItem from="1559491130525" duration="5623000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15688000" />
+    <option name="totallyTimeSpent" value="23140000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1219" height="960" extended-state="0" />
+    <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24874792" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24834238" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -255,7 +321,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="GraphQL" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.32949308" />
+      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.29183674" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -265,21 +331,11 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/assets/images/igardeHomeFirstBackground.jpg">
+    <entry file="file://$PROJECT_DIR$/src/assets/imagesMobile/igardeHomeFirstBackground.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/images/zerHahaveKfula.jpg">
+    <entry file="file://$PROJECT_DIR$/src/assets/imagesMobile/zerHahaveKfula.jpg">
       <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/App.css">
       <provider selected="true" editor-type-id="text-editor">
@@ -291,29 +347,72 @@
     <entry file="file://$PROJECT_DIR$/src/components/FlowerBox/FlowerBox.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/imagesMobile/whatsUpIcon.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/imagesMobile/Instagram.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/imagesMobile/FaceBook.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="32" column="24" selection-start-line="32" selection-start-column="24" selection-end-line="32" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/screens/MobileHome/MobileHome.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1335">
+          <caret line="89" column="31" selection-start-line="89" selection-start-column="31" selection-end-line="89" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/services/Const/const.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="542">
+          <caret line="60" column="6" selection-start-line="60" selection-start-column="6" selection-end-line="60" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/screens/MobileHome/MobileHome.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="22" selection-start-line="22" selection-end-line="40" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#49#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/screens/DeskHome/DeskHome.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="18" lean-forward="true" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/FlowerBox/FlowerBox.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        <state relative-caret-position="300">
+          <caret line="20" column="14" lean-forward="true" selection-start-line="6" selection-start-column="7" selection-end-line="20" selection-end-column="14" />
           <folding>
             <element signature="e#0#25#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/screens/Home/Home.css">
+    <entry file="file://$PROJECT_DIR$/src/screens/DeskHome/DeskHome.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="33" column="15" selection-start-line="27" selection-start-column="3" selection-end-line="33" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/screens/Home/Home.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="88" column="17" selection-start-line="88" selection-start-column="17" selection-end-line="88" selection-end-column="17" />
+        <state relative-caret-position="225">
+          <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
           <folding>
-            <element signature="e#0#49#0" expanded="true" />
+            <element signature="e#0#37#0" expanded="true" />
           </folding>
         </state>
       </provider>
