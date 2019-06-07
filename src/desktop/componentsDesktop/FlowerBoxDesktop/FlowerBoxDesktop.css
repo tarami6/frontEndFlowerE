@@ -5,7 +5,8 @@
     border-radius: 2vw;
     display: flex;
     flex-direction: column;
-    box-shadow: 2px 8px 15px gray;
+    box-shadow: 1px 1px 1px gray;
+    border: 1px solid lightgray;
 }
 .flowerImageForSaleDesktop{
     width: 27vw;
@@ -31,7 +32,7 @@
 }
 .priceAndNameDesktop{
     display: flex;
-    /*justify-content: space-between;*/
+    justify-content: space-between;
     width: 100%;
 }
 .flowerNameTitleDesktop{
