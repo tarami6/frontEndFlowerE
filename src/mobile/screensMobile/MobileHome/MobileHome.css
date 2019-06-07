@@ -128,11 +128,17 @@
     justify-content: center;
 }
 .callToButton{
-    width: 40vw;
-    height: 20vw;
+    width: 39vw;
+
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.separatorCallButton{
+    height: 5vw;
+    width: 1px;
+    border-right: 1px solid black ;
+
 }
 .whatUpButton{
     width: 40vw;
@@ -140,6 +146,14 @@
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.whatUpButton > a {
+    color: darkgreen;
+    text-decoration: none;
+}
+.callToButton > a{
+    color: green;
+    text-decoration: none;
 }
 
 

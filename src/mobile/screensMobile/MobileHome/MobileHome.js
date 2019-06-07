@@ -5,6 +5,7 @@ import FirstContainer from '../../componentsMobile/FirstContainer/FirstContainer
 import ContentContainer from '../../componentsMobile/ContentContainer/ContentContainer.js'
 import Footer from '../../componentsMobile/Footer/Footer.js'
 import CallButton from '../../componentsMobile/CallButton/CallButton.js'
+import CallActionPopUP from '../../componentsMobile/PopUps/CallActionPopUP/CallActionPopUP'
 
 
 class MobileHome extends Component {
@@ -54,24 +55,9 @@ class MobileHome extends Component {
                     onPress={this.callAction}
                 />
                 {showPopUp &&
-                <div className={'callActionPopUP'}>
-                    <div className={'callPopUp'}>
-                        <div onClick={() => this.exitPopUp()} className={'exitPopUp'}>
-                            <p>X</p>
-                        </div>
-                        <div className={'popUpTextHolder'}>
-                            <p>להזמנה</p>
-                        </div>
-                        <div className={'buttonsHolder'}>
-                            <div className={'callToButton'}>
-                                <a href="tel:555-555-5555">חייג </a>
-                            </div>
-                            <div className={'whatUpButton'}>
-                                <a href="whatsapp://send?text=Hello World!&phone=+972542291101">Ping me on WhatsApp</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                <CallActionPopUP
+                exit={this.exitPopUp}
+                />
                 }
                 <Footer/>
             </Fragment>
