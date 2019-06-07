@@ -19,7 +19,7 @@ const CallActionPopUP = (props) => {
                         </div>
                         <div className={'separatorCallButton'}/>
                         <div className={'whatUpButton'}>
-                            <a href="whatsapp://send?text=Hello World!&phone=+972547574737">WhatsApp</a>
+                            <a href="whatsapp://send?text=שלום :) &phone=+972547574737">WhatsApp</a>
                         </div>
                     </div>
                 </div>
