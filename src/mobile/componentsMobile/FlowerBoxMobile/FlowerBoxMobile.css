@@ -33,17 +33,18 @@
     width: 100%;
 }
 .flowerNameTitle {
-    padding-right: calc(var(--main-padding ) / 4);
+    padding-right: var(--main-padding ) ;
     color: #6f6f6f;
 }
 .flowerPrice{
     padding-top: 5px;
-    padding-left: calc(var(--main-padding ) / 4);
+    padding-left: var(--main-padding ) ;
     font-weight: bold;
 }
 .storyContainer{
-    padding-left: calc(var(--main-padding ) / 4);
-    padding-right: calc(var(--main-padding ) / 4);
+    padding-left: var(--main-padding ) ;
+    padding-right: var(--main-padding );
+    text-align: justify;
 }
 .storyText{
     padding: 0;
