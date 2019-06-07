@@ -67,7 +67,7 @@ class MobileHome extends Component {
                                 <a href="tel:555-555-5555">חייג </a>
                             </div>
                             <div className={'whatUpButton'}>
-                                <a href="whatsapp://send?abid=+972542291101&text=Hello%2C%20World!">What'sUp</a>
+                                <a href="whatsapp://send?text=Hello World!&phone=+972542291101">Ping me on WhatsApp</a>
                             </div>
                         </div>
                     </div>
