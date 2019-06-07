@@ -1,7 +1,7 @@
 import React from 'react'
-import './FlowerBox.css'
+import './FlowerBoxMobile.css'
 
-const FlowerBox = (props) => {
+const FlowerBoxMobile = (props) => {
     const {image, name, price, story} = props
     return (
         <div className={'flowersForSaleContainer'}>
@@ -22,4 +22,4 @@ const FlowerBox = (props) => {
     )
 }
 
-export default FlowerBox
+export default FlowerBoxMobile

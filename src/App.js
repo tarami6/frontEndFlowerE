@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
-import MobileHome from './screens/MobileHome/MobileHome'
-import DeskHome from './screens/DeskHome/DeskHome'
+import MobileHome from './mobile/screensMobile/MobileHome/MobileHome'
+import DeskHome from './desktop/screensDesktop/DeskHome/DeskHome'
 
 class App extends React.Component {
     constructor(props) {
