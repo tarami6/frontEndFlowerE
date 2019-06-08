@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cf6233b1-380a-47a6-88cf-bf5b7addc960" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-    </list>
+    <list default="true" id="cf6233b1-380a-47a6-88cf-bf5b7addc960" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/build/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -229,6 +226,27 @@
               <item name="IGARDE" type="b2602c69:ProjectViewProjectNode" />
               <item name="IGARDE" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="mobile" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="IGARDE" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IGARDE" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="mobile" type="462c0819:PsiDirectoryNode" />
+              <item name="assetsMobile" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="IGARDE" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IGARDE" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="mobile" type="462c0819:PsiDirectoryNode" />
+              <item name="assetsMobile" type="462c0819:PsiDirectoryNode" />
+              <item name="imagesMobile" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="IGARDE" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IGARDE" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="services" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -323,16 +341,15 @@
       <workItem from="1559581299778" duration="136000" />
       <workItem from="1559667052254" duration="75000" />
       <workItem from="1559670199207" duration="261000" />
-      <workItem from="1559893621531" duration="18011000" />
+      <workItem from="1559893621531" duration="18194000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41623000" />
+    <option name="totallyTimeSpent" value="41806000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1219" height="960" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24791318" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
