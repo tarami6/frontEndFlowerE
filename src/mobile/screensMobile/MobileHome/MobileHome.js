@@ -29,7 +29,7 @@ class MobileHome extends Component {
             const that = this
             setTimeout(() => {
                 that.myRef.current.scrollIntoView({behavior: 'smooth'})
-            }, 1500)
+            }, 2500)
         }
     }
 
