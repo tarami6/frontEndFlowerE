@@ -8,6 +8,7 @@ import CallButton from '../../componentsMobile/CallButton/CallButton.js'
 import CallActionPopUP from '../../componentsMobile/PopUps/CallActionPopUP/CallActionPopUP'
 
 
+
 class MobileHome extends Component {
     constructor(props) {
         super(props)
@@ -29,7 +30,7 @@ class MobileHome extends Component {
             const that = this
             setTimeout(() => {
                 that.myRef.current.scrollIntoView({behavior: 'smooth'})
-            }, 2500)
+            }, 3000)
         }
     }
 

@@ -3,7 +3,7 @@ import zerHahaveKfula from "../../mobile/assetsMobile/imagesMobile/zerHahaveKful
 export const  flowers = [
     {
         name: 'זר אהבה כפולה',
-        price: 200,
+        price: 300,
         image: zerHahaveKfula,
         story: ' איאקוליס וולופטה דיאם. וסטיבולום אט דולור, קראס אגת לקטוס וואל  איאקוליס וולופטה דיאם. איאקוליס וולופטה דיאם. וסטיבולום אט דולור, קראס אגת לקטוס וואל'
     },
