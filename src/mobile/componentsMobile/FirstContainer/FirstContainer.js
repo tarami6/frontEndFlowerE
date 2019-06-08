@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from '../../assetsMobile/imagesMobile/MobileLogo02.jpf'
+import logo from '../../assetsMobile/imagesMobile/MobileLogo03webp'
 
 const FirstContainer = () => {
     // return <animated.div style={props}>I will fade in</animated.div>
