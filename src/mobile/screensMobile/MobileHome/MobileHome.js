@@ -6,7 +6,9 @@ import ContentContainer from '../../componentsMobile/ContentContainer/ContentCon
 import Footer from '../../componentsMobile/Footer/Footer.js'
 import CallButton from '../../componentsMobile/CallButton/CallButton.js'
 import CallActionPopUP from '../../componentsMobile/PopUps/CallActionPopUP/CallActionPopUP'
-
+import BackgroundImageOnLoad from "background-image-on-load";
+import igarde from '../../assetsMobile/imagesMobile/igardeHomeFirstBackground01.jpg'
+import logo from '../../assetsMobile/imagesMobile/MobileLogo.png'
 
 
 class MobileHome extends Component {
@@ -14,14 +16,16 @@ class MobileHome extends Component {
         super(props)
         this.myRef = React.createRef()
         this.state = {
-            callToActionPopUp: false
+            callToActionPopUp: false,
+            firstBackgroundImageLoaded: false,
+            logo: false
         }
     }
 
 
     componentDidMount() {
         console.log('mobileHome didi mount')
-        this.handleScroll()
+
     }
 
     handleScroll = () => {
@@ -30,7 +34,7 @@ class MobileHome extends Component {
             const that = this
             setTimeout(() => {
                 that.myRef.current.scrollIntoView({behavior: 'smooth'})
-            }, 3000)
+            }, 4000)
         }
     }
 
@@ -44,25 +48,62 @@ class MobileHome extends Component {
         this.setState({callToActionPopUp: false})
     }
 
+    imageLoderChecker = () => {
+        return (
+            <div>
+                <BackgroundImageOnLoad
+                    src={igarde}
+                    onLoadBg={() => {
+                        this.setState({firstBackgroundImageLoaded: true})
+                    }
+                    }
+                    onError={err => console.log('error', err)}
+                />
+                <BackgroundImageOnLoad
+                    src={logo}
+                    onLoadBg={() => {
+                        this.setState({logo: true},() => {
+                            this.handleScroll()
+                        })
+                    }
+                    }
+                    onError={err => console.log('error', err)}
+                />
+            </div>
+
+
+        )
+    }
+
     render() {
         console.log('this.state', this.state)
         let showPopUp = this.state.callToActionPopUp
+        let imgaeLodade = this.state.logo
         return (
-            <Fragment>
-                <FirstContainer/>
-                <div ref={this.myRef}/>
-                <ContentContainer/>
-                <CallButton
-                    onPress={this.callAction}
-                />
-                {showPopUp &&
-                <CallActionPopUP
-                exit={this.exitPopUp}
-                />
+            <div>
+                {this.imageLoderChecker()}
+                {imgaeLodade &&
+                <Fragment>
+                    <FirstContainer
+                    />
+
+                    < div ref={this.myRef}/>
+                    <ContentContainer/>
+                    <CallButton
+                        onPress={this.callAction}
+                    />
+                    {showPopUp &&
+                    <CallActionPopUP
+                        exit={this.exitPopUp}
+                    />
+                    }
+                    <Footer/>
+                </Fragment>
+
                 }
-                <Footer/>
-            </Fragment>
+            </div>
         )
+
     }
 }
 
