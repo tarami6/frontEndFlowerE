@@ -4,8 +4,7 @@ import './MobileHome.css';
 import FirstContainer from '../../componentsMobile/FirstContainer/FirstContainer.js'
 import ContentContainer from '../../componentsMobile/ContentContainer/ContentContainer.js'
 import Footer from '../../componentsMobile/Footer/Footer.js'
-import CallButton from '../../componentsMobile/CallButton/CallButton.js'
-import CallActionPopUP from '../../componentsMobile/PopUps/CallActionPopUP/CallActionPopUP'
+import ActionToCall from '../../componentsMobile/ActionToCall/ActionToCall'
 // LIB
 import Lottie from 'react-lottie';
 // IMG
@@ -45,19 +44,11 @@ class MobileHome extends Component {
             const that = this
             setTimeout(() => {
                 that.myRef.current.scrollIntoView({behavior: 'smooth'})
-            }, 5000)
+            }, 3000)
         }
     }
 
-    callAction = () => {
-        console.log("callAction")
-        this.setState({callToActionPopUp: true})
-    }
 
-    exitPopUp = () => {
-        console.log("exitPopUp")
-        this.setState({callToActionPopUp: false})
-    }
 
     backGroundImageLoaded  = () => {
         this.setState({
@@ -66,11 +57,9 @@ class MobileHome extends Component {
         }, () => this.handleScroll())
     }
 
-
-
     render() {
         console.log('this.state', this.state)
-        let showPopUp = this.state.callToActionPopUp
+
 
 
         const defaultOptions = {
@@ -92,23 +81,15 @@ class MobileHome extends Component {
                                 isStopped={this.state.isStopped}
                         />
                     </div>
-
                 }
                     <Fragment>
                         <FirstContainer
                             backGroundImageLoaded={this.backGroundImageLoaded}
                         />
-
                         < div ref={this.myRef}/>
                         <ContentContainer/>
-                        <CallButton
-                            onPress={this.callAction}
-                        />
-                        {showPopUp &&
-                        <CallActionPopUP
-                            exit={this.exitPopUp}
-                        />
-                        }
+                        <ActionToCall/>
+
                         <Footer/>
                     </Fragment>
             </div>
