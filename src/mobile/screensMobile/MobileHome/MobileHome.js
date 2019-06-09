@@ -6,11 +6,13 @@ import ContentContainer from '../../componentsMobile/ContentContainer/ContentCon
 import Footer from '../../componentsMobile/Footer/Footer.js'
 import CallButton from '../../componentsMobile/CallButton/CallButton.js'
 import CallActionPopUP from '../../componentsMobile/PopUps/CallActionPopUP/CallActionPopUP'
-import BackgroundImageOnLoad from "background-image-on-load";
+// LIB
+import Lottie from 'react-lottie';
+// IMG
 import igarde from '../../assetsMobile/imagesMobile/igardeHomeFirstBackground01.jpg'
 import logo from '../../assetsMobile/imagesMobile/MobileLogo.png'
 
-
+// animation
 class MobileHome extends Component {
     constructor(props) {
         super(props)
@@ -18,14 +20,23 @@ class MobileHome extends Component {
         this.state = {
             callToActionPopUp: false,
             firstBackgroundImageLoaded: false,
-            logo: false
+            logo: false,
+            isStopped: false,
+            pageLoaded: false
         }
     }
 
 
     componentDidMount() {
         console.log('mobileHome didi mount')
-
+        // setTimeout(() => {
+        //     this.setState({
+        //         pageLoaded: true,
+        //         isStopped: true,
+        //     }, () => {
+        //         // this.handleScroll()
+        //     })
+        // }, 2000)
     }
 
     handleScroll = () => {
@@ -34,7 +45,7 @@ class MobileHome extends Component {
             const that = this
             setTimeout(() => {
                 that.myRef.current.scrollIntoView({behavior: 'smooth'})
-            }, 4000)
+            }, 5000)
         }
     }
 
@@ -48,61 +59,61 @@ class MobileHome extends Component {
         this.setState({callToActionPopUp: false})
     }
 
-    imageLoderChecker = () => {
-        return (
-            <div>
-                <BackgroundImageOnLoad
-                    src={igarde}
-                    onLoadBg={() => {
-                        this.setState({firstBackgroundImageLoaded: true})
-                    }
-                    }
-                    onError={err => console.log('error', err)}
-                />
-                <BackgroundImageOnLoad
-                    src={logo}
-                    onLoadBg={() => {
-                        this.setState({logo: true},() => {
-                            this.handleScroll()
-                        })
-                    }
-                    }
-                    onError={err => console.log('error', err)}
-                />
-            </div>
-
-
-        )
+    backGroundImageLoaded  = () => {
+        this.setState({
+            pageLoaded: true,
+            isStopped: true,
+        }, () => this.handleScroll())
     }
+
+
 
     render() {
         console.log('this.state', this.state)
         let showPopUp = this.state.callToActionPopUp
-        let imgaeLodade = this.state.logo
+
+
+        const defaultOptions = {
+            loop: true,
+            autoplay: true,
+            animationData: require('../../assetsMobile/animationMobile/flowerLogoType'),
+            rendererSettings: {
+                preserveAspectRatio: 'xMidYMid slice'
+            }
+        };
+
         return (
             <div>
-                {this.imageLoderChecker()}
-                {imgaeLodade &&
-                <Fragment>
-                    <FirstContainer
-                    />
-
-                    < div ref={this.myRef}/>
-                    <ContentContainer/>
-                    <CallButton
-                        onPress={this.callAction}
-                    />
-                    {showPopUp &&
-                    <CallActionPopUP
-                        exit={this.exitPopUp}
-                    />
-                    }
-                    <Footer/>
-                </Fragment>
+                {!this.state.pageLoaded &&
+                    <div className={'homePageAnimation'}>
+                        <Lottie options={defaultOptions}
+                                height={400}
+                                width={400}
+                                isStopped={this.state.isStopped}
+                        />
+                    </div>
 
                 }
+                    <Fragment>
+                        <FirstContainer
+                            backGroundImageLoaded={this.backGroundImageLoaded}
+                        />
+
+                        < div ref={this.myRef}/>
+                        <ContentContainer/>
+                        <CallButton
+                            onPress={this.callAction}
+                        />
+                        {showPopUp &&
+                        <CallActionPopUP
+                            exit={this.exitPopUp}
+                        />
+                        }
+                        <Footer/>
+                    </Fragment>
             </div>
         )
+
 
     }
 }

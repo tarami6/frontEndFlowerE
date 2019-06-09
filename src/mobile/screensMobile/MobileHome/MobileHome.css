@@ -3,13 +3,17 @@
     display: flex;
     width: 100vw;
     height: 100vh;
-    background-image: url("../../assetsMobile/imagesMobile/igardeHomeFirstBackground01.jpg");
-    background-size: 100vw 100vh;
+}
+.firstContainerBackground {
+    width: 100vw;
+    height: 100vh;
 }
 .logoContainer{
     width: 100vw;
     height: 100vh;
     background-color: rgba(0,0,0,0.2);
+    position: absolute;
+    top: 0;
 }
 .logoTransparent{
     width: 100vw;
@@ -154,6 +158,16 @@
 .callToButton > a{
     color: green;
     text-decoration: none;
+}
+.homePageAnimation{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    z-index: 5;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 

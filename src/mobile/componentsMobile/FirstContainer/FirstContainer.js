@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import logo from '../../assetsMobile/imagesMobile/MobileLogo.png'
 import Fade from 'react-reveal/Fade';
+import backGroundImage from '../../assetsMobile/imagesMobile/igardeHomeFirstBackground01.jpg';
 
 class FirstContainer extends Component {
     // return <animated.div style={props}>I will fade in</animated.div>
@@ -11,15 +12,26 @@ class FirstContainer extends Component {
         }
     }
 
+
+
     render() {
         return (
-            <Fade duration={2000}>
-                <div>
-                            <div className='firstContainer'>
-                                <div className={'logoContainer'}>
-                                    <img src={logo} alt="Logo" className={'logoTransparent'}/>
-                                </div>
-                            </div>
+            <Fade duration={2000} when={this.state.imageLodaed}>
+                <div className='firstContainer'>
+                        <img
+                            src={backGroundImage}
+                            alt="Logo"
+                            className={'firstContainerBackground'}
+                            onLoad={() =>{
+                                this.setState({imageLodaed: true})
+                                this.props.backGroundImageLoaded()
+
+                            }}
+                        />
+
+                        <div className={'logoContainer'}>
+                            <img src={logo} alt="Logo" className={'logoTransparent'}/>
+                        </div>
                 </div>
             </Fade>
 
