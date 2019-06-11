@@ -2,7 +2,13 @@ import React from 'react';
 import './App.css';
 import MobileHome from './mobile/screensMobile/MobileHome/MobileHome'
 import DeskHome from './desktop/screensDesktop/DeskHome/DeskHome'
+import ReactGA from 'react-ga';
 
+
+function initializeReactGA() {
+    ReactGA.initialize('UA-141866567-1');
+    ReactGA.pageview('/homepage');
+}
 
 class App extends React.Component {
     constructor(props) {
@@ -11,6 +17,7 @@ class App extends React.Component {
     }
 
     componentWillMount() {
+        initializeReactGA()
         this.updateWindowDimensions();
         window.addEventListener('resize', this.updateWindowDimensions);
     }
