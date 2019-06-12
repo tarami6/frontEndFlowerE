@@ -14,13 +14,14 @@ class ActionToCall extends Component {
     callAction = () => {
         console.log("callAction")
         this.setState({callToActionPopUp: true})
-        this.props.eventGA("Call", "Call button pressed", "HOME_PAGE_MOBILE")
+        this.props.eventGA("CallToAction", "CallToAction button pressed", "HOME_PAGE_MOBILE")
     }
 
     exitPopUp = () => {
         console.log("exitPopUp")
         this.setState({callToActionPopUp: false})
     }
+
 
     render() {
         let showPopUp = this.state.callToActionPopUp
@@ -31,6 +32,7 @@ class ActionToCall extends Component {
                 />
                 {showPopUp &&
                 <CallActionPopUP
+                    eventGA={this.props.eventGA}
                     exit={this.exitPopUp}
                 />
                 }
