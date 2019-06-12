@@ -3,7 +3,7 @@ import './App.css';
 import MobileHome from './mobile/screensMobile/MobileHome/MobileHome'
 import DeskHome from './desktop/screensDesktop/DeskHome/DeskHome'
 import ReactGA from 'react-ga';
-import {PageView, initGA} from './Traking';
+import smoothscroll from 'smoothscroll-polyfill';
 
 function initializeReactGA() {
     ReactGA.initialize('UA-141866567-1');
@@ -27,6 +27,7 @@ class App extends React.Component {
     componentWillMount() {
         initializeReactGA()
         this.updateWindowDimensions();
+        smoothscroll.polyfill();
         window.addEventListener('resize', this.updateWindowDimensions);
     }
 

@@ -71,7 +71,7 @@ class MobileHome extends Component {
         };
 
         return (
-            <div>
+            <div >
                 {!this.state.pageLoaded &&
                     <div className={'homePageAnimation'}>
                         <Lottie options={defaultOptions}

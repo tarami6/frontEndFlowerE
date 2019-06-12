@@ -67,7 +67,7 @@ class DeskHome extends React.Component {
         const {flowers} = this.state
 
         return (
-            <Fragment>
+            <div className={'deskHome'}>
                 <FirstContainer/>
                 <div ref={this.myRefDektop}/>
                 <div className={'container'}>
@@ -90,18 +90,18 @@ class DeskHome extends React.Component {
                                 <img src={FaceBook} alt="" className={'socialIconMenuDesktop'}/>
                             </a>
                         </div>
-                        <div>
+                        <div >
                             <a href="https://www.facebook.com/">
                                 <img src={Instagram} alt="" className={'socialIconMenuDesktop'}/>
                             </a>
                         </div>
                     </div>
                 </div>
-                <div className={'poweredByDesktop'}>
+                <div className={'poweredByDesktop'} >
                     <a href="idt.co.il" className={'poweredByText'}>Powered By IDT </a>
                 </div>
 
-            </Fragment>
+            </div>
         )
     }
 }
