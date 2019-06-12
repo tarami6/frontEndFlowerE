@@ -6,6 +6,7 @@
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-ga": "^2.5.7",
+    "react-https-redirect": "^1.1.0",
     "react-lottie": "^1.2.3",
     "react-reveal": "^1.2.2",
     "react-scripts": "3.0.1",

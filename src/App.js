@@ -4,6 +4,7 @@ import MobileHome from './mobile/screensMobile/MobileHome/MobileHome'
 import DeskHome from './desktop/screensDesktop/DeskHome/DeskHome'
 import ReactGA from 'react-ga';
 import smoothscroll from 'smoothscroll-polyfill';
+import HttpsRedirect from 'react-https-redirect';
 
 function initializeReactGA() {
     ReactGA.initialize('UA-141866567-1');
@@ -44,16 +45,18 @@ class App extends React.Component {
         console.log('App render this.state', this.state)
 
         return (
-            <div className="App">
-                {
-                    this.state.width > 501
-                        ?
-                        <DeskHome/>
-                        :
-                        <MobileHome eventGA={Event}/>
+            <HttpsRedirect>
+                <div className="App">
+                    {
+                        this.state.width > 501
+                            ?
+                            <DeskHome/>
+                            :
+                            <MobileHome eventGA={Event}/>
 
-                }
-            </div>
+                    }
+                </div>
+            </HttpsRedirect>
         )
     }
 }
