@@ -10,6 +10,14 @@ function initializeReactGA() {
     ReactGA.pageview('/homepage');
 }
 
+function Event(category, action, label) {
+    ReactGA.event({
+        category: category,
+        action: action,
+        label: label
+    });
+}
+
 class App extends React.Component {
     constructor(props) {
         super(props)
@@ -41,7 +49,7 @@ class App extends React.Component {
                         ?
                         <DeskHome/>
                         :
-                        <MobileHome/>
+                        <MobileHome eventGA={Event}/>
 
                 }
             </div>

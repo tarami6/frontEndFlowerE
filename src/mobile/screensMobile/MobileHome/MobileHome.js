@@ -8,8 +8,7 @@ import ActionToCall from '../../componentsMobile/ActionToCall/ActionToCall'
 // LIB
 import Lottie from 'react-lottie';
 // IMG
-import igarde from '../../assetsMobile/imagesMobile/igardeHomeFirstBackground01.jpg'
-import logo from '../../assetsMobile/imagesMobile/MobileLogo.png'
+
 
 // animation
 class MobileHome extends Component {
@@ -88,7 +87,7 @@ class MobileHome extends Component {
                         />
                         < div ref={this.myRef}/>
                         <ContentContainer/>
-                        <ActionToCall/>
+                        <ActionToCall eventGA={this.props.eventGA}/>
 
                         <Footer/>
                     </Fragment>
