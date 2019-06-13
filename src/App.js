@@ -45,7 +45,6 @@ class App extends React.Component {
         console.log('App render this.state', this.state)
 
         return (
-            <HttpsRedirect>
                 <div className="App">
                     {
                         this.state.width > 501
@@ -56,7 +55,6 @@ class App extends React.Component {
 
                     }
                 </div>
-            </HttpsRedirect>
         )
     }
 }
