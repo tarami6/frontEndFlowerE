@@ -1,9 +1,17 @@
 import React, {Component} from 'react';
 import './slider.css'
 import Slider from "react-slick";
+import ActionToCall from '../../componentsMobile/ActionToCall/ActionToCall'
 
 import callButton from "../../assetsMobile/imagesMobile/makeHerHappy.jpg";
 import flowerBox from "../../assetsMobile/buquetsMobile/flowerBox.jpg";
+import MdArrowBack from 'react-icons/lib/md/arrow-back';
+import Facebook from 'react-icons/lib/fa/facebook';
+import Whatsapp from 'react-icons/lib/fa/whatsapp';
+import Linkedin from 'react-icons/lib/fa/linkedin';
+
+
+
 
 class MobileHome01 extends Component {
     render() {
@@ -14,8 +22,10 @@ class MobileHome01 extends Component {
             centerMode: true
         };
         const settingsFlowers = {
-            speed: 500,
-            centerMode: true
+            speed: 700,
+            centerMode: true,
+            centerPadding: 55,
+            className: 'productSlider'
         };
         return (
             <div>
@@ -36,15 +46,41 @@ class MobileHome01 extends Component {
                         <p className={'buquetNameText'}>שם הזר</p>
                         <p className={'buquetPriceText'}>100 ש"ח  </p>
                     </div>
-
+                    <div className={"arrowPointer"}>
+                        <MdArrowBack size={25} color={"#fff"}/>
+                    </div>
                 </div>
                     <div className={'productHolder'}>
                         <img src={flowerBox} alt="MakeHerHappy" className={'buquetImage'}/>
                     </div>
                 </Slider>
                 <div>
-                    <p>Here footer</p>
+                    <p className={'titleOboveTheFloerSlider'}>
+                        קלסי
+                    </p>
                 </div>
+                <Slider {...settingsFlowers}>
+                    <div className={'productHolder'}>
+                        <img src={flowerBox} alt="MakeHerHappy" className={'buquetImage'}/>
+                        <div className={"productText"}>
+                            <p className={'buquetNameText'}>שם הזר</p>
+                            <p className={'buquetPriceText'}>100 ש"ח  </p>
+                        </div>
+                        <div className={"arrowPointer"}>
+                            <MdArrowBack size={25} color={"#fff"}/>
+                        </div>
+                    </div>
+                    <div className={'productHolder'}>
+                        <img src={flowerBox} alt="MakeHerHappy" className={'buquetImage'}/>
+                    </div>
+                </Slider>
+                <div className={'footerMobile'}>
+                    <p className={'companySmallTitle'}>ZERBAYAD</p>
+                    <Facebook size={25} color={"#fead00"}/>
+                    <Whatsapp size={25} color={"#fead00"}/>
+                    <Linkedin size={25} color={"#fead00"}/>
+                </div>
+                <ActionToCall/>
             </div>
 
 

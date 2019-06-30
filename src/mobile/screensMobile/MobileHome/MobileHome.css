@@ -28,13 +28,18 @@
     flex-direction: column;
 }
 .callButtonContainer{
-    width: 15vw;
-    height: 15vw;
+    width: 17vw;
+    height: 17vw;
     margin-left: var(--main-padding);
     position: fixed;
     left: 0;
-    bottom: 2vh;
+    bottom: 5vh;
     z-index: 3;
+    background-color: #87d774;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .tester{
     background: red;

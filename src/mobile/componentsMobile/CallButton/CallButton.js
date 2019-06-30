@@ -1,11 +1,12 @@
 import React from 'react'
-import callButton from "../../assetsMobile/imagesMobile/callButton01.png";
+import Phone from 'react-icons/lib/fa/phone';
+
 
 const CallButton = (props) => {
-    return(
-        <div onClick={() => props.onPress()} className={'callButtonContainer'}>
-            <img src={callButton} alt="Logo" className={'callButtonContainer'}/>
-        </div>
+    return (
+            <div onClick={() => props.onPress()} className={'callButtonContainer'}>
+                <Phone size={30} color={'#fff'}/>
+            </div>
     )
 }
 
