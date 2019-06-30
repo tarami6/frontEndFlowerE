@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import MobileHome from './mobile/screensMobile/MobileHome/MobileHome'
+import MobileHome01 from './mobile/screensMobile/MobileHome01/MobileHome01'
 import DeskHome from './desktop/screensDesktop/DeskHome/DeskHome'
 import ReactGA from 'react-ga';
 import smoothscroll from 'smoothscroll-polyfill';
@@ -51,8 +52,8 @@ class App extends React.Component {
                             ?
                             <DeskHome/>
                             :
-                            <MobileHome eventGA={Event}/>
 
+                            <MobileHome01 />
                     }
                 </div>
         )
@@ -60,3 +61,4 @@ class App extends React.Component {
 }
 
 export default App;
+{/*<MobileHome eventGA={Event}/>*/}

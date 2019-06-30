@@ -1,0 +1,74 @@
+body{
+    background-color: grey;
+}
+.slideHolder{
+    height: 100vw;
+}
+.Slider{
+    height: 100vw;
+    box-shadow: 2px 1px 10px 2px #8c8c8c;
+}
+.slick-dots{
+    z-index: 2;
+    position: absolute;
+    top: 40vh;
+}
+.slick-dots li button:before {
+    color: red ;
+}
+.slick-dots li.slick-active button:before {
+    color: blue;
+}
+.sliderImage{
+    width: 100vw;
+    height: 100vw;
+}
+.buquetImage{
+    width: 70vw;
+    height: 70vw;
+    border-radius: 5px;
+    z-index: 1;
+    box-shadow: 1px 1px 1px  #8c8c8c;
+}
+.productHolder{
+    width:70vw !important;
+    height: calc(70vw + 5vh);
+    border-radius: 5px;
+    z-index: 0;
+    display: flex;
+    display: flex;
+    align-items: center !important;
+
+}
+.productText{
+    width: 50vw;
+    height: 10vh;
+    display: flex;
+    flex-direction: column;
+   justify-content: space-evenly;
+    text-align: right;
+    background-color: #fff;
+    position: absolute;
+    bottom: 0;
+    margin-left: 10vw;
+    z-index: 2;
+    border-radius: 5px;
+    padding-right: 10px;
+    border: 1px solid lightgray;
+    box-shadow: 1px 1px 1px #8c8c8c;
+    margin-bottom: 5px;
+}
+.buquetNameText{
+    padding: 0;
+    margin: 0;
+}
+.buquetPriceText{
+    padding: 0;
+    margin: 0;
+    color: #fead00;
+    direction: rtl;
+}
+.titleOboveTheFloerSlider{
+    padding-right: 5vw;
+    font-weight: lighter;
+}
