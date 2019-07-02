@@ -59,7 +59,8 @@ class MobileHome01 extends Component {
             speed: 700,
             centerMode: true,
             centerPadding: 55,
-            className: 'productSlider'
+            className: 'productSlider',
+            swipeToSlide: true
         };
         return (
             <div>
