@@ -11,6 +11,8 @@ import zivoni from "../../assetsMobile/buquetsMobile/zivoni.jpg";
 import sagol from "../../assetsMobile/buquetsMobile/sagol.jpg";
 import rosesbuquet from "../../assetsMobile/buquetsMobile/rosesbuquet.jpg";
 
+import { isAndroid } from 'react-device-detect';
+
 import MdArrowBack from 'react-icons/lib/md/arrow-back';
 import Facebook from 'react-icons/lib/fa/facebook';
 import Whatsapp from 'react-icons/lib/fa/whatsapp';
@@ -28,13 +30,18 @@ class MobileHome01 extends Component {
     }
   }
   componentDidMount() {
-    window.addEventListener('touchstart', this.touchStart);
-    window.addEventListener('touchmove', this.preventTouch, { passive: false });
+    if(!isAndroid){
+      window.addEventListener('touchstart', this.touchStart);
+      window.addEventListener('touchmove', this.preventTouch, { passive: false });
+    }
+
   }
 
   componentWillUnmount() {
-    window.removeEventListener('touchstart', this.touchStart);
-    window.removeEventListener('touchmove', this.preventTouch, { passive: false });
+    if(!isAndroid) {
+      window.removeEventListener('touchstart', this.touchStart);
+      window.removeEventListener('touchmove', this.preventTouch, { passive: false });
+    }
   }
 
   touchStart(e) {
@@ -114,7 +121,7 @@ class MobileHome01 extends Component {
                 <div className={'productHolder'} onClick={() => this.onclick('mb2')}>
                   <img src={flowerBox} alt="MakeHerHappy" className={'buquetImage'} />
                   <div className={"productText"}>
-                    <p className={'buquetNameText'}>שם הזר</p>
+                    <p className={'buquetNameText'}> שם הזר</p>
                     <p className={'buquetPriceText'}>100 ש"ח </p>
                   </div>
                   <div className={"arrowPointer"}>

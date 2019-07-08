@@ -5,6 +5,7 @@
   "dependencies": {
     "bootstrap": "^4.0.0-alpha.6",
     "react": "^16.8.6",
+    "react-device-detect": "^1.6.2",
     "react-dom": "^16.8.6",
     "react-ga": "^2.5.7",
     "react-https-redirect": "^1.1.0",
