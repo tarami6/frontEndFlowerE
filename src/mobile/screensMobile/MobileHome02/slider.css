@@ -6,7 +6,7 @@ body{
     height: 100vw;
 }
 .slideHolder1{
-  height: 465px;
+  height: 465px;  
 }
 .Slider{
     height: 350px;
@@ -21,13 +21,13 @@ body{
     width: 100vw;
     height: 350px;
 }
-.sliderImage1{
+.sliderImage{
     width: 100vw;
-    height: 465px;
+    height: 350px;
 }
 .buquetImage{
-    width: 58vw;
-    height: 63vw;
+  width: 58vw;
+  height: 63vw;
     border-radius: 5px;
     z-index: 1;
     /* box-shadow: 1px 1px 5px  #8c8c8c; */
@@ -71,8 +71,8 @@ body{
     direction: rtl;
 }
 .arrowPointer{
-    width: 6.5vh;
-    height: 6.5vh;
+  width: 6.5vh;
+  height: 6.5vh;
     background-color: #6f6f6f;
     opacity: 0.7;
     position: absolute;
@@ -96,10 +96,7 @@ body{
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    height: 50px;
-    position: absolute;
-    width: 100%;
-    background-color: #fff;
+    height: 50px
 }
 .companySmallTitle{
     color: #efc368;
@@ -123,33 +120,3 @@ body{
 .w-50pr {
   width: 50%
 }
-.back-btn-div {
-  position: absolute;
-  z-index: 1;
-}
-.back-btn {
-  border: 0px !important;
-  background-color: transparent;
-  position: absolute;
-  z-index: 1;
-  padding: 15px
-}
-.p-25-0{
-  padding: 25px 0px;
-}
-.pl-4vw {
-  padding-left: 4vw;
-}
-.pr-4vw {
-  padding-right: 4vw;
-}
-.footer-main {
-  position: fixed;
-  bottom: 49px;
-  z-index: 9999;
-  width: 100%;
-}
-.p-15 {
-  padding: 15px
-}
-
