@@ -30,7 +30,7 @@ class MobileHome01 extends Component {
     }
   }
   componentDidMount() {
-    if(!isAndroid){
+    if (!isAndroid) {
       window.addEventListener('touchstart', this.touchStart);
       window.addEventListener('touchmove', this.preventTouch, { passive: false });
     }
@@ -38,7 +38,7 @@ class MobileHome01 extends Component {
   }
 
   componentWillUnmount() {
-    if(!isAndroid) {
+    if (!isAndroid) {
       window.removeEventListener('touchstart', this.touchStart);
       window.removeEventListener('touchmove', this.preventTouch, { passive: false });
     }
@@ -81,11 +81,13 @@ class MobileHome01 extends Component {
       // centerMode: true
     };
     const settingsFlowers = {
-      speed: 50,
-      centerMode: true,
-      centerPadding: 62,
+      speed: 200,
+      // centerMode: true,
+      centerPadding: 0,
+      slidesToShow: 2,
+      slidesToScroll: 2,
       className: 'productSlider',
-      swipeToSlide: true
+      // swipeToSlide: true
     };
     return (
       <div>
@@ -194,6 +196,26 @@ class MobileHome01 extends Component {
 
               <div class={'mb-50'}>
                 <Slider {...settingsFlowers}>
+                  <div className={'productHolder'} onClick={() => this.onclick('mb2')}>
+                    <img src={hamaniotbuquet} alt="MakeHerHappy" className={'buquetImage'} />
+                    <div className={"productText"}>
+                      <p className={'buquetNameText'}>שם הזר</p>
+                      <p className={'buquetPriceText'}>100 ש"ח </p>
+                    </div>
+                    <div className={"arrowPointer"}>
+                      <MdArrowBack size={25} color={"#fff"} />
+                    </div>
+                  </div>
+                  <div className={'productHolder'} onClick={() => this.onclick('mb2')}>
+                    <img src={sagol} alt="MakeHerHappy" className={'buquetImage'} />
+                    <div className={"productText"}>
+                      <p className={'buquetNameText'}>שם הזר</p>
+                      <p className={'buquetPriceText'}>100 ש"ח </p>
+                    </div>
+                    <div className={"arrowPointer"}>
+                      <MdArrowBack size={25} color={"#fff"} />
+                    </div>
+                  </div>
                   <div className={'productHolder'} onClick={() => this.onclick('mb2')}>
                     <img src={hamaniotbuquet} alt="MakeHerHappy" className={'buquetImage'} />
                     <div className={"productText"}>
