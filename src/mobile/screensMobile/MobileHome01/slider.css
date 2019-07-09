@@ -26,22 +26,28 @@ body{
     height: 465px;
 }
 .buquetImage{
-    width: 45vw;
+    width: 56vw;
     height: 63vw;
     border-radius: 5px;
     z-index: 1;
     /* box-shadow: 1px 1px 5px  #8c8c8c; */
 }
 .productHolder{
-    width:60vw !important;
-    height: calc(70vw + 2vh);
+    width: 58vw !important;
+    /* height: calc(60vw + 2vh); */
     border-radius: 5px;
     z-index: 0;
     display: flex;
     display: flex;
     align-items: center !important;
+    margin: 0px 7px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    margin-bottom: 50px;
+    height: 240px;
 }
-.productText{
+/* .productText{
     width: 30vw;
     height: 11vh;
     display: flex;
@@ -55,10 +61,28 @@ body{
     z-index: 2;
     border-radius: 5px;
     padding-right: 10px;
-    /* border: 1px solid lightgray; */
     box-shadow: 0px 2px 10px #eee;
-    /* box-shadow: 1px 1px 1px #8c8c8c; */
     margin-bottom: 0.9vh;
+} */
+.productText{
+  width: 40vw;
+  height: 11vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  text-align: right;
+  background-color: #fff;
+  /* position: absolute; */
+  /* bottom: 3px; */
+  z-index: 2;
+  border-radius: 5px;
+  padding-right: 10px;
+  /* border: 1px solid lightgray; */
+  box-shadow: 0px 2px 10px #eee;
+  /* box-shadow: 1px 1px 1px #8c8c8c; */
+  /* margin-bottom: -35vh; */
+  margin-bottom: -236px;
+  /* margin-left: 14vw; */
 }
 .buquetNameText{
     padding: 0;
@@ -70,7 +94,7 @@ body{
     color: #efc368;
     direction: rtl;
 }
-.arrowPointer{
+/* .arrowPointer{
     width: 6.5vh;
     height: 6.5vh;
     background-color: #6f6f6f;
@@ -84,6 +108,23 @@ body{
     justify-content: center;
     border-radius: 5px;
     margin-bottom: 2.5vh
+} */
+.arrowPointer {
+  width: 6.5vh;
+  height: 6.5vh;
+  background-color: #6f6f6f;
+  opacity: 0.7;
+  /* position: absolute; */
+  bottom: 1vh;
+  margin-right: -3vh;
+  z-index: 3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  /* margin-bottom: -35.5vh; */
+  margin-bottom: -238px;
+  margin-left: 5.7vw;
 }
 .titleOboveTheFloerSlider{
     padding-right: 5vw;
@@ -161,4 +202,81 @@ body{
   white-space: normal;
   line-height: 0;
 }
+.scrolling-wrapper {
+  overflow-x: scroll;
+  -webkit-overflow-scrolling:auto;
+  overflow-y: scroll;
+  white-space: nowrap;
 
+}
+.card {
+  display: inline-block;
+}
+
+
+
+
+
+* {
+  box-sizing: border-box;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+}
+
+.menu-item {
+  /* padding: 0 40px;
+  margin: 5px 10px; */
+  user-select: none;
+  cursor: pointer;
+  border: 1px transparent solid;
+}
+.menu-item-wrapper {
+  border: 1px transparent solid;
+}
+.menu-item-wrapper.active {
+  /* border: 1px blue solid; */
+}
+.menu-item.active {
+  /* border: 1px green solid; */
+}
+
+.scroll-menu-arrow {
+  padding: 20px;
+  cursor: pointer;
+}
+
+.scroll-menu-arrow--disabled {
+  visibility: hidden;
+}
+.drcn-initial {
+  direction: initial;
+}

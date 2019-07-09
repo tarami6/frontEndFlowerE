@@ -289,7 +289,7 @@
   /* top: 315px !important; */
   left: 15px !important;
   bottom: 15px;
-  text-align: unset;
+  text-align: -webkit-auto;
 }
 .slick-dots li {
   position: relative !important;
