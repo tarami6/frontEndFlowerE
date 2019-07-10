@@ -193,6 +193,9 @@
 .display-flex {
   display: flex
 }
+.display-inline-box {
+  display: -webkit-box !important
+}
 .display-block {
   display: flow-root
 }
@@ -220,6 +223,9 @@
 }
 .mt-8 {
   margin-top: 8px !important
+}
+.mt-20 {
+  margin-top: 20px !important
 }
 .mb-5 {
   margin-bottom: 5px !important
@@ -325,12 +331,17 @@ div.scrollmenu a:hover {
   color: #aeb7b8;
 }
 .mb-50 {
-  margin-bottom: 50px
+  margin-bottom: 50px !important;
 }
 .w-50pr {
   width: 50%
 }
-
+.m-0-10 {
+  margin: 0px 10px;
+}
+a {
+  text-decoration: none;
+}
 
 
 
