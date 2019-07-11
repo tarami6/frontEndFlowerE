@@ -321,6 +321,52 @@ class MobileHome01 extends Component {
                   inertiaScrollingSlowdown={1}
                 />
               </div>
+              <div className={"drcn-initial mb-50"}>
+                <ScrollMenu
+                    ref={el => (this.menuSecond = el)}
+                    data={menuSecond}
+                    key="menuSecond"
+                    // arrowLeft={ArrowLeft}
+                    // arrowRight={ArrowRight}
+                    hideArrows={hideArrows}
+                    hideSingleArrow={hideSingleArrow}
+                    transition={+transition}
+                    // onUpdate={this.onUpdate}
+                    // onSelect={this.onSelect}
+                    // selected={selected}
+                    // translate={translate}
+                    // alignCenter={alignCenter}
+                    // scrollToSelected={true}
+                    // dragging={dragging}
+                    // clickWhenDrag={clickWhenDrag}
+                    // wheel={wheel}
+                    inertiaScrolling={true}
+                    inertiaScrollingSlowdown={1}
+                />
+              </div>
+              <div className={"drcn-initial mb-50"}>
+                <ScrollMenu
+                    ref={el => (this.menuSecond = el)}
+                    data={menuSecond}
+                    key="menuSecond"
+                    // arrowLeft={ArrowLeft}
+                    // arrowRight={ArrowRight}
+                    hideArrows={hideArrows}
+                    hideSingleArrow={hideSingleArrow}
+                    transition={+transition}
+                    // onUpdate={this.onUpdate}
+                    // onSelect={this.onSelect}
+                    // selected={selected}
+                    // translate={translate}
+                    // alignCenter={alignCenter}
+                    // scrollToSelected={true}
+                    // dragging={dragging}
+                    // clickWhenDrag={clickWhenDrag}
+                    // wheel={wheel}
+                    inertiaScrolling={true}
+                    inertiaScrollingSlowdown={1}
+                />
+              </div>
               {/* <div class="scrolling-wrapper">
                 <div class="card">
                   <div className={'productHolder'} style={{ backgroundImage: `url(${require('../../assetsMobile/buquetsMobile/flowerBox.jpg')})` }} >
