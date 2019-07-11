@@ -82,12 +82,12 @@ class DeskHome1 extends React.Component {
                         People who receive flowers reflect immediate
                       </p>
                       <p className='fs-28 mb-0'>
-                        happiness. Get 15% discount on all bouquets,
+                        happiness. Get <strong>15%</strong> discount on all bouquets,
                   </p>
                       <p className='fs-28 mb-0'>
                         make your mom happy!
                       </p>
-                      <button class={'order-now-btn'}>Buy now</button>
+                      <button class={'order-now-btn'}>Order now</button>
                     </div>
                   </div>
                 </div>
@@ -116,12 +116,12 @@ class DeskHome1 extends React.Component {
                         People who receive flowers reflect immediate
                       </p>
                       <p className='fs-28 mb-0'>
-                        happiness. Get 15% discount on all bouquets,
+                        happiness. Get <strong>15%</strong> discount on all bouquets,
                   </p>
                       <p className='fs-28 mb-0'>
                         make your mom happy!
                       </p>
-                      <button class={'order-now-btn'}>Buy now</button>
+                      <button class={'order-now-btn'}>Order now</button>
                     </div>
                   </div>
                 </div>
@@ -150,12 +150,12 @@ class DeskHome1 extends React.Component {
                         People who receive flowers reflect immediate
                       </p>
                       <p className='fs-28 mb-0'>
-                        happiness. Get 15% discount on all bouquets,
+                        happiness. Get <strong>15%</strong> discount on all bouquets,
                   </p>
                       <p className='fs-28 mb-0'>
                         make your mom happy!
                       </p>
-                      <button class={'order-now-btn'}>Buy now</button>
+                      <button class={'order-now-btn'}>Order now</button>
                     </div>
                   </div>
                 </div>
