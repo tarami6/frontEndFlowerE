@@ -154,6 +154,9 @@
 .w-160px {
   width: 160px
 }
+.w-110px {
+  width: 110px
+}
 .w-100pr {
   width: 100%
 }
@@ -288,7 +291,7 @@ a {
   box-shadow: 0 -1px 2px 0 rgba(0, 0, 0, 0.05);
   background-color: #fff;
   bottom: 0;
-  position: fixed;
+  /* position: fixed; */
   z-index: 111;
   height: 74px;
   display: flex;

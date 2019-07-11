@@ -64,7 +64,7 @@ class DeskHome1 extends React.Component {
                   <div class="carousel-caption">
                     <div class='col-md-12 col-sm-12'>
                       <div class='col-md-6 col-sm-4 col-xs-3'>
-                        <img src={zerBayadLogo} alt="Los Angeles" class="w-160px" />
+                        <img src={zerBayadLogo} alt="Los Angeles" class="w-110px" />
                       </div>
                       <div class='col-md-6 col-sm-5 col-xs-4 display-inline-box mt-50'>
                         <div class='mr-160m'>
@@ -98,7 +98,7 @@ class DeskHome1 extends React.Component {
                   <div class="carousel-caption">
                     <div class='col-md-12 col-sm-12'>
                       <div class='col-md-6 col-sm-4 col-xs-3'>
-                        <img src={zerBayadLogo} alt="Los Angeles" class="w-160px" />
+                        <img src={zerBayadLogo} alt="Los Angeles" class="w-110px" />
                       </div>
                       <div class='col-md-6 col-sm-5 col-xs-4 display-inline-box mt-50'>
                         <div class='mr-160m'>
@@ -132,7 +132,7 @@ class DeskHome1 extends React.Component {
                   <div class="carousel-caption">
                     <div class='col-md-12 col-sm-12'>
                       <div class='col-md-6 col-sm-4 col-xs-3'>
-                        <img src={zerBayadLogo} alt="Los Angeles" class="w-160px" />
+                        <img src={zerBayadLogo} alt="Los Angeles" class="w-110px" />
                       </div>
                       <div class='col-md-6 col-sm-5 col-xs-4 display-inline-box mt-50'>
                         <div class='mr-160m'>
@@ -233,7 +233,7 @@ class DeskHome1 extends React.Component {
               flower name and wished you knew what it looked like? </p>
           </div>
 
-          <div onClick={() => console.log("clicked")} className='deskSlideHolder col-md-12 mb-100'>
+          <div onClick={() => console.log("clicked")} className='deskSlideHolder col-md-12'>
             <div class="col-md-4">
               <div class="w-100pr">
                 <a href="/DeskHome2">

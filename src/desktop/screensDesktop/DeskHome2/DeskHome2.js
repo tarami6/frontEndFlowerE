@@ -36,7 +36,7 @@ class DeskHome2 extends React.Component {
                   </div>
                   <div class="carousel-caption">
                     <div class='col-md-12 col-sm-12'>
-                      <img src={zerBayadLogo} alt="Los Angeles" class="w-160px" />
+                      <img src={zerBayadLogo} alt="Los Angeles" class="w-110px" />
                     </div>
                   </div>
                 </div>
@@ -46,7 +46,7 @@ class DeskHome2 extends React.Component {
                   </div>
                   <div class="carousel-caption">
                     <div class='col-md-12 col-sm-12'>
-                      <img src={zerBayadLogo} alt="Los Angeles" class="w-160px" />
+                      <img src={zerBayadLogo} alt="Los Angeles" class="w-110px" />
                     </div>
                   </div>
                 </div>
@@ -56,7 +56,7 @@ class DeskHome2 extends React.Component {
                   </div>
                   <div class="carousel-caption">
                     <div class='col-md-12 col-sm-12'>
-                      <img src={zerBayadLogo} alt="Los Angeles" class="w-160px" />
+                      <img src={zerBayadLogo} alt="Los Angeles" class="w-110px" />
                     </div>
                   </div>
                 </div>
@@ -81,11 +81,11 @@ class DeskHome2 extends React.Component {
                 <Phone size={24} color={"#efc368"} />
               </div>
             </div>
-            <div class='col-md-12 p-0-90'>
+            <div class='col-md-12 p-0-5vw'>
               <p class='desk2-title'>Ranunculus pink&white</p>
               <p class='desk2-title-text'>15 flowers, delicate, pink</p>
             </div>
-            <div class='col-md-12 p-0-90 mt-70'>
+            <div class='col-md-12 p-0-5vw mt-70'>
               <p class='desk2-title-sub'>Information</p>
               <p class='desk2-info'>Ranunculus is a genus of about 500 species of flowering plants
                in the family. Members of the genus include the buttercups,
@@ -95,13 +95,13 @@ class DeskHome2 extends React.Component {
                 smooth causing a mirror-like reflection.<span style={{ fontSize: 20, color: '#efc368' }}>...More</span>
               </p>
             </div>
-            <div class='col-md-12 col-md-12 p-0-90 mt-70 display-flex mb-70'>
+            <div class='col-md-12 col-md-12 p-0-5vw mt-70 display-flex mb-70'>
               <p class='desk2-price'>$109.99</p>
               <button class={'desk2-order-now-btn'}>Order now</button>
             </div>
           </div>
         </div>
-        <div class='col-md-12 col-sm-12 col-xs-12 desk-footer w-100pr'>
+        <div class='col-md-12 col-sm-12 col-xs-12 desk-footer'>
           <div class='col-md-11 col-sm-9 col-xs-12'>
             <div class=''>
               <p class='desk-footer-text mb-0 pull-right'>(c) 2019. All rights reserved</p>

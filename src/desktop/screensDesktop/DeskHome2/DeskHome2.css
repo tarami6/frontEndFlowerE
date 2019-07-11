@@ -67,7 +67,7 @@ a {
 }
 .desk2-title {
   font-family: Raleway;
-  font-size: 60px;
+  font-size: 3.3vw;
   font-weight: 600;
   color: #353535;
   text-align: left;
@@ -106,18 +106,22 @@ a {
 }
 .desk2-order-now-btn {
   color: #fff;
-  padding: 20px 90px;
-  font-size: 30px;
+  /* padding: 20px 90px; */
+  font-size: 1.8vw;
   font-weight: 600;
   border-radius: 5px;
   background-image: linear-gradient(90deg, #f8d487, #eec367);
   border: none;
   float: left;
   margin-right: 30px;
-
+  width: 20vw;
+  height: 76px;
 }
 .p-0-90 {
   padding: 0px 90px;
+}
+.p-0-5vw {
+  padding: 0vw 5vw;
 }
 .p-0 {
   padding: 0px
