@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
-import { Router, Route, Switch } from 'react-router-dom';
+import { Router, Route } from 'react-router-dom';
 
-import MobileHome from './mobile/screensMobile/MobileHome/MobileHome';
 import MobileHome01 from './mobile/screensMobile/MobileHome01/MobileHome01';
-import MobileHome02 from './mobile/screensMobile/MobileHome02/MobileHome02';
-import DeskHome from './desktop/screensDesktop/DeskHome/DeskHome'
+import ProductPage from './mobile/screensMobile/MobileHome02/ProductPage';
+import DeskHome from './desktop/screensDesktop/DeskHome/DeskHome';
+import DeskHome1 from './desktop/screensDesktop/DeskHome1/DeskHome1';
+import DeskHome2 from './desktop/screensDesktop/DeskHome2/DeskHome2';
 import ReactGA from 'react-ga';
 import smoothscroll from 'smoothscroll-polyfill';
 import { createBrowserHistory } from "history";
@@ -52,14 +53,14 @@ class Routes extends Component {
           <Route exact path="/" component={
             this.state.width > 501
               ?
-              DeskHome
+              DeskHome1
               :
               MobileHome01
           } />
           <Route path="/deskHome" component={DeskHome} />
-          <Route path="/mobileHome" component={MobileHome} />
-          <Route path="/mobileHome01" component={MobileHome01} />
-          <Route path="/mobileHome02" component={MobileHome02} />
+          <Route path="/deskHome1" component={DeskHome1} />
+          <Route path="/deskHome2" component={DeskHome2} />
+          <Route path="/productPage" component={ProductPage} />
         </div>
       </Router>
     )

@@ -6,15 +6,13 @@ body{
     height: 100vw;
 }
 .slideHolder1{
-  height: 465px;  
+  height: 61vh;
 }
 .Slider{
     height: 350px;
-    box-shadow: 2px 1px 10px 2px #8c8c8c;
 }
 .Slider1{
-    height: 465px;
-    box-shadow: 2px 1px 10px 2px #8c8c8c;
+    height: 61vh;
 }
 
 .sliderImage{
@@ -33,7 +31,8 @@ body{
     /* box-shadow: 1px 1px 5px  #8c8c8c; */
 }
 .productHolder{
-    width:58vw !important;
+    /* width:50% !important; */
+    /* width:58vw !important; */
     /* height: calc(60vw + 2vh); */
     border-radius: 5px;
     z-index: 0;
@@ -41,8 +40,8 @@ body{
     display: flex;
     align-items: center !important;
     margin: 0px 7px;
-    margin-bottom: 50px;
-    height: 240px;
+    margin-bottom: 80px;
+    height: 24vh;
 }
 .buquetNameText{
     padding: 0;
