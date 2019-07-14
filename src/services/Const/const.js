@@ -17,6 +17,15 @@ import rosesBuquet02 from "../../mobile/assetsMobile/productPage/rosesBuquet02.j
 import pinkTeen01 from "../../mobile/assetsMobile/productPage/pinkTeen01.jpg";
 import pinkTeen02 from "../../mobile/assetsMobile/productPage/pinkTeen02.jpg";
 
+import sunFlower01 from "../../mobile/assetsMobile/productPage/sunFlower01.jpg";
+import sunFlower02 from "../../mobile/assetsMobile/productPage/sunFlower02.jpg";
+
+import purpleBuquet01 from "../../mobile/assetsMobile/productPage/purpleBuquet01.jpg";
+import purpleBuquet02 from "../../mobile/assetsMobile/productPage/purpleBuquet02.jpg";
+
+
+
+
 
 
 
@@ -51,7 +60,7 @@ export const flowersMobile = [
         name: 'טיול בגן',
         price: '80 - 220',
         image: hamaniotbuquet,
-        productSlider:[flowerBox01,flowerBox02],
+        productSlider:[sunFlower01,sunFlower02],
         description: "סידור וורדים בקופסא",
         story: 'אני מאוהב בך, אני לא בהכחשה עצמית, אני נהנה לומר דברים אמיתיים. אני מאוהב בך, ואני יודעת שאהבה היא רק צעקה אל תוך החלל, אני יודע  שמהאדמה באנו ולאדמה נשוב, ואני מאוהב בך'
     },
@@ -59,7 +68,7 @@ export const flowersMobile = [
         name: 'סגול בטבע',
         price: '120 - 250',
         image: sagol,
-        productSlider:[flowerBox01,flowerBox02],
+        productSlider:[purpleBuquet01,purpleBuquet01],
         description: "פירוט זר",
         story: 'אם מראה השמים הכחולים ממלא אותך בשמחה, אם לריח של השדות יש כוח להזיז אותך, אם הדברים הפשוטים של הטבע גורמים לך להנעה, לשמחה, זה כי הנשמה שלך בחיים.'
     },

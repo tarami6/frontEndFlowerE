@@ -2,16 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cf6233b1-380a-47a6-88cf-bf5b7addc960" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mobile/componentsMobile/PopUps/CallActionPopUP/CallActionPopUP.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/mobile/componentsMobile/PopUps/CallActionPopUP/CallActionPopUP.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mobile/screensMobile/MobileHome01/MobileHome.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/mobile/screensMobile/MobileHome01/MobileHome.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mobile/assetsMobile/imagesMobile/sliderHomePage/toBeAv.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/mobile/assetsMobile/imagesMobile/sliderHomePage/toBeAv.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/mobile/screensMobile/MobileHome01/MobileHome01.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/mobile/screensMobile/MobileHome01/MobileHome01.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mobile/screensMobile/MobileHome01/slider.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/mobile/screensMobile/MobileHome01/slider.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mobile/screensMobile/MobileHome02/ProductPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/mobile/screensMobile/MobileHome02/ProductPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/services/Const/const.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/Const/const.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -35,11 +27,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/mobile/screensMobile/MobileHome01/MobileHome01.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="366">
-              <caret line="99" column="27" lean-forward="true" selection-start-line="94" selection-start-column="12" selection-end-line="99" selection-end-column="27" />
+            <state relative-caret-position="322">
+              <caret line="136" column="75" selection-start-line="136" selection-start-column="75" selection-end-line="136" selection-end-column="75" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -59,11 +51,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/services/Const/const.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="40" column="6" lean-forward="true" selection-start-line="40" selection-start-column="6" selection-end-line="40" selection-end-column="6" />
+            <state relative-caret-position="531">
+              <caret line="79" selection-start-line="79" selection-end-line="79" />
               <folding>
                 <element signature="e#0#78#0" expanded="true" />
                 <element signature="e#403#506#0" expanded="true" />
@@ -166,10 +158,10 @@
         <option value="$PROJECT_DIR$/src/mobile/screensMobile/MobileHome01/MobileHome.css" />
         <option value="$PROJECT_DIR$/public/index.html" />
         <option value="$PROJECT_DIR$/src/App.css" />
-        <option value="$PROJECT_DIR$/src/mobile/screensMobile/MobileHome01/MobileHome01.js" />
         <option value="$PROJECT_DIR$/src/mobile/screensMobile/MobileHome02/ProductPage.js" />
         <option value="$PROJECT_DIR$/src/mobile/screensMobile/MobileHome01/slider.css" />
         <option value="$PROJECT_DIR$/src/services/Const/const.js" />
+        <option value="$PROJECT_DIR$/src/mobile/screensMobile/MobileHome01/MobileHome01.js" />
       </list>
     </option>
   </component>
@@ -217,6 +209,23 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="mobile" type="462c0819:PsiDirectoryNode" />
               <item name="assetsMobile" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="igarde" type="b2602c69:ProjectViewProjectNode" />
+              <item name="igarde" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="mobile" type="462c0819:PsiDirectoryNode" />
+              <item name="assetsMobile" type="462c0819:PsiDirectoryNode" />
+              <item name="imagesMobile" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="igarde" type="b2602c69:ProjectViewProjectNode" />
+              <item name="igarde" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="mobile" type="462c0819:PsiDirectoryNode" />
+              <item name="assetsMobile" type="462c0819:PsiDirectoryNode" />
+              <item name="imagesMobile" type="462c0819:PsiDirectoryNode" />
+              <item name="sliderHomePage" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="igarde" type="b2602c69:ProjectViewProjectNode" />
@@ -282,9 +291,9 @@
       <recent name="$PROJECT_DIR$/src/mobile/componentsMobile/FirstContainer" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/mobile/assetsMobile/imagesMobile/sliderHomePage" />
       <recent name="$PROJECT_DIR$/src/mobile/assetsMobile/productPage" />
       <recent name="$PROJECT_DIR$/src/assets/fonts" />
-      <recent name="$PROJECT_DIR$/src/mobile/assetsMobile/imagesMobile/sliderHomePage" />
       <recent name="$PROJECT_DIR$/src/mobile/assetsMobile/imagesMobile/bottomIcons" />
       <recent name="$PROJECT_DIR$/src/mobile/assetsMobile/buquetsMobile" />
     </key>
@@ -345,12 +354,12 @@
       <workItem from="1562676306778" duration="2315000" />
       <workItem from="1562742370220" duration="22000" />
       <workItem from="1562854499777" duration="24526000" />
-      <workItem from="1563118753691" duration="3650000" />
+      <workItem from="1563118753691" duration="4822000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="110821000" />
+    <option name="totallyTimeSpent" value="111993000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -673,16 +682,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/mobile/screensMobile/MobileHome01/MobileHome01.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="366">
-          <caret line="99" column="27" lean-forward="true" selection-start-line="94" selection-start-column="12" selection-end-line="99" selection-end-column="27" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/mobile/screensMobile/MobileHome02/ProductPage.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -695,11 +694,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/services/Const/const.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="40" column="6" lean-forward="true" selection-start-line="40" selection-start-column="6" selection-end-line="40" selection-end-column="6" />
+        <state relative-caret-position="531">
+          <caret line="79" selection-start-line="79" selection-end-line="79" />
           <folding>
             <element signature="e#0#78#0" expanded="true" />
             <element signature="e#403#506#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mobile/screensMobile/MobileHome01/MobileHome01.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="136" column="75" selection-start-line="136" selection-start-column="75" selection-end-line="136" selection-end-column="75" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
           </folding>
         </state>
       </provider>

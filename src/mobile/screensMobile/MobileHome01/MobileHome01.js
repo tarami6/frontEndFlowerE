@@ -134,7 +134,7 @@ class MobileHome01 extends Component {
                     <div className={"textComInfo"}>
                         <h4 className={"title01"}>הזמנת פרחים בקליק עם זר ביד</h4>
                         <p className={"textComInfoPargraphOrderOnline greyFont"}>
-                            אין מקום טוב יותר להזמין באינטרנט פרחים מאשרעןא שגג zerbayad.co.il. בין אם אתם מחפשים לקנות פרחים
+                            אין מקום טוב יותר להזמין באינטרנט פרחים מאשר עם zerbayad.co.il. בין אם אתם מחפשים לקנות פרחים
                             ומתנות כמו ורדים, סחלבים, סלסלות מתנה, עצי בונסאי, צמחים פורחים או זרי חתונה.
                             <br/>
                             <br/>
