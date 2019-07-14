@@ -8,6 +8,15 @@ import fastDeliveryIcon from "../../mobile/assetsMobile/imagesMobile/bottomIcons
 import freshDlowersIcon from "../../mobile/assetsMobile/imagesMobile/bottomIcons/freshDlowersIcon.png";
 import uniqueDesignIcon from "../../mobile/assetsMobile/imagesMobile/bottomIcons/uniqueDesignIcon.png";
 
+import flowerBox01 from "../../mobile/assetsMobile/productPage/flowerBox01.jpg"
+import flowerBox02 from "../../mobile/assetsMobile/productPage/flowerBox02.jpg";
+
+import rosesBuquet01 from "../../mobile/assetsMobile/productPage/rosesBuquet01.jpg";
+import rosesBuquet02 from "../../mobile/assetsMobile/productPage/rosesBuquet02.jpg";
+
+import pinkTeen01 from "../../mobile/assetsMobile/productPage/pinkTeen01.jpg";
+import pinkTeen02 from "../../mobile/assetsMobile/productPage/pinkTeen02.jpg";
+
 
 
 
@@ -16,15 +25,17 @@ import uniqueDesignIcon from "../../mobile/assetsMobile/imagesMobile/bottomIcons
 export const flowersMobile = [
     {
         name: 'אהבה בוערת',
-        price: '150 - 950',
+        price: '150 - 550',
         image: flowerBox,
         description: "סידור וורדים בקופסא איכותית",
-        story: 'אני מאוהב בך, אני לא בהכחשה עצמית, אני נהנה לומר דברים אמיתיים. אני מאוהב בך, ואני יודע שאהבה היא רק צעקה אל תוך החלל, אני יודע  שמהאדמה באנו ולאדמה נשוב, ואני מאוהב בך'
+        story: 'אני מאוהב בך, אני לא בהכחשה עצמית, אני נהנה לומר דברים אמיתיים. אני מאוהב בך, ואני יודע שאהבה היא רק צעקה אל תוך החלל, אני יודע  שמהאדמה באנו ולאדמה נשוב, ואני מאוהב בך',
+        productSlider:[flowerBox01,flowerBox02]
     },
     {
         name: 'תשוקה אינסופית',
         price: '120 - 350',
         image: rosesbuquet,
+        productSlider:[rosesBuquet01,rosesBuquet02],
         description: "זר וורדים עשיר",
         story: 'אם אהבתי אלייך  תהיה אוקיינוס, לא תהיה עוד אדמה. אילו אהבתי תהיה מדבר, היית רואה רק חול. אם אהבתי תהיה כוכב - מאוחר בלילה, יהיה רק אור. ואם האהבה שלי יכולה לגדל כנפיים, אני אעוף אלייך'
     },
@@ -32,6 +43,7 @@ export const flowersMobile = [
         name: 'נעורים בוורוד',
         price: '120 - 250',
         image: zivoni,
+        productSlider:[pinkTeen01,pinkTeen02],
         description: "פירוט זר",
         story: 'היום, פשוט קחי את  הזמן להריח את הזר, תהני מהדברים הקטנים של החיים , המשפחה שלך, בן זוג, חברים, עבודה. שכחי מהכל - ותהני מהחיים'
     },
@@ -39,6 +51,7 @@ export const flowersMobile = [
         name: 'טיול בגן',
         price: '80 - 220',
         image: hamaniotbuquet,
+        productSlider:[flowerBox01,flowerBox02],
         description: "סידור וורדים בקופסא",
         story: 'אני מאוהב בך, אני לא בהכחשה עצמית, אני נהנה לומר דברים אמיתיים. אני מאוהב בך, ואני יודעת שאהבה היא רק צעקה אל תוך החלל, אני יודע  שמהאדמה באנו ולאדמה נשוב, ואני מאוהב בך'
     },
@@ -46,13 +59,15 @@ export const flowersMobile = [
         name: 'סגול בטבע',
         price: '120 - 250',
         image: sagol,
+        productSlider:[flowerBox01,flowerBox02],
         description: "פירוט זר",
         story: 'אם מראה השמים הכחולים ממלא אותך בשמחה, אם לריח של השדות יש כוח להזיז אותך, אם הדברים הפשוטים של הטבע גורמים לך להנעה, לשמחה, זה כי הנשמה שלך בחיים.'
     },
     {
         name: 'אהבה בוערת',
-        price: '150 - 950',
+        price: '150 - 550',
         image: flowerBox,
+        productSlider:[flowerBox01,flowerBox02],
         description: "סידור וורדים בקופסא איכותית",
         story: 'אני מאוהב בך, אני לא בהכחשה עצמית, אני נהנה לומר דברים אמיתיים. אני מאוהב בך, ואני יודעת שאהבה היא רק צעקה אל תוך החלל, אני יודע  שמהאדמה באנו ולאדמה נשוב, ואני מאוהב בך'
     },

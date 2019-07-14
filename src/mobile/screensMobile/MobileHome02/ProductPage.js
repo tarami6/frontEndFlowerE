@@ -3,10 +3,8 @@ import './slider.css'
 import Slider from "react-slick";
 import {Link} from 'react-router-dom';
 
-import callButton from "../../assetsMobile/imagesMobile/makeHerHappy.jpg";
 
-
-import MdArrowBack from 'react-icons/lib/md/arrow-back';
+import MdArrowBack from 'react-icons/lib/md/arrow-forward';
 import Facebook from 'react-icons/lib/fa/facebook';
 import Linkedin from 'react-icons/lib/fa/linkedin';
 import Twitter from 'react-icons/lib/fa/twitter';
@@ -27,14 +25,18 @@ class ProductPage extends Component {
         const settings1 = {
             // autoplay:true,
             dots: true,
-            speed: 200,
             className: "Slider1",
             // centerMode: true
+            speed: 1500,
+            autoplay: true,
+            autoplaySpeed: 3000,
+            infinite: false
         };
-        let {name, story, price, description} = this.props.location.state.productInfo
+        let {name, story, price, description, productSlider } = this.props.location.state.productInfo
+        console.log("productSlider",productSlider)
         return (
             <div style={{direction : "rtl"}}>
-                <div class={'back-btn-div p-25-0'}>
+                <div class={'back-btn-div p-22-0'}>
                     <Link to={"/"}>
                         <button class={'pull-left, p-fixed back-btn'} >
                             <MdArrowBack size={25} color={"#efc368"}/>
@@ -42,15 +44,17 @@ class ProductPage extends Component {
                     </Link>
                 </div>
                 <Slider {...settings1}>
-                    <div  className={'slideHolder1'}>
-                        <img src={callButton} alt="MakeHerHappy" className={'sliderImage1'}/>
-                    </div>
-                    <div  className={'slideHolder1'}>
-                        <img src={callButton} alt="MakeHerHappy" className={'sliderImage1'}/>
-                    </div>
-                    <div  className={'slideHolder1'}>
-                        <img src={callButton} alt="MakeHerHappy" className={'sliderImage1'}/>
-                    </div>
+                    {
+                        productSlider && productSlider.map( pic => {
+                            return(
+                                <div  className={'slideHolder1'}>
+                                    <img src={pic} alt="MakeHerHappy" className={'sliderImage1'}/>
+                                </div>
+                            )
+                        })
+                    }
+
+
                 </Slider>
                 <div class={'display-flex ptb-30'}>
 

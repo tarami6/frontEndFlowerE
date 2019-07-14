@@ -11,6 +11,8 @@ import sliderTuBeav from "../../assetsMobile/imagesMobile/sliderHomePage/toBeAv.
 import goodService from "../../assetsMobile/imagesMobile/sliderHomePage/goodService.jpg"
 import fstDelivery from "../../assetsMobile/imagesMobile/sliderHomePage/fstDelivery.jpg"
 import womanSmileMission from "../../assetsMobile/imagesMobile/sliderHomePage/womanSmileMission.jpg";
+import mobileLogo from "../../assetsMobile/mobileLogo.png";
+
 
 
 
@@ -18,6 +20,11 @@ import womanSmileMission from "../../assetsMobile/imagesMobile/sliderHomePage/wo
 import Facebook from 'react-icons/lib/fa/facebook';
 import Linkedin from 'react-icons/lib/fa/linkedin';
 import Twitter from 'react-icons/lib/fa/twitter';
+import Whatsapp from "react-icons/lib/fa/whatsapp";
+import Smile from "react-icons/lib/fa/smile-o";
+
+
+
 // produts
 import {bottomIcons, flowersMobile} from '../../../services/Const/const';
 
@@ -43,6 +50,7 @@ class MobileHome01 extends Component {
     productItem = () => {
         let products = this.state.products.map(product => {
             let {image, name, price} = product
+            console.log("product",product)
             return (
                 <div className=" w-50pr">
                     <Link to={{pathname: '/productPage', state: {productInfo: product}}}>
@@ -82,6 +90,7 @@ class MobileHome01 extends Component {
 
 
     render() {
+        console.log("this.props", this.props)
         const settings = {
             dots: true,
             speed: 3000,
@@ -108,12 +117,14 @@ class MobileHome01 extends Component {
                             <img src={womanSmileMission} alt="MakeHerHappy" className={'sliderImage'}/>
                         </div>
                     </Slider>
-
+                    <div onClick={() => console.log("clicked")} className={'mobileLogoContainer'}>
+                        <img src={mobileLogo} alt="zerbayad Logo" className={'mobileLogo'}/>
+                    </div>
                     <div class="mt-20">
                         {this.productItem()}
                     </div>
-                    <div className={"textComInfo"}>
-                        <h4>ניתן לראות זרים נוספים בווטסאפ...</h4>
+                    <div className={"textComInfo01"}>
+                        <h4 className={'lightGreyColor'}>ניתן לראות זרים נוספים <Whatsapp size={30} color={"#86D774"}/></h4>
                     </div>
                     <div className={'bottomIconsContainer'}>
                         {
@@ -121,8 +132,8 @@ class MobileHome01 extends Component {
                         }
                     </div>
                     <div className={"textComInfo"}>
-                        <h4>הזמנת פרחים בקליק עם זר ביד</h4>
-                        <p className={"textComInfoPargraphOrderOnline"}>
+                        <h4 className={"title01"}>הזמנת פרחים בקליק עם זר ביד</h4>
+                        <p className={"textComInfoPargraphOrderOnline greyFont"}>
                             אין מקום טוב יותר להזמין באינטרנט פרחים מאשרעןא שגג zerbayad.co.il. בין אם אתם מחפשים לקנות פרחים
                             ומתנות כמו ורדים, סחלבים, סלסלות מתנה, עצי בונסאי, צמחים פורחים או זרי חתונה.
                             <br/>
@@ -132,8 +143,8 @@ class MobileHome01 extends Component {
                             את יקיריכם בכל רגע ובכל מקום עם זרים מקוריים, ומתנות מבית zerbayd.
                         </p>
                         <br/>
-                        <h4>משלוח פרחים מהיר ושירות לקוחות מדהים</h4>
-                        <p className={"textComInfoPargraphOrderOnline"}>
+                        <h4 className={"title01"}>משלוח פרחים מהיר ושירות לקוחות מדהים</h4>
+                        <p className={"textComInfoPargraphOrderOnline greyFont"}>
                             משלוח פרחים באותו יום זמין בכל יום ובכל מקום, לכל עונות השנה: באביב, בחורף, בקיץ ובסתיו. כדי לשלוח
                             פרחים למסירה באותו יום, כל שעליכם לעשות הוא לבצע את ההזמנה.
                             <br/><br/>
@@ -150,9 +161,9 @@ class MobileHome01 extends Component {
                         </p>
                     </div>
                     <div className={'forUServiceTextContainer'}>
-                        <p>לשירותכם</p>
+                        <p className={'serviceTitle lightGreyColor'}> אנחנו לשירותכם  <Smile size={30} color={"#c0c0c0"}/></p>
                     </div>
-                    <ActionToCall/>
+                    <ActionToCall eventGA={this.props.eventGA}/>
                 </div>
                 <div class={'footer-main'}>
                     <div class={'mt-8'}>

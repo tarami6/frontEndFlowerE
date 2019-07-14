@@ -11,7 +11,7 @@ const CallActionPopUP = (props) => {
                         <p>X</p>
                     </div>
                     <div className={'popUpTextHolder'}>
-                        <p>להזמנה</p>
+                        <p>אנו שמחים שהחלטתם להזמין עם זר ביד, בחרו אחת מהאפשרויות ההזמנה הבאות</p>
                     </div>
                     <div className={'buttonsHolder'}>
                         <div className={'callToButton'} onClick={() => props.eventGA("CallButton", "Call button pressed", "HOME_PAGE_MOBILE")}>

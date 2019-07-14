@@ -17,7 +17,7 @@ body {
 
 .Slider1 {
     height: 61vh;
-    box-shadow: 2px 1px 10px 2px #8c8c8c;
+    border-bottom: 1px solid #dddddd;
 }
 
 .sliderImage {
@@ -27,7 +27,7 @@ body {
 
 .sliderImage1 {
     width: 100vw;
-    height: 61vh;
+    height: 60.8vh;
 }
 
 .buquetImage {

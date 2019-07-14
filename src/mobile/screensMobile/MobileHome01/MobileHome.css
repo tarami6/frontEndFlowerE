@@ -129,30 +129,39 @@
 }
 
 .callPopUp {
-    width: 80vw;
+    width: 75vw;
     height: 40vw;
     background-color: white;
     border-radius: 2vw;
 }
 
 .popUpTextHolder {
+    height: 20vw;
+    padding-left: 10px;
+    padding-right: 10px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+.popUpTextHolder > p {
+    font-size: 16px;
+    text-align: center;
+}
+
 
 .exitPopUp {
-    height: 5vw;
+    height: 10vw;
     padding-right: 3vw;
 }
 
 .buttonsHolder {
-    width: 80vw;
-    height: 20vw;
+    width: 75vw;
+    height: 10vw;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    border-top: 0.5px solid #c0c0c0;
 }
 
 .callToButton {
@@ -164,9 +173,9 @@
 }
 
 .separatorCallButton {
-    height: 5vw;
+    height: 10vw;
     width: 1px;
-    border-right: 1px solid black;
+    border-right: 0.5px solid #c0c0c0;
 
 }
 
@@ -433,8 +442,12 @@ a {
         padding: 10px;
     margin-top: 4vh;
 }
-.textComInfoPargraphOrderOnline{
-    text-align: justify;
+.textComInfo01{
+    padding: 10px;
+}
+
+.title01{
+    font-weight: bold;
 }
 .iconTitle{
     text-align: center;
@@ -446,11 +459,32 @@ a {
     align-items: center;
 }
 
+.mobileLogoContainer {
+    width: 42px;
+    height: 56px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+.mobileLogo{
+    width: 42px;
+    height: 56px;
+}
+
 /*font*/
 .lightGreyColor {
     color: #c0c0c0;
 }
-
+.textComInfoPargraphOrderOnline{
+    text-align: justify;
+}
+.greyFont {
+    color: #353535 !important;
+}
+.serviceTitle{
+    font-size: 30px;
+    font-family: 'David Libre', serif;
+}
 
 
 
