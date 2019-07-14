@@ -13,6 +13,7 @@ import Twitter from 'react-icons/lib/fa/twitter';
 class ProductPage extends Component {
     componentDidMount() {
         console.log("componentDidMount", this.props.location)
+        window.scrollTo(0, 0)
     }
 
     componentWillUnmount() {
