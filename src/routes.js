@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import {Route, Router} from 'react-router-dom';
 
 import MobileHome01 from './mobile/screensMobile/MobileHome01/MobileHome01';
-import ProductPage from './mobile/screensMobile/MobileHome02/ProductPage';
+import ProductPage from './mobile/screensMobile/ProductPage/ProductPage';
 import DeskHome from './desktop/screensDesktop/DeskHome/DeskHome';
 import DeskHome1 from './desktop/screensDesktop/DeskHome1/DeskHome1';
 import DeskHome2 from './desktop/screensDesktop/DeskHome2/DeskHome2';

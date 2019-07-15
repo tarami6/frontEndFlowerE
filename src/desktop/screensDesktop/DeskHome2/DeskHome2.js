@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react'
+import React from 'react'
 import './DeskHome2.css'
 import { flowersMobile } from "../../../services/Const/const";
 import zerBayadLogo from "../../../desktop/assetsDesktop/imagesDesk/zerBayadLogo.png";
@@ -8,6 +8,7 @@ import Instagram from 'react-icons/lib/fa/instagram';
 import Facebook from 'react-icons/lib/fa/facebook';
 import Linkedin from 'react-icons/lib/fa/linkedin';
 import Twitter from 'react-icons/lib/fa/twitter';
+
 class DeskHome2 extends React.Component {
   constructor(props) {
     super(props)

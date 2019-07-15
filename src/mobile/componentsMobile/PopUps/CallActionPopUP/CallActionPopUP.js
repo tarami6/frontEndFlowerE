@@ -19,7 +19,7 @@ const CallActionPopUP = (props) => {
                         </div>
                         <div className={'separatorCallButton'}/>
                         <div className={'whatUpButton'} onClick={() => props.eventGA("WhatsUpButton", "WhatsUpButton button pressed", "HOME_PAGE_MOBILE")}>
-                            <a href="whatsapp://send?text=שלום :) &phone=+972547574737">WhatsApp</a>
+                            <a href="whatsapp://send?text=שלום :) &phone=+972547574737" >WhatsApp</a>
                         </div>
                     </div>
                 </div>

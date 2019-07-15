@@ -37,14 +37,6 @@ class DeskHome1 extends React.Component {
     // }
 
     render() {
-        const {flowers} = this.state
-        const settings = {
-            // autoplay:true,
-            dots: true,
-            speed: 200,
-            className: "sliderDesk",
-            // centerMode: true
-        };
         return (
             <div>
                 <div className={'deskHome'}>

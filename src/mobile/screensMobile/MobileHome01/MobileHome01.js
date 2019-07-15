@@ -1,11 +1,12 @@
 import React, {Component} from 'react';
-import './slider.css'
+import '../Mobile.css'
 import './MobileHome.css';
 import {Link} from 'react-router-dom';
 
 
 import Slider from "react-slick";
 import ActionToCall from '../../componentsMobile/ActionToCall/ActionToCall'
+import Footer from '../../componentsMobile/Footer/Footer'
 
 import sliderTuBeav from "../../assetsMobile/imagesMobile/sliderHomePage/toBeAv.jpg";
 import goodService from "../../assetsMobile/imagesMobile/sliderHomePage/goodService.jpg"
@@ -14,16 +15,8 @@ import womanSmileMission from "../../assetsMobile/imagesMobile/sliderHomePage/wo
 import mobileLogo from "../../assetsMobile/mobileLogo.png";
 
 
-
-
-
-import Facebook from 'react-icons/lib/fa/facebook';
-import Linkedin from 'react-icons/lib/fa/linkedin';
-import Twitter from 'react-icons/lib/fa/twitter';
 import Whatsapp from "react-icons/lib/fa/whatsapp";
 import Smile from "react-icons/lib/fa/smile-o";
-
-
 
 // produts
 import {bottomIcons, flowersMobile} from '../../../services/Const/const';
@@ -50,9 +43,9 @@ class MobileHome01 extends Component {
     productItem = () => {
         let products = this.state.products.map(product => {
             let {image, name, price} = product
-            console.log("product",product)
+            console.log("product", product)
             return (
-                <div className=" w-50pr">
+                <div key={Math.random()} className=" w-50pr">
                     <Link to={{pathname: '/productPage', state: {productInfo: product}}}>
                         <div className={'productHolder'}
                              style={{backgroundImage: `url(${image})`}}>
@@ -77,9 +70,9 @@ class MobileHome01 extends Component {
     bottomIcons = () => {
         let icons = bottomIcons.map(icon => {
             return (
-                <div className={"bottomIconsImageContainer"}>
+                <div key={Math.random()} className={"bottomIconsImageContainer"}>
                     <img src={icon.image} className={"bottomIconsImage"} alt=""/>
-                    <p className={"iconTitle lightGreyColor"} >{icon.title}</p>
+                    <p className={"iconTitle lightGreyColor"}>{icon.title}</p>
                 </div>
             )
         })
@@ -93,7 +86,7 @@ class MobileHome01 extends Component {
         console.log("this.props", this.props)
         const settings = {
             dots: true,
-            speed: 3000,
+            speed: 700,
             className: "Slider",
             autoplay: true,
             autoplaySpeed: 5000,
@@ -120,11 +113,15 @@ class MobileHome01 extends Component {
                     <div onClick={() => console.log("clicked")} className={'mobileLogoContainer'}>
                         <img src={mobileLogo} alt="zerbayad Logo" className={'mobileLogo'}/>
                     </div>
-                    <div class="mt-20">
+                    <div className="mt-20">
                         {this.productItem()}
                     </div>
                     <div className={"textComInfo01"}>
-                        <h4 className={'lightGreyColor'}>ניתן לראות זרים נוספים <Whatsapp size={30} color={"#86D774"}/></h4>
+                        <h4 className={'lightGreyColor'}>ניתן לראות זרים נוספים
+                            <a href="whatsapp://send?text=היי אני רוצה להזמין זר &phone=+972547574737">
+                                <Whatsapp size={40} color={"#fff"} className={"whatspIconCircle"}/>
+                            </a>
+                        </h4>
                     </div>
                     <div className={'bottomIconsContainer'}>
                         {
@@ -134,7 +131,8 @@ class MobileHome01 extends Component {
                     <div className={"textComInfo"}>
                         <h4 className={"title01"}>הזמנת פרחים בקליק עם זר ביד</h4>
                         <p className={"textComInfoPargraphOrderOnline greyFont"}>
-                            אין מקום טוב יותר להזמין באינטרנט פרחים מאשר עם zerbayad.co.il. בין אם אתם מחפשים לקנות פרחים
+                            אין מקום טוב יותר להזמין באינטרנט פרחים מאשר עם zerbayad.co.il. בין אם אתם מחפשים לקנות
+                            פרחים
                             ומתנות כמו ורדים, סחלבים, סלסלות מתנה, עצי בונסאי, צמחים פורחים או זרי חתונה.
                             <br/>
                             <br/>
@@ -145,47 +143,31 @@ class MobileHome01 extends Component {
                         <br/>
                         <h4 className={"title01"}>משלוח פרחים מהיר ושירות לקוחות מדהים</h4>
                         <p className={"textComInfoPargraphOrderOnline greyFont"}>
-                            משלוח פרחים באותו יום זמין בכל יום ובכל מקום, לכל עונות השנה: באביב, בחורף, בקיץ ובסתיו. כדי לשלוח
+                            משלוח פרחים באותו יום זמין בכל יום ובכל מקום, לכל עונות השנה: באביב, בחורף, בקיץ ובסתיו. כדי
+                            לשלוח
                             פרחים למסירה באותו יום, כל שעליכם לעשות הוא לבצע את ההזמנה.
                             <br/><br/>
                             צוות שירות הלקוחות שלנו עומד
-                            לשירותכם על מנת לעזור לכם עם כל מתנה או הזמנת פרחים. בין אם אתם שולחים ורדים אדומים באהבה, או
+                            לשירותכם על מנת לעזור לכם עם כל מתנה או הזמנת פרחים. בין אם אתם שולחים ורדים אדומים באהבה,
+                            או
                             מתנה ליום הולדת, אנחנו לשירותכם...
                             <br/><br/>
                             אנו נעזור לכם למצוא ולספק את הפרחים המושלמים, הצמחים או המתנות כדי לחגוג את הרגעים
-                            המשמעותיים ביותר של החיים - החל מהמלצות של מתנות יום ההולדת, ועד לסדורי פרחים של חתונה או יום נישואים
+                            המשמעותיים ביותר של החיים - החל מהמלצות של מתנות יום ההולדת, ועד לסדורי פרחים של חתונה או
+                            יום נישואים
                             שהיא בטוח תאהב.
                             <br/><br/>
-                             לקבלת מתנות אהדה ופרחים להלוויה, הצוות שלנו  מונה יועצי סימפטיה מנוסים שמוכנים לסייע
+                            לקבלת מתנות אהדה ופרחים להלוויה, הצוות שלנו מונה יועצי סימפטיה מנוסים שמוכנים לסייע
                             לכם בכל רגע נתון.
                         </p>
                     </div>
                     <div className={'forUServiceTextContainer'}>
-                        <p className={'serviceTitle lightGreyColor'}> אנחנו לשירותכם  <Smile size={30} color={"#c0c0c0"}/></p>
+                        <p className={'serviceTitle lightGreyColor'}> אנחנו לשירותכם <Smile size={30}
+                                                                                            color={"#c0c0c0"}/></p>
                     </div>
                     <ActionToCall eventGA={this.props.eventGA}/>
                 </div>
-                <div class={'footer-main'}>
-                    <div class={'mt-8'}>
-                        <hr class={'m-0 hr-c'}/>
-                    </div>
-                    <div className={'footerMobile'}>
-                        <div class={'p-15'}>
-                            <p className={'foot-text'}>© 2019. All rights reserved  <a href="https://idt.co.il/">IDT</a></p>
-                        </div>
-                        <div class={'p-15 display-flex'}>
-                            <div class={'mr-2vh'}>
-                                <Facebook size={20} color={"#efc368"}/>
-                            </div>
-                            <div class={'mr-2vh'}>
-                                <Twitter size={20} color={"#efc368"}/>
-                            </div>
-                            <div class={'mr-2vh'}>
-                                <Linkedin size={20} color={"#efc368"}/>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+               <Footer/>
             </div>
         )
     }

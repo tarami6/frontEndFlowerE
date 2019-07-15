@@ -1,8 +1,9 @@
 import React, {Component} from 'react';
-import './slider.css'
+import '../Mobile.css'
 import Slider from "react-slick";
 import {Link} from 'react-router-dom';
 
+import Footer from '../../componentsMobile/Footer/Footer'
 
 import MdArrowBack from 'react-icons/lib/md/arrow-forward';
 import Facebook from 'react-icons/lib/fa/facebook';
@@ -24,11 +25,9 @@ class ProductPage extends Component {
 
     render() {
         const settings1 = {
-            // autoplay:true,
             dots: true,
             className: "Slider1",
-            // centerMode: true
-            speed: 1500,
+            speed: 500,
             autoplay: true,
             autoplaySpeed: 3000,
             infinite: false
@@ -57,22 +56,22 @@ class ProductPage extends Component {
 
 
                 </Slider>
-                <div class={'display-flex ptb-30'}>
+                <div className={'display-flex ptb-30'}>
 
-                    <div class={'w-50pr m-0'}>
+                    <div className={'w-50pr m-0'}>
                         <p className={'pl-4vw pr-4vw m-0 price-text mb-5'}>
                             {price} ש"ח
                         </p>
-                        <p className={'pr-4vw m-0 fs-16 sub-t-c'}>
+                        <p className={'pr-4vw m-0 fs-14 sub-t-c'}>
                             {description}
                         </p>
                     </div>
-                    <div class={'w-50pr pl-2vh'}>
-                        <button class={'buy-now-btn'}>לקנות</button>
+                    <div className={'w-50pr pl-2vh'}>
+                        <button className={'buy-now-btn'}> קניה</button>
                     </div>
                 </div>
 
-                <div class={'display-block mb-50'}>
+                <div className={'display-block mb-50'}>
                     <p className={'pl-4vw pr-4vw m-0 price-text mb-5 fs-18'}>
                         {name}
                     </p>
@@ -80,27 +79,7 @@ class ProductPage extends Component {
                         {story}
                     </p>
                 </div>
-                <div class={'footer-main'}>
-                    <div class={'mt-8'}>
-                        <hr class={'m-0 hr-c'}/>
-                    </div>
-                    <div className={'footerMobile'}>
-                        <div class={'p-15'}>
-                            <p className={'foot-text'}>© 2019. All rights reserved</p>
-                        </div>
-                        <div class={'p-15 display-flex'}>
-                            <div class={'mr-2vh'}>
-                                <Facebook size={20} color={"#efc368"}/>
-                            </div>
-                            <div class={'mr-2vh'}>
-                                <Twitter size={20} color={"#efc368"}/>
-                            </div>
-                            <div class={'mr-2vh'}>
-                                <Linkedin size={20} color={"#efc368"}/>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                <Footer/>
             </div>
 
         )

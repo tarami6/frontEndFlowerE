@@ -69,11 +69,7 @@
     align-items: center;
 }
 
-.footerTitle {
-    color: #fff;
-    text-align: center;
-    margin-top: 10vh;
-}
+
 
 .footerStory {
     color: #ffffff;
@@ -209,7 +205,7 @@
 }
 
 .price-text {
-    font-size: 24px;
+    font-size: 20px;
     font-weight: 500 !important;
 }
 
@@ -482,8 +478,15 @@ a {
     color: #353535 !important;
 }
 .serviceTitle{
-    font-size: 30px;
+    font-size: 25px;
     font-family: 'David Libre', serif;
+}
+.whatspIconCircle{
+    border-radius: 10vw;
+    box-shadow: 1px 1px 2px 0px grey;
+    background-color: #86D774;
+    margin-right: 3vw;
+    padding: 2px;
 }
 
 

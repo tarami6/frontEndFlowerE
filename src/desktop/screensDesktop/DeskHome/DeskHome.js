@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react'
+import React from 'react'
 import './DeskHome.css'
 import logo from '../../assetsDesktop/imagesDesk/DesktopLogo'
 import FlowerBoxDesktop from '../../componentsDesktop/FlowerBoxDesktop/FlowerBoxDesktop.js'
@@ -9,7 +9,6 @@ import Instagram from "../../../mobile/assetsMobile/imagesMobile/Instagram.png";
 
 
 function FirstContainer() {
-  // return <animated.div style={props}>I will fade in</animated.div>
   return (
     <div className={'firstDiv'}>
       <img src={logo} alt="" className={'logo'} />
