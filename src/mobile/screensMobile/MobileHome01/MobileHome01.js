@@ -33,6 +33,7 @@ class MobileHome01 extends Component {
 
     componentDidMount() {
         console.log("MobileHome01 componentDidMount ", this.state.products)
+        this.props.pageView("MobileHome")
     }
 
 
@@ -40,13 +41,14 @@ class MobileHome01 extends Component {
 
     }
 
+
     productItem = () => {
         let products = this.state.products.map(product => {
             let {image, name, price} = product
             console.log("product", product)
             return (
-                <div key={Math.random()} className=" w-50pr">
-                    <Link to={{pathname: '/productPage', state: {productInfo: product}}}>
+                <div key={Math.random()} className=" w-50pr" onClick={() => {this.props.eventGA("Flower pressed",name,"Home Page Mobile")}}>
+                    <Link to={{pathname: '/productPage', state: {productInfo: product }}}>
                         <div className={'productHolder'}
                              style={{backgroundImage: `url(${image})`}}>
                             <div className={"productText"}>
@@ -80,6 +82,7 @@ class MobileHome01 extends Component {
             icons
         )
     }
+
 
 
     render() {
@@ -116,7 +119,7 @@ class MobileHome01 extends Component {
                     <div className="mt-20">
                         {this.productItem()}
                     </div>
-                    <div className={"textComInfo01"}>
+                    <div className={"textComInfo01"} onClick={() => this.props.eventGA("CallToAction", "Whats button more flowers", "MobileHomePage")}>
                         <h4 className={'lightGreyColor'}>ניתן לראות זרים נוספים
                             <a href="whatsapp://send?text=היי אני רוצה להזמין זר &phone=+972547574737">
                                 <Whatsapp size={40} color={"#fff"} className={"whatspIconCircle"}/>
@@ -165,9 +168,9 @@ class MobileHome01 extends Component {
                         <p className={'serviceTitle lightGreyColor'}> אנחנו לשירותכם <Smile size={30}
                                                                                             color={"#c0c0c0"}/></p>
                     </div>
-                    <ActionToCall eventGA={this.props.eventGA}/>
+                    <ActionToCall page={"HomePageMobile"} homePage={true} eventGA={this.props.eventGA}/>
                 </div>
-               <Footer/>
+               <Footer page={"HomePageMobile"} eventGA={this.props.eventGA} />
             </div>
         )
     }

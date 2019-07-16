@@ -6,22 +6,19 @@ import {Link} from 'react-router-dom';
 import Footer from '../../componentsMobile/Footer/Footer'
 
 import MdArrowBack from 'react-icons/lib/md/arrow-forward';
-import Facebook from 'react-icons/lib/fa/facebook';
-import Linkedin from 'react-icons/lib/fa/linkedin';
-import Twitter from 'react-icons/lib/fa/twitter';
+import ActionToCall from "../../componentsMobile/ActionToCall/ActionToCall";
 
 
 class ProductPage extends Component {
     componentDidMount() {
         console.log("componentDidMount", this.props.location)
         window.scrollTo(0, 0)
+
     }
 
     componentWillUnmount() {
 
     }
-
-
 
     render() {
         const settings1 = {
@@ -32,29 +29,27 @@ class ProductPage extends Component {
             autoplaySpeed: 3000,
             infinite: false
         };
-        let {name, story, price, description, productSlider } = this.props.location.state.productInfo
-        console.log("productSlider",productSlider)
+        let {name, story, price, description, productSlider} = this.props.location.state.productInfo;
+        this.props.pageView("MobileProductPage " + name)
         return (
-            <div style={{direction : "rtl"}}>
+            <div style={{direction: "rtl"}}>
                 <div class={'back-btn-div p-22-0'}>
                     <Link to={"/"}>
-                        <button class={'pull-left, p-fixed back-btn'} >
+                        <button class={'pull-left, p-fixed back-btn'}>
                             <MdArrowBack size={25} color={"#efc368"}/>
                         </button>
                     </Link>
                 </div>
                 <Slider {...settings1}>
                     {
-                        productSlider && productSlider.map( pic => {
-                            return(
-                                <div  className={'slideHolder1'}>
+                        productSlider && productSlider.map(pic => {
+                            return (
+                                <div key={Math.random()} className={'slideHolder1'}>
                                     <img src={pic} alt="MakeHerHappy" className={'sliderImage1'}/>
                                 </div>
                             )
                         })
                     }
-
-
                 </Slider>
                 <div className={'display-flex ptb-30'}>
 
@@ -66,8 +61,8 @@ class ProductPage extends Component {
                             {description}
                         </p>
                     </div>
-                    <div className={'w-50pr pl-2vh'}>
-                        <button className={'buy-now-btn'}> קניה</button>
+                    <div className={'w-50pr pl-2vh'} style={{zIndex: 3}} >
+                        <ActionToCall page={"Product Mobile" + name} eventGA={this.props.eventGA}/>
                     </div>
                 </div>
 
@@ -79,7 +74,7 @@ class ProductPage extends Component {
                         {story}
                     </p>
                 </div>
-                <Footer/>
+                <Footer page={"ProductPageMobile"} eventGA={this.props.eventGA}/>
             </div>
 
         )

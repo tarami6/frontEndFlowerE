@@ -41,9 +41,10 @@ body{
     z-index: 0;
     display: flex;
     align-items: center !important;
+    justify-content: center;
     margin: 0px 7px;
     margin-bottom: 80px;
-    height: 24vh;
+    height: 55vw;
     background-size: cover;
     background-color: #D1D2D6;
     background-repeat: no-repeat;
@@ -68,7 +69,7 @@ body{
     /* box-shadow: 1px 1px 1px #8c8c8c; */
     /* margin-bottom: -35vh; */
     margin-bottom: -28.5vh;
-    margin-right: 11%;
+
     /* margin-left: 14vw; */
 }
 
@@ -255,4 +256,5 @@ form {
     text-align: center;
     padding-top: 30px;
 }
+
 

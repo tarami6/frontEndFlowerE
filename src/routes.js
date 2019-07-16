@@ -7,14 +7,22 @@ import DeskHome from './desktop/screensDesktop/DeskHome/DeskHome';
 import DeskHome1 from './desktop/screensDesktop/DeskHome1/DeskHome1';
 import DeskHome2 from './desktop/screensDesktop/DeskHome2/DeskHome2';
 import ReactGA from 'react-ga';
+import ReactPixel from 'react-facebook-pixel';
 import smoothscroll from 'smoothscroll-polyfill';
 import {createBrowserHistory} from "history";
+
+const options = {
+    autoConfig: true, 	// set pixel's autoConfig
+    debug: false, 		// enable logs
+};
+
+
 
 const history = createBrowserHistory()
 
 function initializeReactGA() {
     ReactGA.initialize('UA-141866567-1');
-    ReactGA.pageview('/homepage');
+
 }
 
 function Event(category, action, label) {
@@ -23,6 +31,17 @@ function Event(category, action, label) {
         action: action,
         label: label
     });
+}
+
+
+function PageView(page){
+    ReactGA.pageview(page);
+}
+
+ReactPixel.init('2856091371283259',  options);
+
+const Product = (props) => {
+    return <ProductPage {...props} pageView={PageView} eventGA={Event} />
 }
 
 class Routes extends Component {
@@ -47,18 +66,19 @@ class Routes extends Component {
     }
 
     render() {
+        console.log("history",history)
         return (
             <Router history={history}>
                 <div>
                     <Route exact path="/" render={() => {
                         if (this.state.width > 501)
-                            return <DeskHome1 eventGA={Event}/>
-                        return <MobileHome01 eventGA={Event}/>
+                            return <DeskHome1 eventGA={Event} />
+                        return <MobileHome01 pageView={PageView} eventGA={Event} />
                     }}/>
                     <Route path="/deskHome" component={DeskHome} eventGA={Event}/>
                     <Route path="/deskHome1" component={DeskHome1} eventGA={Event}/>
                     <Route path="/deskHome2" component={DeskHome2} eventGA={Event}/>
-                    <Route path="/productPage" component={ProductPage} eventGA={Event}/>
+                    <Route path="/productPage" component={Product} />
                 </div>
             </Router>
         )

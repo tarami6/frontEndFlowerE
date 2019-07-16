@@ -2,7 +2,7 @@ import React from 'react'
 import Instagram from "react-icons/lib/fa/instagram";
 import Facebook from "react-icons/lib/fa/facebook-official";
 
-const Footer = () => {
+const Footer = (props) => {
     return(
         <div className={'footer-main'}>
             <div className={'mt-8'}>
@@ -13,14 +13,14 @@ const Footer = () => {
                     <p className={'foot-text'}>© 2019. All rights reserved <a href="https://idt.co.il/">IDT</a>
                     </p>
                 </div>
-                <div className={'p-15 display-flex'}>
+                <div className={'p-15 display-flex'} onClick={() => props.eventGA("SocialButton", "Facebook", props.page)}>
                     <div className={'mr-2vh'}>
                         <a className="mobile"
                            href="fb://facewebmodal/f?href=https://it-it.facebook.com/Zerbayad/">
                             <Facebook size={30} color={"#efc368"}/>
                         </a>
                     </div>
-                    <div className={'mr-2vh'}>
+                    <div className={'mr-2vh'} onClick={() => props.eventGA("SocialButton", "Instagram", props.page)}>
                         <a href="instagram://user?username=zerbayad" >
                             <Instagram size={30} color={"#efc368"}/>
                         </a>

@@ -119,6 +119,7 @@
     position: fixed;
     z-index: 3;
     top: 0;
+    right: 0;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -146,8 +147,10 @@
 
 
 .exitPopUp {
+    align-items: center;
     height: 10vw;
     padding-right: 3vw;
+    display: flex;
 }
 
 .buttonsHolder {
@@ -189,8 +192,9 @@
 }
 
 .callToButton > a {
-    color: green;
+    color: #efc368;
     text-decoration: none;
+    font-weight: bold;
 }
 
 .homePageAnimation {
@@ -219,7 +223,8 @@
     border-radius: 5px;
     background-image: linear-gradient(90deg, #f8d487, #eec367);
     border: none;
-    float: left
+    float: left;
+    z-index: 30 !important;
 }
 
 .display-flex {
@@ -391,7 +396,7 @@ div.scrollmenu a:hover {
 }
 
 .mb-50 {
-    margin-bottom: 50px !important;
+    margin-bottom: 150px !important;
 }
 
 .w-50pr {
@@ -420,8 +425,8 @@ a {
     flex-direction: row-reverse !important;
     align-items: center;
     justify-content: space-between;
-    margin-bottom: 7vh;
-
+    padding: 0 10px;
+    margin: 8vh 0;
 }
 .bottomIconsImage{
     width: 25vw;
@@ -429,14 +434,13 @@ a {
 }
 .bottomIconsImageContainer{
     width: 25vw;
-    height: 35vw;
+    height: 40vw;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 .textComInfo{
         padding: 10px;
-    margin-top: 4vh;
 }
 .textComInfo01{
     padding: 10px;

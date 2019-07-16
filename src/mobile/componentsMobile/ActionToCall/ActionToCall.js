@@ -11,10 +11,10 @@ class ActionToCall extends Component {
         }
     }
 
-    callAction = () => {
+    callAction = (action, button, page) => {
         console.log("callAction")
         this.setState({callToActionPopUp: true})
-        this.props.eventGA("CallToAction", "CallToAction button pressed", "HOME_PAGE_MOBILE")
+        this.props.eventGA(action, button, page)
     }
 
     exitPopUp = () => {
@@ -25,13 +25,24 @@ class ActionToCall extends Component {
 
     render() {
         let showPopUp = this.state.callToActionPopUp
+
         return (
             <div>
-                <CallButton
-                    onPress={this.callAction}
-                />
+                {
+                    this.props.homePage ?
+                    <CallButton
+                        page={this.props.page}
+                        onPress={this.callAction}
+                    />
+                    :
+                        <div onClick={() => this.callAction("CallToAction", "BuyButton", this.props.page)} >
+                            <button   className={'buy-now-btn'}> קניה</button>
+                        </div>
+                }
+
                 {showPopUp &&
                 <CallActionPopUP
+                    page={this.props.page}
                     eventGA={this.props.eventGA}
                     exit={this.exitPopUp}
                 />
