@@ -39,7 +39,7 @@ function PageView(page){
     ReactGA.pageview(page);
 }
 
-ReactPixel.init('facebook_2856091371283259pixel_id', {}, { debug: true, autoConfig: false });
+ReactPixel.init('2856091371283259', {}, { debug: true, autoConfig: false });
 ReactPixel.pageView();
 ReactPixel.fbq('track', 'PageView');
 
