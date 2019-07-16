@@ -15,6 +15,7 @@ const options = {
     autoConfig: true, 	// set pixel's autoConfig
     debug: false, 		// enable logs
 };
+const advancedMatching = {  };
 
 
 
@@ -51,7 +52,7 @@ class Routes extends Component {
 
     componentWillMount() {
         initializeReactGA()
-        ReactPixel.init('2856091371283259',  options);
+        ReactPixel.init('2856091371283259', advancedMatching, options);
         this.updateWindowDimensions();
         smoothscroll.polyfill();
         window.addEventListener('resize', this.updateWindowDimensions);
