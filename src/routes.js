@@ -39,6 +39,9 @@ function PageView(page){
     ReactGA.pageview(page);
 }
 
+ReactPixel.init('facebook_2856091371283259pixel_id', {}, { debug: true, autoConfig: false });
+ReactPixel.pageView();
+ReactPixel.fbq('track', 'PageView');
 
 const Product = (props) => {
     return <ProductPage {...props} pageView={PageView} eventGA={Event} />
@@ -52,7 +55,6 @@ class Routes extends Component {
 
     componentWillMount() {
         initializeReactGA()
-        ReactPixel.init('2856091371283259', advancedMatching, options);
         this.updateWindowDimensions();
         smoothscroll.polyfill();
         window.addEventListener('resize', this.updateWindowDimensions);
