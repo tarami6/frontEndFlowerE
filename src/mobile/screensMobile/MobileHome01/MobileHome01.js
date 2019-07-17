@@ -32,7 +32,6 @@ class MobileHome01 extends Component {
     }
 
     componentDidMount() {
-        console.log("MobileHome01 componentDidMount ", this.state.products)
         this.props.pageView("MobileHome")
     }
 

@@ -11,11 +11,7 @@ import ReactPixel from 'react-facebook-pixel';
 import smoothscroll from 'smoothscroll-polyfill';
 import {createBrowserHistory} from "history";
 
-const options = {
-    autoConfig: true, 	// set pixel's autoConfig
-    debug: false, 		// enable logs
-};
-const advancedMatching = {  };
+
 
 
 
@@ -39,9 +35,15 @@ function PageView(page){
     ReactGA.pageview(page);
 }
 
-ReactPixel.init('2856091371283259', {}, { debug: true, autoConfig: false });
-ReactPixel.pageView();
-ReactPixel.fbq('track', 'PageView');
+// ReactPixel.init('2856091371283259', {}, { debug: true, autoConfig: false });
+// ReactPixel.pageView();
+// ReactPixel.fbq('track', 'PageView')
+// ReactPixel.fbq('track', 'Contact');
+// ReactPixel.fbq('track', 'ViewContent',{content_name : "content_name"});
+
+
+
+
 
 const Product = (props) => {
     return <ProductPage {...props} pageView={PageView} eventGA={Event} />
@@ -69,7 +71,6 @@ class Routes extends Component {
     }
 
     render() {
-        console.log("history",history)
         return (
             <Router history={history}>
                 <div>
