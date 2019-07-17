@@ -35,11 +35,11 @@ function PageView(page){
     ReactGA.pageview(page);
 }
 
-// ReactPixel.init('2856091371283259', {}, { debug: true, autoConfig: false });
-// ReactPixel.pageView();
-// ReactPixel.fbq('track', 'PageView')
-// ReactPixel.fbq('track', 'Contact');
-// ReactPixel.fbq('track', 'ViewContent',{content_name : "content_name"});
+ReactPixel.init('2856091371283259', {}, { debug: true, autoConfig: false });
+ReactPixel.pageView();
+ReactPixel.fbq('track', 'PageView')
+ReactPixel.fbq('track', 'Contact');
+ReactPixel.fbq('track', 'ViewContent',{content_name : "content_name"});
 
 
 
@@ -67,10 +67,13 @@ class Routes extends Component {
     }
 
     updateWindowDimensions = () => {
-        this.setState({width: window.innerWidth, height: window.innerHeight});
+        if(window.innerWidth > 501){
+            this.setState({width: window.innerWidth, height: window.innerHeight});
+        }
     }
 
     render() {
+        console.log("history",history)
         return (
             <Router history={history}>
                 <div>
