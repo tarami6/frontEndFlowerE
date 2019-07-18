@@ -12,9 +12,6 @@ import smoothscroll from 'smoothscroll-polyfill';
 import {createBrowserHistory} from "history";
 
 
-
-
-
 const history = createBrowserHistory()
 
 function initializeReactGA() {
@@ -28,18 +25,18 @@ function Event(category, action, label) {
         action: action,
         label: label
     });
+    ReactPixel.fbq('trackCustom', category, {action: action});
+
 }
 
 
 function PageView(page){
     ReactGA.pageview(page);
+    ReactPixel.pageView();
 }
 
 ReactPixel.init('2856091371283259', {}, { debug: true, autoConfig: false });
-ReactPixel.pageView();
-ReactPixel.fbq('track', 'PageView')
-ReactPixel.fbq('track', 'Contact');
-ReactPixel.fbq('track', 'ViewContent',{content_name : "content_name"});
+
 
 
 
@@ -67,9 +64,10 @@ class Routes extends Component {
     }
 
     updateWindowDimensions = () => {
-        if(window.innerWidth > 501){
+        if(window.innerWidth > 505){
             this.setState({width: window.innerWidth, height: window.innerHeight});
         }
+
     }
 
     render() {
@@ -78,7 +76,7 @@ class Routes extends Component {
             <Router history={history}>
                 <div>
                     <Route exact path="/" render={() => {
-                        if (this.state.width > 501)
+                        if (this.state.width > 510)
                             return <DeskHome1 eventGA={Event} />
                         return <MobileHome01 pageView={PageView} eventGA={Event} />
                     }}/>

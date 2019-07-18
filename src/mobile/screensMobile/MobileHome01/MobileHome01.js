@@ -28,17 +28,11 @@ class MobileHome01 extends Component {
         this.state = {
             products: flowersMobile
         }
-
     }
 
     componentDidMount() {
         console.log("MobileHome01 componentDidMount ", this.state.products)
         this.props.pageView("MobileHome")
-    }
-
-
-    componentWillUnmount() {
-
     }
 
 

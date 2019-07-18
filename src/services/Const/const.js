@@ -36,7 +36,7 @@ export const flowersMobile = [
         name: 'אהבה בוערת',
         price: '150 - 550',
         image: flowerBox,
-        description: "סידור וורדים בקופסא איכותית",
+        description: "סידור ורדים בקופסא",
         story: 'אני מאוהב בך, אני לא בהכחשה עצמית, אני נהנה לומר דברים אמיתיים. אני מאוהב בך, ואני יודע שאהבה היא רק צעקה אל תוך החלל, אני יודע  שמהאדמה באנו ולאדמה נשוב, ואני מאוהב בך',
         productSlider:[flowerBox01,flowerBox02]
     },
@@ -53,7 +53,7 @@ export const flowersMobile = [
         price: '120 - 250',
         image: zivoni,
         productSlider:[pinkTeen01,pinkTeen02],
-        description: "פירוט זר",
+        description: "זר גרברות יפייפה",
         story: 'היום, פשוט קחי את  הזמן להריח את הזר, תהני מהדברים הקטנים של החיים , המשפחה שלך, בן זוג, חברים, עבודה. שכחי מהכל - ותהני מהחיים'
     },
     {
@@ -61,7 +61,7 @@ export const flowersMobile = [
         price: '80 - 220',
         image: hamaniotbuquet,
         productSlider:[sunFlower01,sunFlower02],
-        description: "סידור וורדים בקופסא",
+        description: "זר חמניות גרברות וליזאנטוס",
         story: 'אם מראה השמים הכחולים ממלא אותך בשמחה, אם לריח של השדות יש כוח להזיז אותך, אם הדברים הפשוטים של הטבע גורמים לך להנעה, לשמחה, זה כי הנשמה שלך בחיים'
     },
     {
@@ -69,7 +69,7 @@ export const flowersMobile = [
         price: '120 - 250',
         image: sagol,
         productSlider:[purpleBuquet01,purpleBuquet02],
-        description: "פירוט זר",
+        description: "זר שושן צחור ליזאנטוס וחרצית",
         story: 'הטבע הוא המקור לכל הידע. יש לו היגיון משלו, חוקים משלו, אין לו השפעה ללא סיבה או המצאה ללא צורך.' +
             'הוא מעורר יראת כבוד, אלגנטי, נצחי. הוא מושלם מבחינה גיאומטרית. הוא זעיר וענקי. אפשר לנסוע רחוק כדי להיות בסביבה טבעית ויפה, או שאפשר להנות ממנו בגינה, או במקרה שלנו עם הזר "סגול בטבע'
     },
