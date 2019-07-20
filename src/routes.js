@@ -10,7 +10,7 @@ import ReactGA from 'react-ga';
 import ReactPixel from 'react-facebook-pixel';
 import smoothscroll from 'smoothscroll-polyfill';
 import {createBrowserHistory} from "history";
-
+import { hotjar } from 'react-hotjar';
 
 const history = createBrowserHistory()
 
@@ -36,7 +36,7 @@ function PageView(page){
 }
 
 ReactPixel.init('2856091371283259', {}, { debug: true, autoConfig: false });
-
+hotjar.initialize(1410349,6);
 
 
 
