@@ -220,7 +220,7 @@ a {
   margin: 50px 0px
 }
 .title {
-    font-family: Raleway;
+    font-family: Rubik;
     font-size: 24px;
     font-weight: 500;
     color: #353535;
@@ -233,35 +233,41 @@ a {
   margin-bottom: 0px !important;
 }
 .price {
-    font-family: Raleway;
+    font-family: Rubik;
     font-size: 36px;
     font-weight: 600;
     color: #eec368;
     margin-bottom: 0px !important;
 }
 .popular-text {
-  font-family: Raleway;
+  font-family: Rubik;
   font-size: 60px;
   font-weight: 600;
   color: #353535;
+    text-align: center;
+
 }
 .popular-info {
-  font-family: Raleway;
+  font-family: Rubik;
   font-size: 28px;
   font-weight: 300;
   color: #353535;
+    text-align: center;
+    align-self: center;
+    padding-left: 15vw;
+    padding-right: 15vw;
 }
 .phone-icon-div {
   width: 46px;
   height: 46px;
-  border: 1px solid #efc368;
+  border: 1px solid #eec368;
   border-radius: 30px;
   text-align: -webkit-center;
   padding-top: 10px;
   margin-right: 25px
 }
 .phone-text {
-  font-family: Raleway;
+  font-family: Rubik;
   font-size: 20px;
   font-weight: 500;
   line-height: 0.9;
@@ -315,6 +321,56 @@ a {
 .p-0-10 {
   padding: 0px 10px;
 
+}
+.homePageFirstScreen{
+    height: 100vh;
+    width: 100vw;
+    background-image: url("../../../desktop/assetsDesktop/imagesDesk/homeSlider/homePage.jpg");
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.homePageFirstScreen>h1 {
+    color: #fff;
+    font-family: Rubik;
+    margin-right: 5vw;
+}
+.homePageFirstScreen>p {
+    color: #fff;
+    font-family: Rubik;
+    margin-right: 5vw;
+    font-size: 24px;
+    font-weight: bold;
+}
+.headerLogoPhone{
+    width: 100vw;
+    padding-right: 5vw;
+    padding-left: 5vw;
+    height: 20vh;
+    position: absolute;
+    top: 0;
+    z-index: 2;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content:space-between ;
+    align-items: center;
+
+}
+.phoneHeaderContainer{
+    display: flex;
+}
+.logoDesktop{
+    width: 5vw;
+}
+
+.contentHolder01{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
 }
 @media only screen and (max-width: 576px) {
   .brdr-right {

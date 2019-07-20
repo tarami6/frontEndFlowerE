@@ -34,7 +34,7 @@ import purpleBuquet02 from "../../mobile/assetsMobile/productPage/purpleBuquet02
 export const flowersMobile = [
     {
         name: 'אהבה בוערת',
-        price: '150 - 550',
+        price: 'החל מ: 150',
         image: flowerBox,
         description: "סידור ורדים בקופסא",
         story: 'אני מאוהב בך, אני לא בהכחשה עצמית, אני נהנה לומר דברים אמיתיים. אני מאוהב בך, ואני יודע שאהבה היא רק צעקה אל תוך החלל, אני יודע  שמהאדמה באנו ולאדמה נשוב, ואני מאוהב בך',
@@ -42,7 +42,7 @@ export const flowersMobile = [
     },
     {
         name: 'תשוקה אינסופית',
-        price: '120 - 350',
+        price: 'החל מ: 120',
         image: rosesbuquet,
         productSlider:[rosesBuquet01,rosesBuquet02],
         description: "זר וורדים עשיר",
@@ -50,7 +50,7 @@ export const flowersMobile = [
     },
     {
         name: 'נעורים בוורוד',
-        price: '120 - 250',
+        price: 'החל מ: 120',
         image: zivoni,
         productSlider:[pinkTeen01,pinkTeen02],
         description: "זר גרברות יפייפה",
@@ -58,7 +58,7 @@ export const flowersMobile = [
     },
     {
         name: 'טיול בגן',
-        price: '80 - 220',
+        price: 'החל מ: 80',
         image: hamaniotbuquet,
         productSlider:[sunFlower01,sunFlower02],
         description: "זר חמניות גרברות וליזאנטוס",
@@ -66,7 +66,7 @@ export const flowersMobile = [
     },
     {
         name: 'סגול בטבע',
-        price: '120 - 250',
+        price: 'החל מ: 120',
         image: sagol,
         productSlider:[purpleBuquet01,purpleBuquet02],
         description: "זר שושן צחור ליזאנטוס וחרצית",
@@ -75,7 +75,7 @@ export const flowersMobile = [
     },
     {
         name: 'אהבה בוערת',
-        price: '150 - 550',
+        price: 'החל מ: 150',
         image: flowerBox,
         productSlider:[flowerBox01,flowerBox02],
         description: "סידור וורדים בקופסא איכותית",
