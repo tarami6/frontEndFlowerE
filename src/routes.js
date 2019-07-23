@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import {Route, Router} from 'react-router-dom';
-
+import {isMobile} from 'react-device-detect';
 import MobileHome01 from './mobile/screensMobile/MobileHome01/MobileHome01';
 import ProductPage from './mobile/screensMobile/ProductPage/ProductPage';
 import DeskHome from './desktop/screensDesktop/DeskHome/DeskHome';
@@ -71,11 +71,12 @@ class Routes extends Component {
     }
 
     render() {
+        console.log("isMobile",isMobile)
         return (
             <Router history={history}>
                 <div>
                     <Route exact path="/" render={() => {
-                        if (this.state.width > 510)
+                        if (this.state.width > 510 )
                             return <DeskHome1 eventGA={Event} />
                         return <MobileHome01 pageView={PageView} eventGA={Event} />
                     }}/>

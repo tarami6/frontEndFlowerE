@@ -440,6 +440,7 @@ a {
 .bottomIconsImage{
     width: 25vw;
     height: 25vw;
+    opacity: 0.3;
 }
 .bottomIconsImageContainer{
     width: 25vw;
@@ -490,6 +491,7 @@ a {
 .lightGreyColor {
     color: #c0c0c0;
 }
+
 .textComInfoPargraphOrderOnline{
     text-align: justify;
 }
