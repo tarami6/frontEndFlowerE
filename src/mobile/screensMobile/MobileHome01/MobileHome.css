@@ -179,7 +179,7 @@
 }
 
 .whatUpButton {
-    width: 40vw;
+    width: 39vw;
     height: 20vw;
     display: flex;
     align-items: center;
@@ -189,12 +189,21 @@
 .whatUpButton > a {
     color: darkgreen;
     text-decoration: none;
+    width: 40vw;
+    height: 20vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .callToButton > a {
     color: #efc368;
     text-decoration: none;
     font-weight: bold;
+    width: 39vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .homePageAnimation {
@@ -469,6 +478,12 @@ a {
 .mobileLogo{
     width: 42px;
     height: 56px;
+}
+
+.linkCallToAction{
+    background-color: #333333;
+    width: 100%;
+    height: 100%;
 }
 
 /*font*/
