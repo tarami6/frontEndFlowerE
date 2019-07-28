@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cf6233b1-380a-47a6-88cf-bf5b7addc960" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/manifest.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/mobile/componentsMobile/PopUps/CallActionPopUP/CallActionPopUP.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/mobile/componentsMobile/PopUps/CallActionPopUP/CallActionPopUP.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mobile/screensMobile/MobileHome01/MobileHome01.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/mobile/screensMobile/MobileHome01/MobileHome01.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -32,11 +31,11 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="false">
+          <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/mobile/screensMobile/MobileHome01/MobileHome01.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="765">
-                  <caret line="69" column="70" selection-start-line="69" selection-start-column="54" selection-end-line="69" selection-end-column="70" />
+                <state relative-caret-position="357">
+                  <caret line="118" selection-start-line="118" selection-end-line="118" />
                   <folding>
                     <element signature="e#0#39#0" expanded="true" />
                   </folding>
@@ -47,7 +46,7 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/mobile/componentsMobile/ActionToCall/ActionToCall.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="645">
+                <state relative-caret-position="416">
                   <caret line="43" column="28" selection-start-line="43" selection-start-column="28" selection-end-line="43" selection-end-column="28" />
                   <folding>
                     <element signature="e#0#39#0" expanded="true" />
@@ -60,7 +59,7 @@
             <entry file="file://$PROJECT_DIR$/src/mobile/componentsMobile/PopUps/CallActionPopUP/CallActionPopUP.js">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="345">
-                  <caret line="23" column="76" selection-start-line="23" selection-start-column="76" selection-end-line="23" selection-end-column="76" />
+                  <caret line="23" selection-start-line="23" selection-end-line="24" />
                   <folding>
                     <element signature="e#0#25#0" expanded="true" />
                   </folding>
@@ -68,7 +67,7 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/package.json">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="345">
@@ -310,13 +309,13 @@
         <option value="$PROJECT_DIR$/src/desktop/screensDesktop/DeskHome1/DeskHome1.js" />
         <option value="$PROJECT_DIR$/src/services/Const/const.js" />
         <option value="$PROJECT_DIR$/src/routes.js" />
-        <option value="$PROJECT_DIR$/src/mobile/screensMobile/MobileHome01/MobileHome01.js" />
         <option value="$PROJECT_DIR$/src/mobile/screensMobile/MobileHome01/MobileHome.css" />
         <option value="$PROJECT_DIR$/public/index.html" />
         <option value="$PROJECT_DIR$/public/manifest.json" />
-        <option value="$PROJECT_DIR$/src/mobile/componentsMobile/PopUps/CallActionPopUP/CallActionPopUP.js" />
         <option value="$PROJECT_DIR$/src/App.js" />
         <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/src/mobile/componentsMobile/PopUps/CallActionPopUP/CallActionPopUP.js" />
+        <option value="$PROJECT_DIR$/src/mobile/screensMobile/MobileHome01/MobileHome01.js" />
       </list>
     </option>
   </component>
@@ -463,18 +462,18 @@
       <workItem from="1563459603847" duration="13417000" />
       <workItem from="1563897330540" duration="2758000" />
       <workItem from="1564226000301" duration="1130000" />
-      <workItem from="1564332313630" duration="1508000" />
+      <workItem from="1564332313630" duration="1780000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="151145000" />
+    <option name="totallyTimeSpent" value="151417000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21639542" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21639542" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -489,7 +488,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="GraphQL" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.2520408" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.2520408" />
       <window_info anchor="bottom" id="TypeScript" order="12" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -717,16 +716,6 @@
     <entry file="file://$PROJECT_DIR$/public/favicon.ico">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/mobile/screensMobile/MobileHome01/MobileHome01.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="765">
-          <caret line="69" column="70" selection-start-line="69" selection-start-column="54" selection-end-line="69" selection-end-column="70" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/package-lock.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -802,32 +791,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/mobile/componentsMobile/ActionToCall/ActionToCall.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="645">
-          <caret line="43" column="28" selection-start-line="43" selection-start-column="28" selection-end-line="43" selection-end-column="28" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/routes.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="371">
           <caret line="78" column="51" selection-start-line="78" selection-start-column="51" selection-end-line="78" selection-end-column="51" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/mobile/componentsMobile/PopUps/CallActionPopUP/CallActionPopUP.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="76" selection-start-line="23" selection-start-column="76" selection-end-line="23" selection-end-column="76" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -846,6 +815,36 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
           <caret line="29" column="28" selection-start-line="29" selection-start-column="14" selection-end-line="29" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mobile/componentsMobile/PopUps/CallActionPopUP/CallActionPopUP.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" selection-start-line="23" selection-end-line="24" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mobile/componentsMobile/ActionToCall/ActionToCall.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="43" column="28" selection-start-line="43" selection-start-column="28" selection-end-line="43" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mobile/screensMobile/MobileHome01/MobileHome01.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="118" selection-start-line="118" selection-end-line="118" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

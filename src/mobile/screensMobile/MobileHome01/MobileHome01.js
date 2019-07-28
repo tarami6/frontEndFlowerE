@@ -115,7 +115,7 @@ class MobileHome01 extends Component {
                     </div>
                     <div className={"textComInfo01"} onClick={() => this.props.eventGA("CallToAction", "Whats button more flowers", "MobileHomePage")}>
                         <h4 >
-                            <a className={'lightGreyColor'} href="whatsapp://send?text=היי אני רוצה להזמין זר &phone=+972547574737">
+                            <a className={'lightGreyColor'}href="https://wa.me/+972547574737/?text=שלום אני רוצה להזמין זר">
                                 ניתן לראות זרים נוספים
                                 <Whatsapp size={40} color={"#fff"} className={"whatspIconCircle"}/>
                             </a>
