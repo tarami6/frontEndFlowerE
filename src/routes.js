@@ -76,7 +76,7 @@ class Routes extends Component {
             <Router history={history}>
                 <div>
                     <Route exact path="/" render={() => {
-                        if (this.state.width > 510 )
+                        if (!isMobile)
                             return <DeskHome1 eventGA={Event} />
                         return <MobileHome01 pageView={PageView} eventGA={Event} />
                     }}/>

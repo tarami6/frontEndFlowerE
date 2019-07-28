@@ -33,12 +33,12 @@
 }
 
 .callButtonContainer {
-    width: 17vw;
-    height: 17vw;
+    width: 12vw;
+    height: 12vw;
     margin-left: var(--main-padding);
     position: fixed;
-    left: 4vh;
-    bottom: 13vh;
+    left: 1vh;
+    bottom: 10vh;
     z-index: 3;
     background-color: #87d774;
     border-radius: 100%;

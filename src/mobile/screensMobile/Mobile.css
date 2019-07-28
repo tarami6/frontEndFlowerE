@@ -130,8 +130,6 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    box-shadow:0px 0px 5px 18px rgba(135, 215, 116,0.4), inset 0px 0px 0px rgba(0, 0, 0, .2);
-    -webkit-appearance: none;
 }
 .w-50pr {
   width: 50%
