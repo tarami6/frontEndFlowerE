@@ -6,7 +6,7 @@ import sagol from "../../mobile/assetsMobile/buquetsMobile/sagol.jpg"
 // icons
 import fastDeliveryIcon from "../../mobile/assetsMobile/imagesMobile/bottomIcons/fastDeliveryIcon.png";
 import freshDlowersIcon from "../../mobile/assetsMobile/imagesMobile/bottomIcons/freshDlowersIcon.png";
-import uniqueDesignIcon from "../../mobile/assetsMobile/imagesMobile/bottomIcons/uniqueDesignIcon.png";
+import uniqueDesignIcon from "../../mobile/assetsMobile/imagesMobile/bottomIcons/uniqueDesign.jpg";
 
 import flowerBox01 from "../../mobile/assetsMobile/productPage/flowerBox01.jpg"
 import flowerBox02 from "../../mobile/assetsMobile/productPage/flowerBox02.jpg";

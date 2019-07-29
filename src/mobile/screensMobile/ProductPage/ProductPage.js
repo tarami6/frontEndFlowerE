@@ -7,17 +7,22 @@ import Footer from '../../componentsMobile/Footer/Footer'
 
 import MdArrowBack from 'react-icons/lib/md/arrow-forward';
 import ActionToCall from "../../componentsMobile/ActionToCall/ActionToCall";
+import {flowersMobile} from "../../../services/Const/const";
 
 
 class ProductPage extends Component {
+    constructor(props) {
+        super(props);
+        this.pause = this.pause.bind(this);
+    }
     componentDidMount() {
         console.log("componentDidMount", this.props.location)
         window.scrollTo(0, 0)
 
     }
 
-    componentWillUnmount() {
-
+    pause() {
+        this.sliderProduct.slickPause();
     }
 
     render() {
@@ -27,7 +32,8 @@ class ProductPage extends Component {
             speed: 500,
             autoplay: true,
             autoplaySpeed: 3000,
-            infinite: false
+            infinite: false,
+            afterChange: () => this.pause()
         };
         let {name, story, price, description, productSlider} = this.props.location.state.productInfo;
         this.props.pageView("MobileProductPage " + name)
@@ -40,7 +46,7 @@ class ProductPage extends Component {
                         </button>
                     </Link>
                 </div>
-                <Slider {...settings1}>
+                <Slider ref={slider => (this.sliderProduct = slider)} {...settings1}>
                     {
                         productSlider && productSlider.map(pic => {
                             return (
@@ -52,7 +58,6 @@ class ProductPage extends Component {
                     }
                 </Slider>
                 <div className={'display-flex ptb-30'}>
-
                     <div className={'w-50pr m-0'}>
                         <p className={'pl-4vw pr-4vw m-0 price-text mb-5'}>
                             {price} ש"ח

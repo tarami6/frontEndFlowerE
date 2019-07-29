@@ -1,9 +1,5 @@
 
-.firstContainer {
-    display: flex;
-    width: 100vw;
-    height: 100vh;
-}
+
 
 .firstContainerBackground {
     width: 100vw;
@@ -429,21 +425,20 @@ a {
 }
 .bottomIconsContainer {
     width: 100vw;
-    height: 20vh;
+    height: 150vw;
     display: flex;
-    flex-direction: row-reverse !important;
+    flex-direction: column-reverse;
     align-items: center;
     justify-content: space-between;
     padding: 0 10px;
-    margin: 8vh 0;
+    margin-top: 5vh;
 }
 .bottomIconsImage{
-    width: 25vw;
-    height: 25vw;
-    opacity: 0.3;
+    width: 40vw;
+    height: 40vw;
 }
 .bottomIconsImageContainer{
-    width: 25vw;
+    width: 100vw;
     height: 40vw;
     display: flex;
     flex-direction: column;
@@ -455,18 +450,51 @@ a {
 .textComInfo01{
     padding: 10px;
 }
+.privateOrderConteiner{
+    width: 100vw;
+    height: 100vw;
+    background-image: url("../../assetsMobile/imagesMobile/orderPrivate.jpg");
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 5vw;
+    padding-right: 5vw;
+}
+.privateOrderText{
+    color: #000;
+    font-size: 28px;
+    padding-right: 10px;
+    padding-left: 10px;
+    font-weight: bold;
+    text-align: right;
+    align-self: flex-start;
+    margin-top: -20px;
+}
+.privateOrderTextInto{
+    color: #676767;
+    font-size: 20px;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-bottom: 4vh;
+    line-height: 20px;
+   }
 
 .title01{
     font-weight: bold;
 }
 .iconTitle{
     text-align: center;
+    font-size: 24px;
 }
 .forUServiceTextContainer{
     padding: 10px;
+    margin-top: 5vh;
     height: 20vh;
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 .mobileLogoContainer {

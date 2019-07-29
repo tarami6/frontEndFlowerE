@@ -3,7 +3,6 @@ import {Route, Router} from 'react-router-dom';
 import {isMobile} from 'react-device-detect';
 import MobileHome01 from './mobile/screensMobile/MobileHome01/MobileHome01';
 import ProductPage from './mobile/screensMobile/ProductPage/ProductPage';
-import DeskHome from './desktop/screensDesktop/DeskHome/DeskHome';
 import DeskHome1 from './desktop/screensDesktop/DeskHome1/DeskHome1';
 import DeskHome2 from './desktop/screensDesktop/DeskHome2/DeskHome2';
 import ReactGA from 'react-ga';
@@ -37,8 +36,6 @@ function PageView(page){
 
 ReactPixel.init('2856091371283259', {}, { debug: true, autoConfig: false });
 hotjar.initialize(1410349,6);
-
-
 
 
 
@@ -80,7 +77,6 @@ class Routes extends Component {
                             return <DeskHome1 eventGA={Event} />
                         return <MobileHome01 pageView={PageView} eventGA={Event} />
                     }}/>
-                    <Route path="/deskHome" component={DeskHome} eventGA={Event}/>
                     <Route path="/deskHome1" component={DeskHome1} eventGA={Event}/>
                     <Route path="/deskHome2" component={DeskHome2} eventGA={Event}/>
                     <Route path="/productPage" component={Product} />

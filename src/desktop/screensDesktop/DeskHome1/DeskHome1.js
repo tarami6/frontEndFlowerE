@@ -8,7 +8,6 @@ import Phone from 'react-icons/lib/fa/phone';
 import Instagram from 'react-icons/lib/fa/instagram';
 import Facebook from 'react-icons/lib/fa/facebook';
 import Linkedin from 'react-icons/lib/fa/linkedin';
-import Twitter from 'react-icons/lib/fa/twitter';
 
 
 class DeskHome1 extends React.Component {
@@ -18,24 +17,7 @@ class DeskHome1 extends React.Component {
             flowers: flowersMobile,
             flowerLoad: false
         }
-        // this.myRefDektop = React.createRef()
     }
-
-    // componentDidMount() {
-    //   console.log('mobileHome didi mount')
-    //   this.handleScroll()
-    // }
-
-
-    // handleScroll = () => {
-    //   const { index, selected } = this.props
-    //   if (index === selected) {
-    //     const that = this
-    //     setTimeout(() => {
-    //       that.myRefDektop.current.scrollIntoView({ behavior: 'smooth' })
-    //     }, 1500)
-    //   }
-    // }
 
     render() {
         return (
@@ -48,8 +30,8 @@ class DeskHome1 extends React.Component {
                             </div>
                             <div className='phoneHeaderContainer'>
                                 <div className="">
-                                    <p className='phone-text'>972-054-229-1101+</p>
-                                    <p className='phone-text'>05422911011</p>
+                                    <p className='phone-text'>972-054-671-2717+</p>
+                                    <p className='phone-text'>0546712717</p>
                                 </div>
                                 <div className='phone-icon-div'>
                                     <Phone size={24} color={"#eec368"}/>
