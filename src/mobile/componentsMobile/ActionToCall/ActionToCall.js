@@ -8,7 +8,12 @@ class ActionToCall extends Component {
         super(props)
         this.state = {
             callToActionPopUp: false,
+            showButton: false,
         }
+    }
+
+    componentDidMount() {
+        window.addEventListener('scroll', this.addActionButton)
     }
 
     callAction = (action, button, page) => {
@@ -22,10 +27,21 @@ class ActionToCall extends Component {
         this.setState({callToActionPopUp: false})
     }
 
+    addActionButton = () => {
+        console.log("YYY", window.pageYOffset)
+        let y = window.pageYOffset
+        if (y > 150 && !this.state.showButton) {
+            this.setState({showButton: true})
+        }
+        console.log("stt", this.state)
+    }
+
 
     render() {
         let showPopUp = this.state.callToActionPopUp
-
+        let showMe = this.state.showButton
+        console.log("showMe",showMe)
+        if(!showMe) return null
         return (
             <div>
                 {
@@ -36,10 +52,9 @@ class ActionToCall extends Component {
                     />
                     :
                         <div onClick={() => this.callAction("CallToAction", "BuyButton", this.props.page)} >
-                            <button   className={'buy-now-btn'}> קניה</button>
+                            <button   className={'buy-now-btn'}>להזמנה</button>
                         </div>
                 }
-
                 {showPopUp &&
                 <CallActionPopUP
                     page={this.props.page}

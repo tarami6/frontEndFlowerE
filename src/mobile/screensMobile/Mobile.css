@@ -100,6 +100,11 @@ body{
     margin-bottom: -238px;
     margin-left: 5.7vw;
 }
+.productButtonHolder{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
 .titleOboveTheFloerSlider{
     padding-right: 5vw;
     font-weight: lighter;
@@ -253,6 +258,9 @@ form {
     color: #fff;
     text-align: center;
     padding-top: 30px;
+}
+.versionText{
+    font-size: 8px;
 }
 
 

@@ -5,6 +5,7 @@ import Close from "react-icons/lib/md/clear";
 
 const CallActionPopUP = (props) => {
     return (
+
         <Zoom duration={1000}>
             <div className={'callActionPopUP'}>
 
@@ -17,7 +18,7 @@ const CallActionPopUP = (props) => {
                     </div>
                     <div className={'buttonsHolder'}>
                         <div className={'callToButton'} onClick={() => props.eventGA("Phone", "Phone pressed", props.page)}>
-                            <a lassName={'callToButton'} href="tel:0547574737" target="_blank" >חייג </a>
+                            <a lassName={'callToButton'} href="tel:0546712717" target="_blank" >חייג </a>
                         </div>
                         <div className={'separatorCallButton'}/>
                         <div className={'whatUpButton'} onClick={() => props.eventGA("WhatsUpButton", "WhatsUpButton button pressed", props.page)}>

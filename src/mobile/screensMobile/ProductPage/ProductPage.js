@@ -7,7 +7,6 @@ import Footer from '../../componentsMobile/Footer/Footer'
 
 import MdArrowBack from 'react-icons/lib/md/arrow-forward';
 import ActionToCall from "../../componentsMobile/ActionToCall/ActionToCall";
-import {flowersMobile} from "../../../services/Const/const";
 
 
 class ProductPage extends Component {
@@ -15,10 +14,10 @@ class ProductPage extends Component {
         super(props);
         this.pause = this.pause.bind(this);
     }
+
     componentDidMount() {
         console.log("componentDidMount", this.props.location)
         window.scrollTo(0, 0)
-
     }
 
     pause() {
