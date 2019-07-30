@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cf6233b1-380a-47a6-88cf-bf5b7addc960" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/mobile/screensMobile/Mobile.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/mobile/screensMobile/Mobile.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -46,8 +45,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/mobile/screensMobile/ProductPage/ProductPage.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="551">
-                  <caret line="67" column="45" selection-start-line="67" selection-start-column="45" selection-end-line="67" selection-end-column="45" />
+                <state relative-caret-position="176">
+                  <caret line="42" column="67" lean-forward="true" selection-start-line="42" selection-start-column="59" selection-end-line="42" selection-end-column="67" />
                   <folding>
                     <element signature="e#0#39#0" expanded="true" />
                   </folding>
@@ -58,7 +57,7 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/mobile/componentsMobile/ProductItem/ProductItem.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="354">
+                <state relative-caret-position="387">
                   <caret line="29" column="99" selection-start-line="29" selection-start-column="99" selection-end-line="29" selection-end-column="99" />
                   <folding>
                     <element signature="e#0#25#0" expanded="true" />
@@ -108,8 +107,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/mobile/screensMobile/Mobile.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="309">
-                  <caret line="25" column="17" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
+                <state relative-caret-position="204">
+                  <caret line="247" column="14" selection-start-line="247" selection-start-column="14" selection-end-line="247" selection-end-column="14" />
                 </state>
               </provider>
             </entry>
@@ -408,12 +407,12 @@
       <workItem from="1564226000301" duration="1130000" />
       <workItem from="1564332313630" duration="4396000" />
       <workItem from="1564406111314" duration="11917000" />
-      <workItem from="1564499781429" duration="10773000" />
+      <workItem from="1564499781429" duration="11011000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="176723000" />
+    <option name="totallyTimeSpent" value="176961000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="6" />
@@ -759,7 +758,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/mobile/componentsMobile/ProductItem/ProductItem.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="354">
+        <state relative-caret-position="387">
           <caret line="29" column="99" selection-start-line="29" selection-start-column="99" selection-end-line="29" selection-end-column="99" />
           <folding>
             <element signature="e#0#25#0" expanded="true" />
@@ -769,8 +768,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/mobile/screensMobile/ProductPage/ProductPage.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="551">
-          <caret line="67" column="45" selection-start-line="67" selection-start-column="45" selection-end-line="67" selection-end-column="45" />
+        <state relative-caret-position="176">
+          <caret line="42" column="67" lean-forward="true" selection-start-line="42" selection-start-column="59" selection-end-line="42" selection-end-column="67" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
@@ -779,8 +778,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/mobile/screensMobile/Mobile.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="309">
-          <caret line="25" column="17" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
+        <state relative-caret-position="204">
+          <caret line="247" column="14" selection-start-line="247" selection-start-column="14" selection-end-line="247" selection-end-column="14" />
         </state>
       </provider>
     </entry>
