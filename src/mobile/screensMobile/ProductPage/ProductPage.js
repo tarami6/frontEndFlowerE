@@ -66,7 +66,7 @@ class ProductPage extends Component {
                         </p>
                     </div>
                     <div className={'w-50pr pl-2vh'} style={{zIndex: 3}} >
-                        <ActionToCall page={"Product Mobile" + name} eventGA={this.props.eventGA}/>
+                        <ActionToCall show={true} page={"Product Mobile" + name} eventGA={this.props.eventGA}/>
                     </div>
                 </div>
 

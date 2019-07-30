@@ -40,8 +40,8 @@ class ActionToCall extends Component {
     render() {
         let showPopUp = this.state.callToActionPopUp
         let showMe = this.state.showButton
-        console.log("showMe",showMe)
-        if(!showMe) return null
+        console.log("showMe01",this.props)
+        if(!showMe && !this.props.show) return null
         return (
             <div>
                 {
