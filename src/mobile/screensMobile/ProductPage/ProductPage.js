@@ -34,7 +34,7 @@ class ProductPage extends Component {
             infinite: false,
             afterChange: () => this.pause()
         };
-        let {name, story, price, description, productSlider} = this.props.location.state.productInfo;
+        let {name, story, price, description, productSlider, sell, procentege} = this.props.location.state.productInfo;
         this.props.pageView("MobileProductPage " + name)
         return (
             <div style={{direction: "rtl"}}>
@@ -58,9 +58,17 @@ class ProductPage extends Component {
                 </Slider>
                 <div className={'display-flex ptb-30'}>
                     <div className={'w-50pr m-0'}>
-                        <p className={'pl-4vw pr-4vw m-0 price-text mb-5'}>
-                            {price} ש"ח
-                        </p>
+                        {
+                            sell ?
+                                <p className={'pl-4vw pr-4vw m-0 price-text mb-5'}>
+                                      {price * procentege} ש"ח <span className={'sellPriceStrike'}><strike>{price}</strike></span>
+                                </p>
+                                :
+                                <p className={'pl-4vw pr-4vw m-0 price-text mb-5'}>
+                                    {price} ש"ח
+                                </p>
+                        }
+
                         <p className={'pr-4vw m-0 fs-14 sub-t-c'}>
                             {description}
                         </p>

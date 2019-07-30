@@ -34,7 +34,10 @@ import purpleBuquet02 from "../../mobile/assetsMobile/productPage/purpleBuquet02
 export const flowersMobile = [
     {
         name: 'אהבה בוערת',
-        price: 'החל מ: 150',
+        sell: true,
+        procentege: 0.9,
+        sells: 25,
+        price: '270',
         image: flowerBox,
         description: "סידור ורדים בקופסא",
         story: 'אני מאוהב בך, אני לא בהכחשה עצמית, אני נהנה לומר דברים אמיתיים. אני מאוהב בך, ואני יודע שאהבה היא רק צעקה אל תוך החלל, אני יודע  שמהאדמה באנו ולאדמה נשוב, ואני מאוהב בך',
@@ -42,7 +45,10 @@ export const flowersMobile = [
     },
     {
         name: 'תשוקה אינסופית',
-        price: 'החל מ: 120',
+        price: '200',
+        sell: true,
+        procentege: 0.8,
+        sells: 29,
         image: rosesbuquet,
         productSlider:[rosesBuquet01,rosesBuquet02],
         description: "זר וורדים עשיר",
@@ -50,7 +56,9 @@ export const flowersMobile = [
     },
     {
         name: 'נעורים בוורוד',
-        price: 'החל מ: 120',
+        price: '120',
+        sells: 19,
+        sell: false,
         image: zivoni,
         productSlider:[pinkTeen01,pinkTeen02],
         description: "זר גרברות יפייפה",
@@ -58,7 +66,9 @@ export const flowersMobile = [
     },
     {
         name: 'טיול בגן',
-        price: 'החל מ: 80',
+        price: '100',
+        sells: 45,
+        sell: false,
         image: hamaniotbuquet,
         productSlider:[sunFlower01,sunFlower02],
         description: "זר חמניות גרברות וליזאנטוס",
@@ -66,7 +76,9 @@ export const flowersMobile = [
     },
     {
         name: 'סגול בטבע',
-        price: 'החל מ: 120',
+        sells: 12,
+        price: '150',
+        sell: false,
         image: sagol,
         productSlider:[purpleBuquet01,purpleBuquet02],
         description: "זר שושן צחור ליזאנטוס וחרצית",
@@ -75,11 +87,14 @@ export const flowersMobile = [
     },
     {
         name: 'אהבה בוערת',
-        price: 'החל מ: 150',
+        sell: true,
+        procentege: 0.9,
+        sells: 25,
+        price: '270',
         image: flowerBox,
-        productSlider:[flowerBox01,flowerBox02],
-        description: "סידור וורדים בקופסא איכותית",
-        story: 'אני מאוהב בך, אני לא בהכחשה עצמית, אני נהנה לומר דברים אמיתיים. אני מאוהב בך, ואני יודעת שאהבה היא רק צעקה אל תוך החלל, אני יודע  שמהאדמה באנו ולאדמה נשוב, ואני מאוהב בך'
+        description: "סידור ורדים בקופסא",
+        story: 'אני מאוהב בך, אני לא בהכחשה עצמית, אני נהנה לומר דברים אמיתיים. אני מאוהב בך, ואני יודע שאהבה היא רק צעקה אל תוך החלל, אני יודע  שמהאדמה באנו ולאדמה נשוב, ואני מאוהב בך',
+        productSlider:[flowerBox01,flowerBox02]
     },
 ];
 

@@ -1,13 +1,11 @@
 import React, {Component} from 'react';
 import '../Mobile.css'
 import './MobileHome.css';
-import {Link} from 'react-router-dom';
 
 
 import Slider from "react-slick";
 
 import ActionToCall from '../../componentsMobile/ActionToCall/ActionToCall'
-import CallActionPopUP from '../../componentsMobile/PopUps/CallActionPopUP/CallActionPopUP'
 import Footer from '../../componentsMobile/Footer/Footer'
 import ProducttItem from '../../componentsMobile/ProductItem/ProductItem'
 import BottomIcons from '../../componentsMobile/BottomIcons/BottomIcons'
@@ -95,7 +93,7 @@ class MobileHome01 extends Component {
                         <p className={'serviceTitle lightGreyColor'}> אנחנו לשירותכם <Smile size={30}
                                                                                             color={"#c0c0c0"}/></p>
                     </div>
-                        <ActionToCall show={false}  page={"HomePageMobile"} homePage={true} eventGA={this.props.eventGA}/>
+                        <ActionToCall show={false} ref={() => this.action}  page={"HomePageMobile"} homePage={true} eventGA={this.props.eventGA}/>
                 </div>
                 <Footer page={"HomePageMobile"} eventGA={this.props.eventGA}/>
             </div>
