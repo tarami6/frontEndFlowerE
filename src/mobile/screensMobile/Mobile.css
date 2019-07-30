@@ -162,13 +162,13 @@ body {
     display: flex;
     align-items: center;
     margin: 0;
-    font-size: 16px;
+    font-size: 14px;
     color: #efc368;
     direction: rtl;
 }
 
 .buquetPriceTextSell {
-    font-size: 14px;
+    font-size: 12px;
     height: 10vw;
     display: flex;
     align-items: center;
