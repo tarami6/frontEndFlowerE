@@ -11,7 +11,7 @@ const Footer = (props) => {
             <div className={'footerMobile'}>
                 <div className={'p-15 footerTitle'} >
                     <p className={'foot-text'}>© 2019. All rights reserved  <a href="https://idt.co.il/">IDT</a>
-                        <span className={'versionText'}> Version: 1.1.0</span>
+                        <span className={'versionText'}> Version: 1.1.1</span>
                     </p>
                 </div>
                 <div className={'p-15 display-flex'} onClick={() => props.eventGA("SocialButton", "Facebook", props.page)}>
