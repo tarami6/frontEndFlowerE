@@ -27,11 +27,11 @@ const ProductItem = (props) => {
                                 <div className={'priceHolderText'}>
                                     { sell ?
                                         <Fragment>
-                                            <p className={'buquetPriceText'}>{price * procentege} ש"ח </p>
+                                            <p className={'buquetPriceText'}>{price * procentege} ₪ </p>
                                             <p className={'buquetPriceTextSell'}><strike>{price} </strike> </p>
                                         </Fragment>
                                         :
-                                        <p className={'buquetPriceText'}>{price} ש"ח </p>
+                                        <p className={'buquetPriceText'}>{price} ₪ </p>
                                     }
                                 </div>
                                     <p className={'howManyBuysText'}>השבוע קנו-{sellWeek}</p>

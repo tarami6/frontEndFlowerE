@@ -61,11 +61,11 @@ class ProductPage extends Component {
                         {
                             sell ?
                                 <p className={'pl-4vw pr-4vw m-0 price-text mb-5'}>
-                                      {price * procentege} ש"ח <span className={'sellPriceStrike'}><strike>{price}</strike></span>
+                                      {price * procentege} ₪ <span className={'sellPriceStrike'}><strike>{price}</strike></span>
                                 </p>
                                 :
                                 <p className={'pl-4vw pr-4vw m-0 price-text mb-5'}>
-                                    {price} ש"ח
+                                    {price} ₪
                                 </p>
                         }
 
