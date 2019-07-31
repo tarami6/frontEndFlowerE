@@ -6,7 +6,7 @@ const ProductItem = (props) => {
         let {image, name, price, description, sell, procentege, sells} = product
         let d = new Date();
         let day = d.getDay()
-        let sellWeek = day * 0.5 * sells
+        let sellWeek = Math.round(day * 0.5 * sells)
         console.log("product", product)
         return (
             <div key={Math.random()} className=" w-50pr" onClick={() => {
