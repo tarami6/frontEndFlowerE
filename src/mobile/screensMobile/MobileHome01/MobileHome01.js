@@ -57,7 +57,7 @@ class MobileHome01 extends Component {
             className: "Slider",
             autoplay: true,
             autoplaySpeed: 3000,
-            infinite: false,
+            infinite: true,
             afterChange: () => this.pause()
         };
 

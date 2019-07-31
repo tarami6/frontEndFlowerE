@@ -31,7 +31,7 @@ class ProductPage extends Component {
             speed: 500,
             autoplay: true,
             autoplaySpeed: 3000,
-            infinite: false,
+            infinite: true,
             afterChange: () => this.pause()
         };
         let {name, story, price, description, productSlider, sell, procentege} = this.props.location.state.productInfo;
