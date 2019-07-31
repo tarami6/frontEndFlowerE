@@ -9,7 +9,7 @@ import ActionToCall from '../../componentsMobile/ActionToCall/ActionToCall'
 import Footer from '../../componentsMobile/Footer/Footer'
 import ProducttItem from '../../componentsMobile/ProductItem/ProductItem'
 import BottomIcons from '../../componentsMobile/BottomIcons/BottomIcons'
-
+import {bottomIcons} from '../../../services/Const/const';
 
 import sliderTuBeav from "../../assetsMobile/imagesMobile/sliderHomePage/toBeAv.jpg";
 import womanSmileMission from "../../assetsMobile/imagesMobile/sliderHomePage/womanSmileMission.jpg";

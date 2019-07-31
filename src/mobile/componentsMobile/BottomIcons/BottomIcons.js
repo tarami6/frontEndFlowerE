@@ -5,8 +5,10 @@ const BottomIcons = () => {
     let icons = bottomIcons.map(icon => {
         return (
             <div key={Math.random()} className={"bottomIconsImageContainer"}>
-                <img src={icon.image} className={"bottomIconsImage"} alt=""/>
-                <p className={"iconTitle lightGreyColor"}>{icon.title}</p>
+                <p className={"iconTitle lightGreyColor"}><img src={icon.image} className={"bottomIconsImage"} alt=""/>{icon.title}</p>
+                <p className={'iconDescription'}>
+                    {icon.description}
+                </p>
             </div>
         )
     })
