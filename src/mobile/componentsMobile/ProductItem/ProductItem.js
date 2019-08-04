@@ -18,7 +18,6 @@ const ProductItem = (props) => {
                         >
                         <div className={"sellIcon"}>
                             {sell &&  <p className={'sellTextIcon'}>מבצע</p>}
-
                         </div>
                         <div className={"productText"}>
                             <p className={'buquetNameText'}>{name}</p>
