@@ -1,8 +1,8 @@
-import flowerBox from "../../mobile/assetsMobile/buquetsMobile/flowerBox.jpg";
-import rosesbuquet from "../../mobile/assetsMobile/buquetsMobile/rosesbuquet.jpg";
-import zivoni from "../../mobile/assetsMobile/buquetsMobile/zivoni.jpg";
-import hamaniotbuquet from "../../mobile/assetsMobile/buquetsMobile/hamaniotbuquet.jpg";
-import sagol from "../../mobile/assetsMobile/buquetsMobile/sagol.jpg"
+import flowerBox from "../../mobile/assetsMobile/buquetsMobile/flowerBoxShow.jpg";
+import rosesbuquet from "../../mobile/assetsMobile/buquetsMobile/rosesBuquetShow.jpg";
+import zivoni from "../../mobile/assetsMobile/buquetsMobile/tiulBaganShow.jpg";
+import hamaniotbuquet from "../../mobile/assetsMobile/buquetsMobile/hamaniotbuquetShow.jpg";
+import sagol from "../../mobile/assetsMobile/buquetsMobile/sagolBatevaShow.jpg"
 // icons
 import fastDeliveryIcon from "../../mobile/assetsMobile/imagesMobile/bottomIcons/fastDeliveryIcon.png";
 import freshDlowersIcon from "../../mobile/assetsMobile/imagesMobile/bottomIcons/freshDlowersIcon.png";
