@@ -6,6 +6,7 @@ const ProductItem = (props) => {
         let {image, name, price, description, sell, procentege, sells} = product
         let d = new Date();
         let day = d.getDay()
+        if(day === 0) day = 0.5
         let sellWeek = Math.round(day * 0.5 * sells)
         console.log("product", product)
         return (
