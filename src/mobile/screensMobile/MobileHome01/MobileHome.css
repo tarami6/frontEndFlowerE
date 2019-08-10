@@ -449,8 +449,9 @@ a {
 }
 .privateOrderConteiner{
     width: 100vw;
-    height: 100vw;
+    height: 66.6vw;
     background-image: url("../../assetsMobile/imagesMobile/orderPrivate.jpg");
+    margin-bottom: 20px;
     background-size: cover;
     display: flex;
     align-items: center;

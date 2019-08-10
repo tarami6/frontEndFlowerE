@@ -17,30 +17,25 @@ class ActionToCall extends Component {
     }
 
     callAction = (action, button, page) => {
-        console.log("callAction")
         this.setState({callToActionPopUp: true})
         this.props.eventGA(action, button, page)
     }
 
     exitPopUp = () => {
-        console.log("exitPopUp")
         this.setState({callToActionPopUp: false})
     }
 
     addActionButton = () => {
-        console.log("YYY", window.pageYOffset)
         let y = window.pageYOffset
         if (y > 150 && !this.state.showButton) {
             this.setState({showButton: true})
         }
-        console.log("stt", this.state)
     }
 
 
     render() {
         let showPopUp = this.state.callToActionPopUp
         let showMe = this.state.showButton
-        console.log("showMe01",this.props)
         if(!showMe && !this.props.show) return null
         return (
             <div>

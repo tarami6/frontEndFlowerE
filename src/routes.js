@@ -68,7 +68,6 @@ class Routes extends Component {
     }
 
     render() {
-        console.log("isMobile",isMobile)
         return (
             <Router history={history}>
                 <div>

@@ -16,7 +16,6 @@ class ProductPage extends Component {
     }
 
     componentDidMount() {
-        console.log("componentDidMount", this.props.location)
         window.scrollTo(0, 0)
     }
 
@@ -34,13 +33,13 @@ class ProductPage extends Component {
             infinite: true,
             afterChange: () => this.pause()
         };
-        let {name, story, price, description, productSlider, sell, procentege, priceSizes} = this.props.location.state.productInfo;
+        let {name, story,  description, productSlider, sell, procentege, priceSizes} = this.props.location.state.productInfo;
         this.props.pageView("MobileProductPage " + name)
         return (
             <div style={{direction: "rtl"}}>
-                <div class={'back-btn-div p-22-0'}>
+                <div className={'back-btn-div p-22-0'}>
                     <Link to={"/"}>
-                        <button class={'pull-left, p-fixed back-btn'}>
+                        <button className={'pull-left, p-fixed back-btn'}>
                             <MdArrowBack size={25} color={"#efc368"}/>
                         </button>
                     </Link>
@@ -60,7 +59,6 @@ class ProductPage extends Component {
                     <div className={'priceCategory'}>
                         {
                             priceSizes.map((price, index) => {
-                                console.log("size", index)
                                 let size = ['רגיל', 'גדול', 'ענק']
                                 return (
                                     <Fragment key={price}>
