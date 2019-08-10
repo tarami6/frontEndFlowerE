@@ -11,7 +11,7 @@ import Logo from '../../componentsMobile/Logo/Logo'
 
 import Smile from "react-icons/lib/fa/smile-o";
 // produts
-import { flowersMobile } from '../../../services/Const/const';
+import {flowersMobile} from '../../../services/Const/const';
 
 
 class MobileHome01 extends Component {
@@ -38,20 +38,21 @@ class MobileHome01 extends Component {
         return (
             <div>
                 <div>
-                    <SliderHome />
-                   <Logo/>
+                    <SliderHome/>
+                    <Logo/>
                     <div className="mt-20">
                         <ProducttItem products={this.state.products} eventGA={this.props.eventGA}/>
                     </div>
                     <div className={'bottomIconsContainer'}>
-                        <BottomIcons />
+                        <BottomIcons/>
                     </div>
 
                     <div className={'forUServiceTextContainer'}>
                         <p className={'serviceTitle lightGreyColor'}> זר ביד לשירותכם <Smile size={30}
-                                                                                            color={"#c0c0c0"}/></p>
+                                                                                             color={"#c0c0c0"}/></p>
                     </div>
-                        <ActionToCall show={false} ref={() => this.action}  page={"HomePageMobile"} homePage={true} eventGA={this.props.eventGA}/>
+                    <ActionToCall show={false} ref={() => this.action} page={"HomePageMobile"} homePage={true}
+                                  eventGA={this.props.eventGA}/>
                 </div>
                 <Footer page={"HomePageMobile"} eventGA={this.props.eventGA}/>
             </div>

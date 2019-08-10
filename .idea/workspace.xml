@@ -2,8 +2,41 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cf6233b1-380a-47a6-88cf-bf5b7addc960" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mobile/assetsMobile/productPage/flowerBox01.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/mobile/assetsMobile/imagesMobile/productPage/flowerBox01.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mobile/assetsMobile/productPage/flowerBox02.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/mobile/assetsMobile/imagesMobile/productPage/flowerBox02.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mobile/assetsMobile/productPage/hagigatHava01.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/mobile/assetsMobile/imagesMobile/productPage/hagigatHava01.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mobile/assetsMobile/productPage/hagigatHavaTopView01.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/mobile/assetsMobile/imagesMobile/productPage/hagigatHavaTopView01.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mobile/assetsMobile/productPage/hamanit01.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/mobile/assetsMobile/imagesMobile/productPage/hamanit01.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mobile/assetsMobile/productPage/hamanit02.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/mobile/assetsMobile/imagesMobile/productPage/hamanit02.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mobile/assetsMobile/productPage/malcatHacfar01.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/mobile/assetsMobile/imagesMobile/productPage/malcatHacfar01.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mobile/assetsMobile/productPage/malcatHacfar02.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/mobile/assetsMobile/imagesMobile/productPage/malcatHacfar02.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mobile/assetsMobile/productPage/miLeidyWhite01.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/mobile/assetsMobile/imagesMobile/productPage/miLeidyWhite01.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mobile/assetsMobile/productPage/miLeidyWhite02.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/mobile/assetsMobile/imagesMobile/productPage/miLeidyWhite02.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mobile/assetsMobile/productPage/nesihaBelavan01.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/mobile/assetsMobile/imagesMobile/productPage/nesihaBelavan01.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mobile/assetsMobile/productPage/nesihaBelavan02.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/mobile/assetsMobile/imagesMobile/productPage/nesihaBelavan02.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mobile/assetsMobile/productPage/pinkTeen01.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/mobile/assetsMobile/imagesMobile/productPage/pinkTeen01.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mobile/assetsMobile/productPage/pinkTeen02.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/mobile/assetsMobile/imagesMobile/productPage/pinkTeen02.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mobile/assetsMobile/productPage/purpleBuquet01.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/mobile/assetsMobile/imagesMobile/productPage/purpleBuquet01.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mobile/assetsMobile/productPage/purpleBuquet02.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/mobile/assetsMobile/imagesMobile/productPage/purpleBuquet02.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mobile/assetsMobile/productPage/regaShelOsher01.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/mobile/assetsMobile/imagesMobile/productPage/regaShelOsher01.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mobile/assetsMobile/productPage/regaShelOsher02.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/mobile/assetsMobile/imagesMobile/productPage/regaShelOsher02.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mobile/assetsMobile/productPage/regaTvei01.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/mobile/assetsMobile/imagesMobile/productPage/regaTvei01.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mobile/assetsMobile/productPage/regaTvei02.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/mobile/assetsMobile/imagesMobile/productPage/regaTvei02.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mobile/assetsMobile/productPage/rosesBuquet01.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/mobile/assetsMobile/imagesMobile/productPage/rosesBuquet01.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mobile/assetsMobile/productPage/rosesBuquet02.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/mobile/assetsMobile/imagesMobile/productPage/rosesBuquet02.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mobile/assetsMobile/productPage/rosesBuquet03.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mobile/assetsMobile/productPage/sunFlower01.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/mobile/assetsMobile/imagesMobile/productPage/sunFlower01.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mobile/assetsMobile/productPage/sunFlower02.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/mobile/assetsMobile/imagesMobile/productPage/sunFlower02.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mobile/assetsMobile/productPage/yomYafe01.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/mobile/assetsMobile/imagesMobile/productPage/yomYafe01.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mobile/assetsMobile/productPage/yomYafe02.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/mobile/assetsMobile/imagesMobile/productPage/yomYafe02.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mobile/assetsMobile/productPage/zrihaMukdemet01.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/mobile/assetsMobile/imagesMobile/productPage/zrihaMukdemet01.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mobile/assetsMobile/productPage/zrihaMukdemet02.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/mobile/assetsMobile/imagesMobile/productPage/zrihaMukdemet02.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mobile/assetsMobile/productPage/zrihatBoker01.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/mobile/assetsMobile/imagesMobile/productPage/zrihatBoker01.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mobile/assetsMobile/productPage/zrihatBoker02.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/mobile/assetsMobile/imagesMobile/productPage/zrihatBoker02.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mobile/screensMobile/MobileHome01/MobileHome01.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/mobile/screensMobile/MobileHome01/MobileHome01.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/services/Const/const.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/Const/const.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -17,182 +50,98 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/mobile/screensMobile/MobileHome01/MobileHome01.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="430">
-                  <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
-                  <folding>
-                    <element signature="e#0#39#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/mobile/componentsMobile/PrivateOrder/PrivateOrder.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="75">
-                  <caret line="5" column="46" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="46" />
-                  <folding>
-                    <element signature="e#0#26#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/mobile/componentsMobile/ProductItem/ProductItem.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state>
-                  <caret column="7" lean-forward="true" selection-start-column="7" selection-end-column="7" />
-                  <folding>
-                    <element signature="e#0#37#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/services/Const/const.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="959">
-                  <caret line="125" column="5" lean-forward="true" selection-start-line="125" selection-start-column="5" selection-end-line="125" selection-end-column="5" />
-                  <folding>
-                    <element signature="e#9#112#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/mobile/componentsMobile/ActionToCall/ActionToCall.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="75">
-                  <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
-                  <folding>
-                    <element signature="e#0#39#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/mobile/screensMobile/ProductPage/ProductPage.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="464">
-                  <caret line="39" column="32" selection-start-line="39" selection-start-column="32" selection-end-line="39" selection-end-column="32" />
-                  <folding>
-                    <element signature="e#0#49#0" expanded="true" />
-                    <marker date="1565450564081" expanded="true" signature="484:542" ph="..." />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/mobile/componentsMobile/ActionToCall/ActionToCall.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="136">
-                  <caret line="31" column="9" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
-                  <folding>
-                    <element signature="e#0#39#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/mobile/componentsMobile/Logo/Logo.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="165">
-                  <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
-                  <folding>
-                    <element signature="e#0#25#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/mobile/componentsMobile/ProductItem/ProductItem.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="210">
-                  <caret line="14" column="29" lean-forward="true" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
-                  <folding>
-                    <element signature="e#0#37#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/mobile/screensMobile/Mobile.css">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="371">
-                  <caret line="69" column="24" lean-forward="true" selection-start-line="69" selection-start-column="24" selection-end-line="69" selection-end-column="24" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/mobile/screensMobile/MobileHome01/MobileHome.css">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="415">
-                  <caret line="464" column="20" lean-forward="true" selection-start-line="464" selection-start-column="20" selection-end-line="464" selection-end-column="20" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/App.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="180">
-                  <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
-                  <folding>
-                    <element signature="e#0#26#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/package.json">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="272">
-                  <caret line="29" column="28" selection-start-line="29" selection-start-column="28" selection-end-line="29" selection-end-column="28" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/../../yptolo01/blooming-dawn-75726/package.json">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="375">
-                  <caret line="25" column="28" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="28" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/services/Const/const.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="165">
-                  <caret line="70" column="21" lean-forward="true" selection-start-line="70" selection-start-column="21" selection-end-line="70" selection-end-column="21" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/mobile/componentsMobile/ActionToCall/ActionToCall.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="31" column="9" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/mobile/componentsMobile/ProductItem/ProductItem.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
+              <folding>
+                <element signature="e#0#37#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/mobile/screensMobile/Mobile.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="371">
+              <caret line="69" column="24" selection-start-line="69" selection-start-column="24" selection-end-line="69" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/mobile/screensMobile/MobileHome01/MobileHome.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="415">
+              <caret line="464" column="20" selection-start-line="464" selection-start-column="20" selection-end-line="464" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/App.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="435">
+              <caret line="29" column="33" selection-start-line="29" selection-start-column="33" selection-end-line="29" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="349">
+              <caret line="37" column="8" selection-start-line="37" selection-start-column="8" selection-end-line="37" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../yptolo01/blooming-dawn-75726/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="375">
+              <caret line="25" column="28" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/services/Const/const.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="390">
+              <caret line="26" column="78" selection-start-line="26" selection-start-column="78" selection-end-line="26" selection-end-column="78" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -228,10 +177,10 @@
       <find>flowerBox</find>
       <find>privateOrderConteiner</find>
       <find>class</find>
-      <find>PrivateOrder</find>
       <find>13</find>
       <find>15</find>
       <find>17</find>
+      <find>PrivateOrder</find>
       <find>addActionButton</find>
     </findStrings>
     <replaceStrings>
@@ -296,12 +245,12 @@
         <option value="$PROJECT_DIR$/src/mobile/componentsMobile/ProductItem/ProductItem.js" />
         <option value="$PROJECT_DIR$/src/mobile/screensMobile/MobileHome01/MobileHome.css" />
         <option value="$PROJECT_DIR$/src/mobile/componentsMobile/ActionToCall/ActionToCall.js" />
-        <option value="$PROJECT_DIR$/src/mobile/screensMobile/MobileHome01/MobileHome01.js" />
         <option value="$PROJECT_DIR$/src/routes.js" />
         <option value="$PROJECT_DIR$/src/mobile/screensMobile/ProductPage/ProductPage.js" />
-        <option value="$PROJECT_DIR$/src/services/Const/const.js" />
+        <option value="$PROJECT_DIR$/src/mobile/screensMobile/MobileHome01/MobileHome01.js" />
         <option value="$PROJECT_DIR$/src/App.js" />
         <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/src/services/Const/const.js" />
       </list>
     </option>
   </component>
@@ -335,6 +284,11 @@
             <path>
               <item name="igarde" type="b2602c69:ProjectViewProjectNode" />
               <item name="igarde" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="igarde" type="b2602c69:ProjectViewProjectNode" />
+              <item name="igarde" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -364,6 +318,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="mobile" type="462c0819:PsiDirectoryNode" />
               <item name="assetsMobile" type="462c0819:PsiDirectoryNode" />
+              <item name="imagesMobile" type="462c0819:PsiDirectoryNode" />
               <item name="productPage" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -430,11 +385,11 @@
       <recent name="$PROJECT_DIR$/src/desktop/assetsDesktop/imagesDesk/desktopBuquets" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/mobile/assetsMobile/imagesMobile" />
       <recent name="$PROJECT_DIR$/src/mobile/assetsMobile/productPage" />
       <recent name="$PROJECT_DIR$/src/mobile/screensMobile" />
       <recent name="$PROJECT_DIR$/src/mobile/assetsMobile" />
       <recent name="$PROJECT_DIR$/src/mobile/assetsMobile/imagesMobile/bottomIcons" />
-      <recent name="$PROJECT_DIR$/src/mobile/screensMobile/MobileHome01" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -508,18 +463,18 @@
       <workItem from="1565190877338" duration="1488000" />
       <workItem from="1565276339296" duration="2269000" />
       <workItem from="1565428169276" duration="4521000" />
-      <workItem from="1565434295356" duration="12318000" />
+      <workItem from="1565434295356" duration="13764000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="211598000" />
+    <option name="totallyTimeSpent" value="213044000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1598" height="961" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15662651" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21179454" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -607,48 +562,6 @@
     </option>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/node_modules/react-horizontal-scrolling-menu/build/types.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="780">
-          <caret line="52" column="13" selection-start-line="52" selection-start-column="9" selection-end-line="52" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/react-horizontal-scrolling-menu/build/scrollMenu.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1572">
-          <caret line="1" column="15" selection-start-line="1" selection-start-column="15" selection-end-line="1" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/mobile/componentsMobile/ContentContainer/ContentContainer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="50" selection-start-line="2" selection-start-column="50" selection-end-line="2" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/mobile/screensMobile/MobileHome/MobileHome.js" />
-    <entry file="file://$PROJECT_DIR$/src/mobile/assetsMobile/imagesMobile/bottomIcons/uniqueDesignIcon.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/mobile/assetsMobile/imagesMobile/bottomIcons/freshDlowersIcon.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/mobile/assetsMobile/imagesMobile/bottomIcons/fastDeliveryIcon.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/mobile/assetsMobile/mobileLogo.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/desktop/screensDesktop/DeskHome/DeskHome.css" />
     <entry file="file://$PROJECT_DIR$/src/mobile/screensMobile/MobileHome01/slider.css" />
     <entry file="file://$PROJECT_DIR$/node_modules/react-icons/lib/fa/whatsapp.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -700,13 +613,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="465">
           <caret line="31" selection-start-line="31" selection-end-line="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="545">
-          <caret line="37" column="8" selection-start-line="37" selection-start-column="8" selection-end-line="37" selection-end-column="8" />
         </state>
       </provider>
     </entry>
@@ -828,7 +734,7 @@
     <entry file="file://$PROJECT_DIR$/src/mobile/screensMobile/Mobile.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="371">
-          <caret line="69" column="24" lean-forward="true" selection-start-line="69" selection-start-column="24" selection-end-line="69" selection-end-column="24" />
+          <caret line="69" column="24" selection-start-line="69" selection-start-column="24" selection-end-line="69" selection-end-column="24" />
         </state>
       </provider>
     </entry>
@@ -842,16 +748,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/mobile/assetsMobile/productPage/zrihatBoker02.jpg">
+    <entry file="file://$PROJECT_DIR$/src/mobile/assetsMobile/imagesMobile/productPage/zrihatBoker02.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/mobile/assetsMobile/productPage/zrihatBoker01.jpg">
+    <entry file="file://$PROJECT_DIR$/src/mobile/assetsMobile/imagesMobile/productPage/zrihatBoker01.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/mobile/screensMobile/MobileHome01/MobileHome.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="415">
-          <caret line="464" column="20" lean-forward="true" selection-start-line="464" selection-start-column="20" selection-end-line="464" selection-end-column="20" />
+          <caret line="464" column="20" selection-start-line="464" selection-start-column="20" selection-end-line="464" selection-end-column="20" />
         </state>
       </provider>
     </entry>
@@ -879,27 +785,10 @@
     <entry file="file://$PROJECT_DIR$/src/mobile/componentsMobile/ProductItem/ProductItem.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
-          <caret line="14" column="29" lean-forward="true" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
+          <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
           <folding>
             <element signature="e#0#37#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/mobile/screensMobile/MobileHome01/MobileHome01.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="430">
-          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/services/Const/const.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="70" column="21" lean-forward="true" selection-start-line="70" selection-start-column="21" selection-end-line="70" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -913,16 +802,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../../yptolo01/blooming-dawn-75726/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
@@ -930,10 +809,74 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/mobile/screensMobile/MobileHome01/MobileHome01.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mobile/assetsMobile/imagesMobile/productPage/regaTvei02.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mobile/assetsMobile/imagesMobile/productPage/flowerBox02.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mobile/assetsMobile/imagesMobile/productPage/flowerBox01.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mobile/assetsMobile/imagesMobile/productPage/regaTvei01.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mobile/assetsMobile/imagesMobile/productPage/pinkTeen02.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mobile/assetsMobile/imagesMobile/productPage/pinkTeen01.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mobile/assetsMobile/imagesMobile/productPage/yomYafe01.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mobile/assetsMobile/imagesMobile/productPage/hamanit02.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mobile/assetsMobile/imagesMobile/productPage/hamanit01.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="349">
+          <caret line="37" column="8" selection-start-line="37" selection-start-column="8" selection-end-line="37" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="29" column="28" selection-start-line="29" selection-start-column="28" selection-end-line="29" selection-end-column="28" />
+        <state relative-caret-position="435">
+          <caret line="29" column="33" selection-start-line="29" selection-start-column="33" selection-end-line="29" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mobile/assetsMobile/imagesMobile/productPage/yomYafe02.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/services/Const/const.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="78" selection-start-line="26" selection-start-column="78" selection-end-line="26" selection-end-column="78" />
         </state>
       </provider>
     </entry>

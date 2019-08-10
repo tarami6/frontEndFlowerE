@@ -5,47 +5,48 @@ import uniqueDesignIcon from "../../mobile/assetsMobile/imagesMobile/bottomIcons
 import securePeyment from "../../mobile/assetsMobile/imagesMobile/bottomIcons/securePeyment.jpg";
 
 
-import flowerBox01 from "../../mobile/assetsMobile/productPage/flowerBox01.jpg"
-import flowerBox02 from "../../mobile/assetsMobile/productPage/flowerBox02.jpg";
+import flowerBox from "../../mobile/assetsMobile/imagesMobile/homePageProduct/flowerBox.jpg"
+import flowerBox01 from "../../mobile/assetsMobile/imagesMobile/productPage/flowerBox01.jpg"
+import flowerBox02 from "../../mobile/assetsMobile/imagesMobile/productPage/flowerBox02.jpg";
 
-import rosesBuquet01 from "../../mobile/assetsMobile/productPage/rosesBuquet01.jpg";
-import rosesBuquet02 from "../../mobile/assetsMobile/productPage/rosesBuquet02.jpg";
+import rosesBuquet01 from "../../mobile/assetsMobile/imagesMobile/productPage/rosesBuquet01.jpg";
+import rosesBuquet02 from "../../mobile/assetsMobile/imagesMobile/productPage/rosesBuquet02.jpg";
 
-import pinkTeen01 from "../../mobile/assetsMobile/productPage/pinkTeen01.jpg";
-import pinkTeen02 from "../../mobile/assetsMobile/productPage/pinkTeen02.jpg";
+import pinkTeen01 from "../../mobile/assetsMobile/imagesMobile/productPage/pinkTeen01.jpg";
+import pinkTeen02 from "../../mobile/assetsMobile/imagesMobile/productPage/pinkTeen02.jpg";
 
-import sunFlower01 from "../../mobile/assetsMobile/productPage/sunFlower01.jpg";
-import sunFlower02 from "../../mobile/assetsMobile/productPage/sunFlower02.jpg";
+import sunFlower01 from "../../mobile/assetsMobile/imagesMobile/productPage/sunFlower01.jpg";
+import sunFlower02 from "../../mobile/assetsMobile/imagesMobile/productPage/sunFlower02.jpg";
 
-import purpleBuquet01 from "../../mobile/assetsMobile/productPage/purpleBuquet01.jpg";
-import purpleBuquet02 from "../../mobile/assetsMobile/productPage/purpleBuquet02.jpg";
+import purpleBuquet01 from "../../mobile/assetsMobile/imagesMobile/productPage/purpleBuquet01.jpg";
+import purpleBuquet02 from "../../mobile/assetsMobile/imagesMobile/productPage/purpleBuquet02.jpg";
 
-import hagigatHava01 from "../../mobile/assetsMobile/productPage/hagigatHava01.jpg";
-import hagigatHava02 from "../../mobile/assetsMobile/productPage/hagigatHavaTopView01.jpg";
+import hagigatHava01 from "../../mobile/assetsMobile/imagesMobile/productPage/hagigatHava01.jpg";
+import hagigatHava02 from "../../mobile/assetsMobile/imagesMobile/productPage/hagigatHavaTopView01.jpg";
 
-import miLeidyWhite01 from "../../mobile/assetsMobile/productPage/miLeidyWhite01.jpg";
-import miLeidyWhite02 from "../../mobile/assetsMobile/productPage/miLeidyWhite02.jpg";
+import miLeidyWhite01 from "../../mobile/assetsMobile/imagesMobile/productPage/miLeidyWhite01.jpg";
+import miLeidyWhite02 from "../../mobile/assetsMobile/imagesMobile/productPage/miLeidyWhite02.jpg";
 
-import yomYafe01 from "../../mobile/assetsMobile/productPage/yomYafe01.jpg";
-import yomYafe02 from "../../mobile/assetsMobile/productPage/yomYafe02.jpg";
+import yomYafe01 from "../../mobile/assetsMobile/imagesMobile/productPage/yomYafe01.jpg";
+import yomYafe02 from "../../mobile/assetsMobile/imagesMobile/productPage/yomYafe02.jpg";
 
-import regaTvei01 from "../../mobile/assetsMobile/productPage/regaTvei01.jpg";
-import regaTvei02 from "../../mobile/assetsMobile/productPage/regaTvei01.jpg";
+import regaTvei01 from "../../mobile/assetsMobile/imagesMobile/productPage/regaTvei01.jpg";
+import regaTvei02 from "../../mobile/assetsMobile/imagesMobile/productPage/regaTvei01.jpg";
 
-import zrihaMukdemet01 from "../../mobile/assetsMobile/productPage/zrihaMukdemet01.jpg";
-import zrihaMukdemet02 from "../../mobile/assetsMobile/productPage/zrihaMukdemet02.jpg";
+import zrihaMukdemet01 from "../../mobile/assetsMobile/imagesMobile/productPage/zrihaMukdemet01.jpg";
+import zrihaMukdemet02 from "../../mobile/assetsMobile/imagesMobile/productPage/zrihaMukdemet02.jpg";
 
-import nesihaBelavan01 from "../../mobile/assetsMobile/productPage/nesihaBelavan01.jpg";
-import nesihaBelavan02 from "../../mobile/assetsMobile/productPage/nesihaBelavan02.jpg";
+import nesihaBelavan01 from "../../mobile/assetsMobile/imagesMobile/productPage/nesihaBelavan01.jpg";
+import nesihaBelavan02 from "../../mobile/assetsMobile/imagesMobile/productPage/nesihaBelavan02.jpg";
 
-import malcatHacfar01 from "../../mobile/assetsMobile/productPage/malcatHacfar01.jpg"
-import malcatHacfar02 from "../../mobile/assetsMobile/productPage/malcatHacfar02.jpg"
+import malcatHacfar01 from "../../mobile/assetsMobile/imagesMobile/productPage/malcatHacfar01.jpg"
+import malcatHacfar02 from "../../mobile/assetsMobile/imagesMobile/productPage/malcatHacfar02.jpg"
 
-import regaShelOsher01 from "../../mobile/assetsMobile/productPage/regaShelOsher01.jpg";
-import regaShelOsher02 from "../../mobile/assetsMobile/productPage/regaShelOsher02.jpg";
+import regaShelOsher01 from "../../mobile/assetsMobile/imagesMobile/productPage/regaShelOsher01.jpg";
+import regaShelOsher02 from "../../mobile/assetsMobile/imagesMobile/productPage/regaShelOsher02.jpg";
 
-import hamanit01 from "../../mobile/assetsMobile/productPage/hamanit01.jpg"
-import hamanit02 from "../../mobile/assetsMobile/productPage/hamanit02.jpg";
+import hamanit01 from "../../mobile/assetsMobile/imagesMobile/productPage/hamanit01.jpg"
+import hamanit02 from "../../mobile/assetsMobile/imagesMobile/productPage/hamanit02.jpg";
 
 
 
@@ -69,7 +70,7 @@ export const flowersMobile = [
         sells: 25,
         price: '260',
         priceSizes: ['260', '310', '390'],
-        image: flowerBox01,
+        image: flowerBox,
         description: "סידור ורדים בקופסא",
         story: 'אני מאוהב בך, אני לא בהכחשה עצמית, אני נהנה לומר דברים אמיתיים. אני מאוהב בך, ואני יודע שאהבה היא רק צעקה אל תוך החלל, אני יודע  שמהאדמה באנו ולאדמה נשוב, ואני מאוהב בך',
         productSlider: [flowerBox01, flowerBox02]
