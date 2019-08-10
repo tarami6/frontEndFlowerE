@@ -69,7 +69,7 @@ class Routes extends Component {
 
     render() {
         return (
-            <Router history={history}>
+            <Router  history={history}>
                 <div>
                     <Route exact path="/" render={() => {
                         if (!isMobile)

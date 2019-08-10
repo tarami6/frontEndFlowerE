@@ -39,7 +39,7 @@ class ProductPage extends Component {
             <div style={{direction: "rtl"}}>
                 <div className={'back-btn-div p-22-0'}>
                     <Link to={"/"}>
-                        <button className={'pull-left, p-fixed back-btn'}>
+                        <button class={'pull-left, p-fixed back-btn'}>
                             <MdArrowBack size={25} color={"#efc368"}/>
                         </button>
                     </Link>

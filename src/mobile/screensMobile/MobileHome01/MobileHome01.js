@@ -6,7 +6,6 @@ import ActionToCall from '../../componentsMobile/ActionToCall/ActionToCall'
 import Footer from '../../componentsMobile/Footer/Footer'
 import ProducttItem from '../../componentsMobile/ProductItem/ProductItem'
 import BottomIcons from '../../componentsMobile/BottomIcons/BottomIcons'
-import PrivateOrder from '../../componentsMobile/PrivateOrder/PrivateOrder'
 import SliderHome from '../../componentsMobile/Slider/SliderHome'
 import Logo from '../../componentsMobile/Logo/Logo'
 
@@ -24,7 +23,6 @@ class MobileHome01 extends Component {
         }
     }
 
-
     exitPopUp = () => {
         this.setState({callToActionPopUp: false})
     }
@@ -32,6 +30,7 @@ class MobileHome01 extends Component {
     componentDidMount() {
         this.props.pageView("MobileHome")
     }
+
 
     render() {
 

@@ -32,6 +32,10 @@ class ActionToCall extends Component {
         }
     }
 
+    componentWillUnmount() {
+        window.removeEventListener('scroll', this.addActionButton)
+    }
+
 
     render() {
         let showPopUp = this.state.callToActionPopUp

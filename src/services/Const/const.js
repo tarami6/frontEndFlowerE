@@ -26,6 +26,40 @@ import hagigatHava02 from "../../mobile/assetsMobile/productPage/hagigatHavaTopV
 import miLeidyWhite01 from "../../mobile/assetsMobile/productPage/miLeidyWhite01.jpg";
 import miLeidyWhite02 from "../../mobile/assetsMobile/productPage/miLeidyWhite02.jpg";
 
+import yomYafe01 from "../../mobile/assetsMobile/productPage/yomYafe01.jpg";
+import yomYafe02 from "../../mobile/assetsMobile/productPage/yomYafe02.jpg";
+
+import regaTvei01 from "../../mobile/assetsMobile/productPage/regaTvei01.jpg";
+import regaTvei02 from "../../mobile/assetsMobile/productPage/regaTvei01.jpg";
+
+import zrihaMukdemet01 from "../../mobile/assetsMobile/productPage/zrihaMukdemet01.jpg";
+import zrihaMukdemet02 from "../../mobile/assetsMobile/productPage/zrihaMukdemet02.jpg";
+
+import nesihaBelavan01 from "../../mobile/assetsMobile/productPage/nesihaBelavan01.jpg";
+import nesihaBelavan02 from "../../mobile/assetsMobile/productPage/nesihaBelavan02.jpg";
+
+import malcatHacfar01 from "../../mobile/assetsMobile/productPage/malcatHacfar01.jpg"
+import malcatHacfar02 from "../../mobile/assetsMobile/productPage/malcatHacfar02.jpg"
+
+import regaShelOsher01 from "../../mobile/assetsMobile/productPage/regaShelOsher01.jpg";
+import regaShelOsher02 from "../../mobile/assetsMobile/productPage/regaShelOsher02.jpg";
+
+import hamanit01 from "../../mobile/assetsMobile/productPage/hamanit01.jpg"
+import hamanit02 from "../../mobile/assetsMobile/productPage/hamanit02.jpg";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 export const flowersMobile = [
     {
@@ -56,7 +90,7 @@ export const flowersMobile = [
         name: 'חגיגת אהבה',
         sell: true,
         procentege: 0.9,
-        sells: 20,
+        sells: 22,
         price: '200',
         priceSizes: ["200", '270', '350'],
         image: hagigatHava01,
@@ -65,7 +99,7 @@ export const flowersMobile = [
         productSlider: [hagigatHava01, hagigatHava02]
     },
     {
-        name: 'מיליידי וויט',
+        name: 'מיליידי ווייט',
         sell: true,
         procentege: 0.9,
         sells: 20,
@@ -112,6 +146,85 @@ export const flowersMobile = [
         description: "זר גרברות יפייפה",
         story: 'היום, פשוט קחי את  הזמן להריח את הזר, תהני מהדברים הקטנים של החיים , המשפחה שלך, בן זוג, חברים, עבודה. שכחי מהכל - ותהני מהחיים'
     },
+    {
+        name: 'יום יפה',
+        price: '80',
+        priceSizes: ["80", '110', '150'],
+        sells: 12,
+        sell: false,
+        image: yomYafe01,
+        productSlider: [yomYafe01, yomYafe02],
+        description: "זר גרברות וחרציות יפייפה",
+        story: 'ראו שהיום  ביום ביום היפה הזה, יש לכם כמות מדהימה של הזדמנויות להזיז את חייכם לכיוון הרצוי.'
+    },
+    {
+        name: 'רגע טבעי',
+        price: '80',
+        priceSizes: ["80", '110', '150'],
+        sells: 13,
+        sell: false,
+        image: regaTvei01,
+        productSlider: [regaTvei01 , regaTvei02],
+        description: "זר גרברות וחרציות יפייפה",
+        story: 'אני אוהבת לעשות קניות ברשת, אני גם אוהבת ללכת ברחובות ביום יפה ולמצוא עוד דברים שאני יכולה לגלות בחנות קטנה או בחנות וינטאג.'
+    },
+    {
+        name: 'זריחה מוקדמת',
+        price: '70',
+        priceSizes: ["70", '90', '110'],
+        sells: 16,
+        sell: false,
+        image: zrihaMukdemet01,
+        productSlider: [zrihaMukdemet01 , zrihaMukdemet02],
+        description: "זר חמניות שמש יפייפה",
+        story: 'תמיד יש סיפור. הכל סיפורים, באמת. השמש שעולה כל יום זה סיפור. לכל דבר יש סיפור. לשנות את הסיפור, לשנות את העולם.'
+    },
+    {
+        name: 'נסיכה בלבן',
+        price: '90',
+        priceSizes: ["90", '130', '180'],
+        sells: 16,
+        sell: false,
+        image: nesihaBelavan01,
+        productSlider: [nesihaBelavan01 , nesihaBelavan02],
+        description: "שושן צחור וליזיאנטוס",
+        story: 'אני נסיכה. כל הבנות הן. גם אם הן גרות בעליית הגג הקטנה והזקנה. גם אם הן מתלבשות בסמרטוטים, גם אם הן לא יפות, או חכמות, או צעירות. הן עדיין נסיכות.'
+    },
+    {
+        name: 'מלכת הכפר',
+        price: '140',
+        priceSizes: ["140", '180', '270'],
+        sells: 16,
+        sell: false,
+        image: malcatHacfar01,
+        productSlider: [malcatHacfar01 , malcatHacfar02],
+        description: "זר סייפן מהמם",
+        story: 'היא למדה לא מספרים, אלא בשדות, ביער, על גדת הנהר. המורים שלה היו הציפורים עצמן, כששרו לה, השמש כשהיא השאירה מאחוריה זוהר של ארגמן, העצים, עם רוח ועשבי הבר.'
+    },
+    {
+        name: 'רגע של אושר',
+        price: '40',
+        priceSizes: ["40", '65', '95'],
+        sells: 16,
+        sell: false,
+        image: regaShelOsher01,
+        productSlider: [regaShelOsher01 , regaShelOsher02],
+        description: "ליליה חרצית וגרברה",
+        story: 'אומרים שאדם זקוק רק לשלושה דברים כדי להיות מאושר באמת בעולם הזה: מישהו לאהוב, משהו לעשות ומשהו לקוות לו.'
+    },
+    {
+        name: 'חמנית',
+        price: '55',
+        priceSizes: ["55"],
+        sells: 16,
+        sell: false,
+        image: hamanit01,
+        productSlider: [hamanit01 , hamanit02],
+        description: "חמניה עם אגרטל",
+        story: 'בין מיליוני ימים שעברו למיליוני ימים שיבואו. אני לא רוצה שיעבור אפילו יום אחד מבלי שתדעי שאני חושב עלייך.'
+    },
+
+
 
 ];
 
