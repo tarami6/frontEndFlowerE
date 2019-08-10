@@ -31,7 +31,7 @@ import yomYafe01 from "../../mobile/assetsMobile/imagesMobile/productPage/yomYaf
 import yomYafe02 from "../../mobile/assetsMobile/imagesMobile/productPage/yomYafe02.jpg";
 
 import regaTvei01 from "../../mobile/assetsMobile/imagesMobile/productPage/regaTvei01.jpg";
-import regaTvei02 from "../../mobile/assetsMobile/imagesMobile/productPage/regaTvei01.jpg";
+import regaTvei02 from "../../mobile/assetsMobile/imagesMobile/productPage/regaTvei02.jpg";
 
 import zrihaMukdemet01 from "../../mobile/assetsMobile/imagesMobile/productPage/zrihaMukdemet01.jpg";
 import zrihaMukdemet02 from "../../mobile/assetsMobile/imagesMobile/productPage/zrihaMukdemet02.jpg";

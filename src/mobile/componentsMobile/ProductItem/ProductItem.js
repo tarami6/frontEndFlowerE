@@ -11,9 +11,9 @@ const ProductItem = (props) => {
         let sellWeek = Math.round(day * 0.5 * sells)
         if(index === 6) {
             return (
-                <Fragment>
+                <Fragment key={Math.random()}>
                     < PrivateOrder eventGA={props.eventGA}/>
-                    <div key={Math.random()} className=" w-50pr" onClick={() => {
+                    <div  className=" w-50pr" onClick={() => {
                         props.eventGA("Flower pressed", name, "Home Page Mobile")
                     }}>
                         <Link to={{pathname: '/productPage', state: {productInfo: product}}}>
