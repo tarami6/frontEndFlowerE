@@ -242,11 +242,14 @@
 .display-block {
     display: flow-root
 }
-
-.w-50pr {
-    width: 50%
+.priceCategory{
+    /*background-color: red;*/
 }
-
+.priceCategoryHolder{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
 .mr-2vh {
     margin-right: 2vh
 }
@@ -540,11 +543,20 @@ a {
     margin-right: 3vw;
     padding: 2px;
 }
+.priceAndOrder{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3vh 0;
+    box-shadow: 2px 2px 10px #eee;
+}
+.nameAndDescription{
+    padding: 3vh 0px;
+}
 
-
-
-
-
+.currentPriceHolder{
+ opacity: 0.4;
+}
 
 
 

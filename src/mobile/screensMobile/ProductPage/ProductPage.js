@@ -1,4 +1,4 @@
-import React, {Component} from 'react';
+import React, {Component, Fragment} from 'react';
 import '../Mobile.css'
 import Slider from "react-slick";
 import {Link} from 'react-router-dom';
@@ -34,7 +34,7 @@ class ProductPage extends Component {
             infinite: true,
             afterChange: () => this.pause()
         };
-        let {name, story, price, description, productSlider, sell, procentege} = this.props.location.state.productInfo;
+        let {name, story, price, description, productSlider, sell, procentege, priceSizes} = this.props.location.state.productInfo;
         this.props.pageView("MobileProductPage " + name)
         return (
             <div style={{direction: "rtl"}}>
@@ -56,34 +56,61 @@ class ProductPage extends Component {
                         })
                     }
                 </Slider>
-                <div className={'display-flex ptb-30'}>
-                    <div className={'w-50pr m-0'}>
+                <div className={'priceAndOrder'}>
+                    <div className={'priceCategory'}>
                         {
-                            sell ?
-                                <p className={'pl-4vw pr-4vw m-0 price-text mb-5'}>
-                                      {price * procentege} ₪ <span className={'sellPriceStrike'}><strike>{price}</strike></span>
-                                </p>
-                                :
-                                <p className={'pl-4vw pr-4vw m-0 price-text mb-5'}>
-                                    {price} ₪
-                                </p>
-                        }
+                            priceSizes.map((price, index) => {
+                                console.log("size", index)
+                                let size = ['רגיל', 'גדול', 'ענק']
+                                return (
+                                    <Fragment key={price}>
+                                        {
+                                            sell ?
+                                                <div
+                                                    className={index === 0 ? 'priceCategoryHolder' : 'priceCategoryHolder currentPriceHolder'}>
+                                                    <p className={' pr-4vw  price-text '}>
+                                                        {size[index]}
+                                                    </p>
+                                                    <p className={'pl-4vw pr-4vw m-0 price-text mb-5'}>
+                                                        {price * procentege} ₪ <span
+                                                        className={'sellPriceStrike'}><strike>{price}</strike></span>
+                                                    </p>
 
-                        <p className={'pr-4vw m-0 fs-14 sub-t-c'}>
-                            {description}
-                        </p>
+                                                </div>
+
+                                                :
+                                                <div
+                                                    className={index === 0 ? 'priceCategoryHolder' : 'priceCategoryHolder currentPriceHolder'}>
+                                                    <p className={' pr-4vw  price-text '}>
+                                                        {size[index]}
+                                                    </p>
+                                                    <p className={'pl-4vw pr-4vw m-0 price-text mb-5'}>
+                                                        {price} ₪
+                                                    </p>
+                                                </div>
+                                        }
+                                    </Fragment>
+
+                                )
+                            })
+                        }
                     </div>
-                    <div className={'w-50pr pl-2vh'} style={{zIndex: 3}} >
+                    <div className={'w-50pr pl-2vh'} style={{zIndex: 3}}>
                         <ActionToCall show={true} page={"Product Mobile" + name} eventGA={this.props.eventGA}/>
+
                     </div>
+
                 </div>
 
-                <div className={'display-block mb-50'}>
+                <div className={'nameAndDescription'}>
                     <p className={'pl-4vw pr-4vw m-0 price-text mb-5 fs-18'}>
                         {name}
                     </p>
                     <p className={'pl-4vw pr-4vw m-0 price-text mb-5 fs-16 ta-left lh sub-t-c mt-5'}>
                         {story}
+                    </p>
+                    <p className={'pl-4vw pr-4vw m-0 price-text mb-5 fs-18'}>
+                        {description}
                     </p>
                 </div>
                 <Footer page={"ProductPageMobile"} eventGA={this.props.eventGA}/>

@@ -18,7 +18,7 @@ const CallActionPopUP = (props) => {
                     </div>
                     <div className={'buttonsHolder'}>
                         <div className={'callToButton'} onClick={() => props.eventGA("Phone", "Phone pressed", props.page)}>
-                            <a lassName={'callToButton'} href="tel:0546712717" target="_blank" >חייג </a>
+                            <a lassName={'callToButton'} href="tel:0546712717"  >חייג </a>
                         </div>
                         <div className={'separatorCallButton'}/>
                         <div className={'whatUpButton'} onClick={() => props.eventGA("WhatsUpButton", "WhatsUpButton button pressed", props.page)}>
