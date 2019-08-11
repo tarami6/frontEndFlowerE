@@ -1,7 +1,7 @@
 import React, {Component, Fragment} from 'react';
 import '../Mobile.css'
 import Slider from "react-slick";
-import {Link} from 'react-router-dom';
+import { withRouter } from 'react-router-dom';
 
 import Footer from '../../componentsMobile/Footer/Footer'
 
@@ -38,11 +38,9 @@ class ProductPage extends Component {
         return (
             <div style={{direction: "rtl"}}>
                 <div className={'back-btn-div p-22-0'}>
-                    <Link to={"/"}>
-                        <button class={'pull-left, p-fixed back-btn'}>
+                        <button onClick={this.props.history.goBack} class={'pull-left, p-fixed back-btn'}>
                             <MdArrowBack size={25} color={"#efc368"}/>
                         </button>
-                    </Link>
                 </div>
                 <Slider ref={slider => (this.sliderProduct = slider)} {...settings1}>
                     {
@@ -118,4 +116,4 @@ class ProductPage extends Component {
     }
 }
 
-export default ProductPage;
+export default withRouter(ProductPage)
