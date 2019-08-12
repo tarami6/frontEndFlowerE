@@ -77,9 +77,10 @@ class ProductPage extends Component {
                                                 :
                                                 <div
                                                     className={index === 0 ? 'priceCategoryHolder' : 'priceCategoryHolder currentPriceHolder'}>
-                                                    <p className={' pr-4vw  price-text '}>
+                                                    {priceSizes.length > 1 &&
+                                                        <p className={' pr-4vw  price-text '}>
                                                         {size[index]}
-                                                    </p>
+                                                    </p>}
                                                     <p className={'pl-4vw pr-4vw m-0 price-text mb-5'}>
                                                         {price} ₪
                                                     </p>

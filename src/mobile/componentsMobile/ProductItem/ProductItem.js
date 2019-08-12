@@ -12,7 +12,7 @@ const ProductItem = (props) => {
         if(index === 6) {
             return (
                 <Fragment key={Math.random()}>
-                    < PrivateOrder eventGA={props.eventGA}/>
+                    <PrivateOrder eventGA={props.eventGA}/>
                     <div  className=" w-50pr" onClick={() => {
                         props.eventGA("Flower pressed", name, "Home Page Mobile")
                     }}>

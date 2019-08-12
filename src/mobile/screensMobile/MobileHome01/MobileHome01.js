@@ -12,7 +12,7 @@ import Logo from '../../componentsMobile/Logo/Logo'
 import Smile from "react-icons/lib/fa/smile-o";
 // produts
 import {flowersMobile} from '../../../services/Const/const';
-
+import imageAziz from '../../assetsMobile/imagesMobile/productPage/sahlavLavan01.jpg'
 
 class MobileHome01 extends Component {
     constructor(props) {
@@ -43,6 +43,7 @@ class MobileHome01 extends Component {
                     <div className="mt-20">
                         <ProducttItem products={this.state.products} eventGA={this.props.eventGA}/>
                     </div>
+
                     <div className={'bottomIconsContainer'}>
                         <BottomIcons/>
                     </div>

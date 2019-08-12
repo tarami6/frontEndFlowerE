@@ -558,6 +558,11 @@ a {
 .currentPriceHolder{
  opacity: 0.4;
 }
-
+.potCategoryHolder{
+    width: 100vw;
+    height: 100vw;
+    background-color: red;
+    background-size: 100vw 100vw;
+}
 
 
