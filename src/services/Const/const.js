@@ -102,7 +102,7 @@ export const flowersMobile = [
     },
     {
         name: 'נסיכה בלבן',
-        price: '90',
+        price: '100',
         sell: true,
         procentege: 0.9,
         priceSizes: ["100", '140', '200'],
