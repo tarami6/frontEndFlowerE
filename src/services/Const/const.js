@@ -101,6 +101,18 @@ export const flowersMobile = [
         productSlider: [hagigatHava01, hagigatHava02]
     },
     {
+        name: 'נסיכה בלבן',
+        price: '90',
+        sell: true,
+        procentege: 0.9,
+        priceSizes: ["100", '140', '200'],
+        sells: 16,
+        image: nesihaBelavan01,
+        productSlider: [nesihaBelavan01, nesihaBelavan02],
+        description: "שושן צחור וליזיאנטוס",
+        story: 'אני נסיכה. כל הבנות הן. גם אם הן גרות בעליית הגג הקטנה והזקנה. גם אם הן מתלבשות בסמרטוטים, גם אם הן לא יפות, או חכמות, או צעירות. הן עדיין נסיכות.'
+    },
+    {
         name: 'מיליידי ווייט',
         sell: true,
         procentege: 0.9,
@@ -112,17 +124,6 @@ export const flowersMobile = [
         story: 'אם גבר אוהב אותך ... הוא מוכן להודות בזה...\n' +
             ' הוא ייתן לך תואר אחרי זמן מה. את תהיה  הליידי שלו הגברת שלו, האישה שלו, ארוסתו, אשתו, אמא של התינוק שלו, את תהיה כל עולמו.',
         productSlider: [miLeidyWhite02, miLeidyWhite01]
-    },
-    {
-        name: 'הילדה הכי יפה בגן',
-        price: '149',
-        priceSizes: ["149"],
-        sells: 4,
-        sell: false,
-        image: shilgia01,
-        productSlider: [shilgia01, shilgia02],
-        description: "זר לראש ליזאנטוס חרצית וגיבסנית",
-        story: 'יש לה עיניים הכי יפות בגן, וצמה הכי יפה בגן, ופה הכי יפה בגן, וכמה שמביטים בה יותר, רואים שאין מה לדבר, והיא הילדה הכי יפה, יפה בגן',
     },
     {
         name: 'סגול בטבע',
@@ -193,17 +194,6 @@ export const flowersMobile = [
         story: 'תמיד יש סיפור. הכל סיפורים, באמת. השמש שעולה כל יום זה סיפור. לכל דבר יש סיפור. לשנות את הסיפור, לשנות את העולם.'
     },
     {
-        name: 'נסיכה בלבן',
-        price: '90',
-        priceSizes: ["90", '130', '180'],
-        sells: 16,
-        sell: false,
-        image: nesihaBelavan01,
-        productSlider: [nesihaBelavan01, nesihaBelavan02],
-        description: "שושן צחור וליזיאנטוס",
-        story: 'אני נסיכה. כל הבנות הן. גם אם הן גרות בעליית הגג הקטנה והזקנה. גם אם הן מתלבשות בסמרטוטים, גם אם הן לא יפות, או חכמות, או צעירות. הן עדיין נסיכות.'
-    },
-    {
         name: 'מלכת הכפר',
         price: '140',
         priceSizes: ["140", '180', '270'],
@@ -215,15 +205,15 @@ export const flowersMobile = [
         story: 'היא למדה לא מספרים, אלא בשדות, ביער, על גדת הנהר. המורים שלה היו הציפורים עצמן, כששרו לה, השמש כשהיא השאירה מאחוריה זוהר של ארגמן, העצים, עם רוח ועשבי הבר.'
     },
     {
-        name: 'רגע של אושר',
-        price: '40',
-        priceSizes: ["40", '65', '95'],
-        sells: 13,
+        name: 'פריחה יפה',
+        price: '100',
+        priceSizes: ["100", "140", "195"],
+        sells: 14,
         sell: false,
-        image: regaShelOsher01,
-        productSlider: [regaShelOsher01, regaShelOsher02],
-        description: "ליליה חרצית וגרברה",
-        story: 'אומרים שאדם זקוק רק לשלושה דברים כדי להיות מאושר באמת בעולם הזה: מישהו לאהוב, משהו לעשות ומשהו לקוות לו.'
+        image: prihaYafa01,
+        productSlider: [prihaYafa01, prihaYafa02],
+        description: "ראש חרצית",
+        story: 'הפריחה המושלמת היא דבר נדיר. אפשר לבלות את כל החיים בחיפוש אחרי פריחה יפה, ואלו לא יהיו חיים מבוזבזים.',
     },
     {
         name: 'שקיעת הצפון',
@@ -236,17 +226,28 @@ export const flowersMobile = [
         description: "פרחי ליזאנטוס לבן וורוד",
         story: 'שקיעה היא הזדמנות נפלאה עבורנו להעריך את כל הדברים הנהדרים שהשמש נותנת לנו!'
     },
+    {
+        name: 'רגע של אושר',
+        price: '40',
+        priceSizes: ["40", '65', '95'],
+        sells: 13,
+        sell: false,
+        image: regaShelOsher01,
+        productSlider: [regaShelOsher01, regaShelOsher02],
+        description: "ליליה חרצית וגרברה",
+        story: 'אומרים שאדם זקוק רק לשלושה דברים כדי להיות מאושר באמת בעולם הזה: מישהו לאהוב, משהו לעשות ומשהו לקוות לו.'
+    },
 
     {
-        name: 'פריחה יפה',
-        price: '100',
-        priceSizes: ["100", "140", "195"],
-        sells: 14,
+        name: 'הילדה הכי יפה בגן',
+        price: '149',
+        priceSizes: ["149"],
+        sells: 4,
         sell: false,
-        image: prihaYafa01,
-        productSlider: [prihaYafa01, prihaYafa02],
-        description: "ראש חרצית",
-        story: 'הפריחה המושלמת היא דבר נדיר. אפשר לבלות את כל החיים בחיפוש אחרי פריחה יפה, ואלו לא יהיו חיים מבוזבזים.',
+        image: shilgia01,
+        productSlider: [shilgia01, shilgia02],
+        description: "זר לראש ליזאנטוס חרצית וגיבסנית",
+        story: 'יש לה עיניים הכי יפות בגן, וצמה הכי יפה בגן, ופה הכי יפה בגן, וכמה שמביטים בה יותר, רואים שאין מה לדבר, והיא הילדה הכי יפה, יפה בגן',
     },
     {
         name: 'חמנית',
