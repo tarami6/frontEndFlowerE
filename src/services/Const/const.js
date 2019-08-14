@@ -91,7 +91,7 @@ export const flowersMobile = [
     {
         name: 'חגיגת אהבה',
         sell: true,
-        procentege: 0.9,
+        procentege: 0.85,
         sells: 22,
         price: '200',
         priceSizes: ["200", '270', '350'],
@@ -113,17 +113,15 @@ export const flowersMobile = [
         story: 'אני נסיכה. כל הבנות הן. גם אם הן גרות בעליית הגג הקטנה והזקנה. גם אם הן מתלבשות בסמרטוטים, גם אם הן לא יפות, או חכמות, או צעירות. הן עדיין נסיכות.'
     },
     {
-        name: 'מיליידי ווייט',
-        sell: true,
-        procentege: 0.9,
-        sells: 20,
-        priceSizes: ["190", '250', '330'],
-        price: 190,
-        image: miLeidyWhite01,
-        description: "סידור פרחים בצורת לב",
-        story: 'אם גבר אוהב אותך ... הוא מוכן להודות בזה...\n' +
-            ' הוא ייתן לך תואר אחרי זמן מה. את תהיה  הליידי שלו הגברת שלו, האישה שלו, ארוסתו, אשתו, אמא של התינוק שלו, את תהיה כל עולמו.',
-        productSlider: [miLeidyWhite02, miLeidyWhite01]
+        name: 'שקיעת הצפון',
+        price: '90',
+        priceSizes: ["90", '120', '160'],
+        sells: 13,
+        sell: false,
+        image: shkiatHazfon01,
+        productSlider: [shkiatHazfon01, shkiatHazfon02],
+        description: "פרחי ליזאנטוס לבן וורוד",
+        story: 'שקיעה היא הזדמנות נפלאה עבורנו להעריך את כל הדברים הנהדרים שהשמש נותנת לנו!'
     },
     {
         name: 'סגול בטבע',
@@ -136,6 +134,30 @@ export const flowersMobile = [
         description: "זר שושן צחור ליזאנטוס וחרצית",
         story: 'הטבע הוא המקור לכל הידע. יש לו היגיון משלו, חוקים משלו, אין לו השפעה ללא סיבה או המצאה ללא צורך.' +
             'הוא מעורר יראת כבוד, אלגנטי, נצחי. הוא מושלם מבחינה גיאומטרית. הוא זעיר וענקי. אפשר לנסוע רחוק כדי להיות בסביבה טבעית ויפה, או שאפשר להנות ממנו בגינה, או במקרה שלנו עם הזר "סגול בטבע'
+    },
+    {
+        name: 'מיליידי ווייט',
+        sell: true,
+        procentege: 0.8,
+        sells: 20,
+        priceSizes: ["190", '250', '330'],
+        price: 190,
+        image: miLeidyWhite01,
+        description: "סידור פרחים בצורת לב",
+        story: 'אם גבר אוהב אותך ... הוא מוכן להודות בזה...\n' +
+            ' הוא ייתן לך תואר אחרי זמן מה. את תהיה  הליידי שלו הגברת שלו, האישה שלו, ארוסתו, אשתו, אמא של התינוק שלו, את תהיה כל עולמו.',
+        productSlider: [miLeidyWhite02, miLeidyWhite01]
+    },
+    {
+        name: 'יום יפה',
+        price: '80',
+        priceSizes: ["80", '110', '150'],
+        sells: 12,
+        sell: false,
+        image: yomYafe01,
+        productSlider: [yomYafe01, yomYafe02],
+        description: "זר גרברות וחרציות יפייפה",
+        story: 'ראו שהיום  ביום היפה הזה, יש לכם כמות מדהימה של הזדמנויות להזיז את חייכם לכיוון הרצוי.'
     },
     {
         name: 'טיול בגן',
@@ -160,17 +182,7 @@ export const flowersMobile = [
         description: "זר גרברות יפייפה",
         story: 'היום, פשוט קחי את  הזמן להריח את הזר, תהני מהדברים הקטנים של החיים , המשפחה שלך, בן זוג, חברים, עבודה. שכחי מהכל - ותהני מהחיים'
     },
-    {
-        name: 'יום יפה',
-        price: '80',
-        priceSizes: ["80", '110', '150'],
-        sells: 12,
-        sell: false,
-        image: yomYafe01,
-        productSlider: [yomYafe01, yomYafe02],
-        description: "זר גרברות וחרציות יפייפה",
-        story: 'ראו שהיום  ביום היפה הזה, יש לכם כמות מדהימה של הזדמנויות להזיז את חייכם לכיוון הרצוי.'
-    },
+
     {
         name: 'רגע טבעי',
         price: '80',
@@ -215,17 +227,7 @@ export const flowersMobile = [
         description: "ראש חרצית",
         story: 'הפריחה המושלמת היא דבר נדיר. אפשר לבלות את כל החיים בחיפוש אחרי פריחה יפה, ואלו לא יהיו חיים מבוזבזים.',
     },
-    {
-        name: 'שקיעת הצפון',
-        price: '90',
-        priceSizes: ["90", '120', '160'],
-        sells: 13,
-        sell: false,
-        image: shkiatHazfon01,
-        productSlider: [shkiatHazfon01, shkiatHazfon02],
-        description: "פרחי ליזאנטוס לבן וורוד",
-        story: 'שקיעה היא הזדמנות נפלאה עבורנו להעריך את כל הדברים הנהדרים שהשמש נותנת לנו!'
-    },
+
     {
         name: 'רגע של אושר',
         price: '40',
