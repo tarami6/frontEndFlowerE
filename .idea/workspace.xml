@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cf6233b1-380a-47a6-88cf-bf5b7addc960" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/services/Const/const.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/Const/const.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -72,8 +70,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/services/Const/const.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="160">
-                  <caret line="136" column="6" lean-forward="true" selection-start-line="136" selection-start-column="6" selection-end-line="136" selection-end-column="6" />
+                <state relative-caret-position="347">
+                  <caret line="119" column="39" selection-start-line="119" selection-start-column="39" selection-end-line="119" selection-end-column="39" />
                   <folding>
                     <element signature="e#9#112#0" expanded="true" />
                   </folding>
@@ -123,7 +121,7 @@
             <entry file="file://$PROJECT_DIR$/src/services/Const/const.js">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="-307">
-                  <caret line="160" column="6" selection-start-line="160" selection-start-column="6" selection-end-line="160" selection-end-column="6" />
+                  <caret line="161" column="6" selection-start-line="161" selection-start-column="6" selection-end-line="161" selection-end-column="6" />
                   <folding>
                     <element signature="e#9#112#0" expanded="true" />
                   </folding>
@@ -460,12 +458,12 @@
       <workItem from="1565534585704" duration="233000" />
       <workItem from="1565553617020" duration="1391000" />
       <workItem from="1565611043063" duration="8387000" />
-      <workItem from="1565793817787" duration="600000" />
+      <workItem from="1565793817787" duration="1634000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="225282000" />
+    <option name="totallyTimeSpent" value="226316000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1598" height="961" extended-state="0" />
@@ -860,8 +858,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/services/Const/const.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="136" column="6" lean-forward="true" selection-start-line="136" selection-start-column="6" selection-end-line="136" selection-end-column="6" />
+        <state relative-caret-position="347">
+          <caret line="119" column="39" selection-start-line="119" selection-start-column="39" selection-end-line="119" selection-end-column="39" />
           <folding>
             <element signature="e#9#112#0" expanded="true" />
           </folding>
