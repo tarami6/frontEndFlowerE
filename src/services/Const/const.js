@@ -62,6 +62,33 @@ import prihaYafa02 from "../../mobile/assetsMobile/imagesMobile/productPage/prih
 
 import ferrerorosheGadol from "../../mobile/assetsMobile/imagesMobile/productPage/ferrerorosheGadol.jpg";
 
+//AZIZM
+import sahlavLavan01 from "../../mobile/assetsMobile/imagesMobile/productPage/sahlavLavan01.jpg"
+import sahlavLavan02 from "../../mobile/assetsMobile/imagesMobile/productPage/sahalvLavan02.jpg"
+
+import sahlavTiger01 from "../../mobile/assetsMobile/imagesMobile/productPage/sahlavTiger01.jpg"
+import sahlavTiger02 from "../../mobile/assetsMobile/imagesMobile/productPage/sahlavTiger02.jpg"
+
+import sahlavPerpule3branches01 from "../../mobile/assetsMobile/imagesMobile/productPage/sahlavPerpule3branches01.jpg"
+import sahlavPerpule3branches02 from "../../mobile/assetsMobile/imagesMobile/productPage/sahlavPurple3Branches02.jpg"
+
+import kaktusSpider01 from "../../mobile/assetsMobile/imagesMobile/productPage/kaktusSpider01.jpg"
+import kaktusSpider02 from "../../mobile/assetsMobile/imagesMobile/productPage/kaktusSpider02.jpg"
+
+import azizKaktusPoint01 from "../../mobile/assetsMobile/imagesMobile/productPage/azizKaktusPoint01.jpg"
+import azizKaktusPoint02 from "../../mobile/assetsMobile/imagesMobile/productPage/hazizKaktusPoint02.jpg"
+
+import redAziz01 from "../../mobile/assetsMobile/imagesMobile/productPage/redAziz01.jpg"
+import redAziz02 from "../../mobile/assetsMobile/imagesMobile/productPage/redAziz02.jpg"
+import redAziz03 from "../../mobile/assetsMobile/imagesMobile/productPage/redAziz03.jpg"
+
+
+
+
+
+
+
+
 
 export const flowersMobile = [
     {
@@ -276,6 +303,82 @@ export const flowersMobile = [
     },
 
 ];
+
+
+export const azizimMobile = [
+    {
+        category: "pot",
+        name: 'סחלב לבן',
+        price: '120',
+        priceSizes: ["120", "200", "300"],
+        sells: 9,
+        sell: false,
+        image: sahlavLavan01,
+        productSlider: [sahlavLavan01, sahlavLavan02],
+        description: "סחלב לבן שני ענפים",
+        story: 'אהבה אינה כתובה על נייר, שכן ניתן למחוק דברים על נייר. זה גם לא חרוט על אבן, שכן ניתן לשבור אבן. אבל זה נחרט בלב ושם היא תישאר לנצח.'
+    },
+    {
+        category: "pot",
+        name: 'סחלב מנומר',
+        price: '120',
+        priceSizes: ["120", "200", "300"],
+        sells: 9,
+        sell: false,
+        image: sahlavTiger01,
+        productSlider: [sahlavTiger01, sahlavTiger02],
+        description: "סחלב מנומר שלושה ענפים",
+        story: 'אהבה אינה כתובה על נייר, שכן ניתן למחוק דברים על נייר. זה גם לא חרוט על אבן, שכן ניתן לשבור אבן. אבל זה נחרט בלב ושם היא תישאר לנצח.'
+    },
+    {
+        category: "pot",
+        name: 'סחלב סגול',
+        price: '120',
+        priceSizes: ["120", "200", "300"],
+        sells: 9,
+        sell: false,
+        image: sahlavPerpule3branches01,
+        productSlider: [sahlavPerpule3branches01, sahlavPerpule3branches02],
+        description: "סחלב סגול שלושה ענפים",
+        story: 'אהבה אינה כתובה על נייר, שכן ניתן למחוק דברים על נייר. זה גם לא חרוט על אבן, שכן ניתן לשבור אבן. אבל זה נחרט בלב ושם היא תישאר לנצח.'
+    },
+    {
+        category: "pot",
+        name: 'עציץ עכביש',
+        price: '120',
+        priceSizes: ["120", "200", "300"],
+        sells: 9,
+        sell: false,
+        image: kaktusSpider01,
+        productSlider: [kaktusSpider01, kaktusSpider02],
+        description: "סחלב סגול שלושה ענפים",
+        story: 'אהבה אינה כתובה על נייר, שכן ניתן למחוק דברים על נייר. זה גם לא חרוט על אבן, שכן ניתן לשבור אבן. אבל זה נחרט בלב ושם היא תישאר לנצח.'
+    },
+    {
+        category: "pot",
+        name: 'קקטוס פינות ',
+        price: '60',
+        priceSizes: ["60"],
+        sells: 9,
+        sell: false,
+        image: azizKaktusPoint01,
+        productSlider: [azizKaktusPoint01, azizKaktusPoint02],
+        description: "סחלב סגול שלושה ענפים",
+        story: 'אהבה אינה כתובה על נייר, שכן ניתן למחוק דברים על נייר. זה גם לא חרוט על אבן, שכן ניתן לשבור אבן. אבל זה נחרט בלב ושם היא תישאר לנצח.'
+    },
+    {
+        category: "pot",
+        name: 'עצית אדום ',
+        price: '60',
+        priceSizes: ["60"],
+        sells: 9,
+        sell: false,
+        image: redAziz01,
+        productSlider: [redAziz01,redAziz02, redAziz03],
+        description: "סחלב סגול שלושה ענפים",
+        story: 'אהבה אינה כתובה על נייר, שכן ניתן למחוק דברים על נייר. זה גם לא חרוט על אבן, שכן ניתן לשבור אבן. אבל זה נחרט בלב ושם היא תישאר לנצח.'
+    },
+]
 
 export const chocolateMobile = [
     {

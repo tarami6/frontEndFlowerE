@@ -33,12 +33,12 @@ class ProductPage extends Component {
             infinite: true,
             afterChange: () => this.pause()
         };
-        let {name, story,  description, productSlider, sell, procentege, priceSizes} = this.props.location.state.productInfo;
+        let {name, story,  description, productSlider, sell, procentege, priceSizes, category} = this.props.location.state.productInfo;
         this.props.pageView("MobileProductPage " + name)
         return (
             <div style={{direction: "rtl"}}>
                 <div className={'back-btn-div p-22-0'}>
-                        <button onClick={this.props.history.goBack} class={'pull-left, p-fixed back-btn'}>
+                        <button onClick={this.props.history.goBack} className={'pull-left, p-fixed back-btn'}>
                             <MdArrowBack size={25} color={"#efc368"}/>
                         </button>
                 </div>
@@ -57,7 +57,7 @@ class ProductPage extends Component {
                     <div className={'priceCategory'}>
                         {
                             priceSizes.map((price, index) => {
-                                let size = ['רגיל', 'גדול', 'ענק']
+                                let size = category ? ["ענף 1 ", "2 ענפים", "3 ענפים"] : ['רגיל', 'גדול', 'ענק']
                                 return (
                                     <Fragment key={price}>
                                         {

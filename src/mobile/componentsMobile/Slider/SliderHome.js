@@ -31,9 +31,9 @@ class SliderHome extends Component {
 
         return (
             <Slider ref={slider => (this.slider = slider)}  {...settings}>
-                <div onClick={() => this.pause()} className={'slideHolder'}>
-                    <img src={sliderTuBeav} alt="MakeHerHappy" className={'sliderImage'}/>
-                </div>
+                {/*<div onClick={() => this.pause()} className={'slideHolder'}>*/}
+                    {/*<img src={sliderTuBeav} alt="MakeHerHappy" className={'sliderImage'}/>*/}
+                {/*</div>*/}
                 <div onClick={() => this.pause()} className={'slideHolder'}>
                     <img src={womanSmileMission} alt="MakeHerHappy" className={'sliderImage'}/>
                 </div>
