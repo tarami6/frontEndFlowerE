@@ -40,7 +40,7 @@ const ProductItem = (props) => {
                                         <p className={'howManyBuysText'}>השבוע קנו-{sellWeek}</p>
                                     </div>
                                     <div className={'buttonProductHome'} >
-                                        <p className={'buttonProductHomeText'}>עוד מידע</p>
+                                        <p className={'buttonProductHomeText'}>עוד פרטים  </p>
                                     </div>
                                 </div>
                             </div>
@@ -78,7 +78,7 @@ const ProductItem = (props) => {
                                     <p className={'howManyBuysText'}>השבוע קנו-{sellWeek}</p>
                             </div>
                             <div className={'buttonProductHome'} >
-                                    <p className={'buttonProductHomeText'}>עוד מידע</p>
+                                    <p className={'buttonProductHomeText'}>  עוד פרטים </p>
                             </div>
                         </div>
                     </div>
