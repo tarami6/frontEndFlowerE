@@ -9,10 +9,10 @@ import MdArrowBack from 'react-icons/lib/md/arrow-forward';
 import {azizimMobile} from "../../../services/Const/const";
 import ProducttItem from "../../componentsMobile/ProductItem/ProductItem";
 import Logo from "../../componentsMobile/Logo/Logo";
+import Event from "../../../services/Const/functions"
 
 
-
-class MobileHome01 extends Component {
+class Pot extends Component {
     constructor(props) {
         super(props);
         this.state = {
@@ -22,6 +22,7 @@ class MobileHome01 extends Component {
 
     componentDidMount() {
         window.scrollTo(0, 0)
+        console.log("componentDidMount")
     }
 
     render() {
@@ -37,7 +38,7 @@ class MobileHome01 extends Component {
                </div>
                 <Logo/>
                 <div className="mt-20">
-                    <ProducttItem pot={true} products={this.state.products} eventGA={this.props.eventGA}/>
+                    <ProducttItem pot={true} products={this.state.products} eventGA={Event}/>
                 </div>
 
                 <Footer page={"HomePageMobile"} eventGA={this.props.eventGA}/>
@@ -46,4 +47,4 @@ class MobileHome01 extends Component {
     }
 }
 
-export default MobileHome01;
+export default Pot;

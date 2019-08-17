@@ -26,7 +26,6 @@ function Event(category, action, label) {
         label: label
     });
     ReactPixel.fbq('trackCustom', category, {action: action});
-
 }
 
 
