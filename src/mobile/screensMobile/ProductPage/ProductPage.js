@@ -107,7 +107,7 @@ class ProductPage extends Component {
                         {story}
                     </p>
                     <p className={'pl-4vw pr-4vw m-0 price-text mb-5 fs-18'}>
-                        {description}
+                         {description} 
                     </p>
                 </div>
                 <Footer page={"ProductPageMobile"} eventGA={this.props.eventGA}/>
