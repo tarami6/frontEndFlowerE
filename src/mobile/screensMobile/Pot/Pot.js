@@ -32,7 +32,7 @@ class Pot extends Component {
                    style={{backgroundImage: `url(${imageAziz})`}} >
                    <div className={'back-btn-div p-22-0'}>
                        <button onClick={this.props.history.goBack} className={'pull-left,  back-btn'}>
-                           <MdArrowBack size={25} color={"#efc368"}/>
+                           <MdArrowBack size={25} color={"#895ECC"}/>
                        </button>
                    </div>
                </div>

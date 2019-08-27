@@ -39,7 +39,7 @@ class ProductPage extends Component {
             <div style={{direction: "rtl"}}>
                 <div className={'back-btn-div p-22-0'}>
                         <button onClick={this.props.history.goBack} className={'pull-left, p-fixed back-btn'}>
-                            <MdArrowBack size={25} color={"#efc368"}/>
+                            <MdArrowBack size={25} color={"#895ECC"}/>
                         </button>
                 </div>
                 <Slider ref={slider => (this.sliderProduct = slider)} {...settings1}>
@@ -107,7 +107,7 @@ class ProductPage extends Component {
                         {story}
                     </p>
                     <p className={'pl-4vw pr-4vw m-0 price-text mb-5 fs-18'}>
-                         {description} 
+                         {description}
                     </p>
                 </div>
                 <Footer page={"ProductPageMobile"} eventGA={this.props.eventGA}/>

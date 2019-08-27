@@ -7,7 +7,7 @@ const PrivateOrder = (props) => {
             <p className={'privateOrderText'}>הזמנת זר בעיצוב אישי</p>
             <p className={'privateOrderText'}>בתקציב שלך</p>
             <p className={'privateOrderTextInto'}>אנחנו נעצב לך זר לפי התקציב שלך, לפני שהזר ישלח אנחנו
-                נשלח לך תמונה של הזר כדי לקבל את האישור שלך... </p>
+                נשלח לך תמונה של הזר המדהים שהכנו עבורך... </p>
             <ActionToCall show={true} title={"להזמנה"} page={"HomePageMobile"} homePage={false} eventGA={props.eventGA}/>
         </div>
     )
