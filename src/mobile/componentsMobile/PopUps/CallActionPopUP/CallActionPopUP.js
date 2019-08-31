@@ -19,11 +19,11 @@ const CallActionPopUP = (props) => {
                         <p>אנו שמחים שהחלטתם להזמין עם זר ביד, בחרו אחת מהאפשרויות ההזמנה הבאות</p>
                     </div>
                     <div className={'buttonsHolder'}>
-                        <div className={'callToButton'} onClick={() => props.eventGA("Phone", "Phone pressed", props.page)}>
+                        <div className={'callToButton'} onClick={() => props.eventGA("ContactMade", "Phone pressed", props.page)}>
                             <a className={'callToButton'} href="tel:0546712717"  > חייג  <Phone size={20} color={"#efc368"} style={{marginRight: 5}} /> </a>
                         </div>
                         <div className={'separatorCallButton'}/>
-                        <div className={'whatUpButton'} onClick={() => props.eventGA("WhatsUpButton", "WhatsUpButton button pressed", props.page)}>
+                        <div className={'whatUpButton'} onClick={() => props.eventGA("ContactMade", "WhatsUpButton button pressed", props.page)}>
                             <a  href="https://wa.me/+972546712717/?text=שלום אני רוצה להזמין זר" ><WhatsApp size={20} color={"darkgreen"} style={{marginLeft: 5}} /> WhatsApp </a>
                         </div>
                     </div>
