@@ -4,6 +4,7 @@ import PrivateOrder from '../../componentsMobile/PrivateOrder/PrivateOrder'
 import {flowersMobile} from '../../../services/Const/const';
 import fastDeliveryIcon from "../../assetsMobile/imagesMobile/bottomIcons/fastDeliveryIcon.png";
 import freshDlowersIcon from "../../assetsMobile/imagesMobile/bottomIcons/freshDlowersIcon.png";
+import imageAziz from "../../assetsMobile/imagesMobile/productPage/sahlavLavan01.jpg";
 
 const ProductItem = (props) => {
     let range = flowersMobile
@@ -115,6 +116,15 @@ const ProductItem = (props) => {
         if(index === 6 && !props.pot) {
             return (
                 <Fragment key={Math.random()}>
+                    <Link to={{pathname: '/potPage'}}>
+                        <div className={'potCategoryHolder'}
+                             style={{backgroundImage: `url(${imageAziz})`}}
+                        >
+                            <div className={'buttonProductHome'}>
+                                <p className={'buttonProductHomeText'}>עציצים</p>
+                            </div>
+                        </div>
+                    </Link>
                     <PrivateOrder eventGA={props.eventGA}/>
                     <div  className="p" onClick={() => {
                         props.eventGA("Flower pressed", name, "Home Page Mobile")

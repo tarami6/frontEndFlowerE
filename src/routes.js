@@ -85,7 +85,7 @@ class Routes extends Component {
                     <Route path="/deskHome1" component={DeskHome1} eventGA={Event}/>
                     <Route path="/deskHome2" component={DeskHome2} eventGA={Event}/>
                     <Route path="/productPage/:product"  component={() => <ProductPage {...this.props} renderedFromApp={this.state.renderedFromApp} pageView={PageView} eventGA={Event} />} />
-                    <Route path="/potPage" component={Pot} />
+                    <Route path="/potPage" component={() => <Pot  renderedFromApp={this.state.renderedFromApp} />} />
 
                 </div>
             </Router>

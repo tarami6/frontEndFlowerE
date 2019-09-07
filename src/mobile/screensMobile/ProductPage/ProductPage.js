@@ -41,7 +41,7 @@ class ProductPage extends Component {
 
     render() {
 
-        console.log("this.props", this.props.renderedFromApp)
+        console.log("this.props", this.props)
 
         const settings1 = {
             dots: true,

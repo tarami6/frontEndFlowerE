@@ -201,6 +201,9 @@ body {
     border: none;
 }
 
+.productItemHolder {
+    margin-top: 0px;
+}
 
 .buquetNameText {
     height: 7vw;

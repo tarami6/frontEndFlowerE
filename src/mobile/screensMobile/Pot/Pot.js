@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import '../Mobile.css'
-import {Link} from "react-router-dom";
+import {withRouter} from "react-router-dom";
 import Footer from '../../componentsMobile/Footer/Footer'
 
 
@@ -10,7 +10,7 @@ import {azizimMobile} from "../../../services/Const/const";
 import ProducttItem from "../../componentsMobile/ProductItem/ProductItem";
 import Logo from "../../componentsMobile/Logo/Logo";
 import Event from "../../../services/Const/functions"
-import ActionToCall from "../MobileHome01/MobileHome01";
+import ActionToCall from "../../componentsMobile/ActionToCall/ActionToCall";
 
 
 class Pot extends Component {
@@ -23,7 +23,7 @@ class Pot extends Component {
 
     componentDidMount() {
         window.scrollTo(0, 0)
-        console.log("componentDidMount")
+        console.log("componentDidMount", this.props)
     }
 
     render() {
@@ -32,20 +32,25 @@ class Pot extends Component {
                <div className={'potPageFirstContainer'}
                    style={{backgroundImage: `url(${imageAziz})`}} >
                    <div className={'back-btn-div p-22-0'}>
-                       <button onClick={this.props.history.goBack} className={'pull-left,  back-btn'}>
+                       <button onClick={() => this.props.renderedFromApp ? this.props.history.goBack() :  window.location.replace("https://zerbayad.co.il/")} className={'pull-left,  back-btn'}>
                            <MdArrowBack size={25} color={"#895ECC"}/>
                        </button>
                    </div>
                </div>
                 <Logo/>
-                <div className="mt-20">
+                <div className="mt-20, productItemHolder">
                     <ProducttItem pot={true} products={this.state.products} eventGA={Event}/>
                 </div>
-
+                <ActionToCall
+                    show={false}
+                    page={"HomePageMobile"}
+                    homePage={true}
+                    eventGA={Event}
+                />
                 <Footer page={"HomePageMobile"} eventGA={this.props.eventGA}/>
             </div>
         )
     }
 }
 
-export default Pot;
+export default withRouter(Pot)

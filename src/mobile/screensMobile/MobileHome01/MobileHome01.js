@@ -10,7 +10,6 @@ import SliderHome from '../../componentsMobile/Slider/SliderHome'
 import Logo from '../../componentsMobile/Logo/Logo'
 // produts
 import {flowersMobile} from '../../../services/Const/const';
-import imageAziz from '../../assetsMobile/imagesMobile/productPage/sahlavLavan01.jpg'
 import {Link} from "react-router-dom";
 import uniqueDesignIcon from "../../assetsMobile/imagesMobile/bottomIcons/uniqueDesign.jpg";
 
@@ -60,15 +59,7 @@ class MobileHome01 extends Component {
                     <div className="mt-20">
                         <ProducttItem products={this.state.products} eventGA={this.props.eventGA}/>
                     </div>
-                    <Link to={{pathname: '/potPage'}}>
-                        <div className={'potCategoryHolder'}
-                             style={{backgroundImage: `url(${imageAziz})`}}
-                        >
-                            <div className={'buttonProductHome'}>
-                                <p className={'buttonProductHomeText'}>עציצים</p>
-                            </div>
-                        </div>
-                    </Link>
+
                     <div className={'bottomIconsContainer'}>
                         <BottomIcons/>
                     </div>
