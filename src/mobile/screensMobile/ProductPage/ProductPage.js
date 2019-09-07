@@ -3,6 +3,7 @@ import '../Mobile.css'
 import Slider from "react-slick";
 import { withRouter } from 'react-router-dom';
 
+import {flowersMobile} from '../../../services/Const/const';
 import Footer from '../../componentsMobile/Footer/Footer'
 
 import MdArrowBack from 'react-icons/lib/md/arrow-forward';
@@ -12,7 +13,16 @@ import ActionToCall from "../../componentsMobile/ActionToCall/ActionToCall";
 class ProductPage extends Component {
     constructor(props) {
         super(props);
+        this.state = {
+            productNum : ''
+        }
         this.pause = this.pause.bind(this);
+    }
+
+    componentWillMount() {
+        this.setState({
+            productNum:  this.props.match.params.product
+        })
     }
 
     componentDidMount() {
@@ -23,22 +33,31 @@ class ProductPage extends Component {
         this.sliderProduct.slickPause();
     }
 
+    moveSlide() {
+        this.sliderProduct.slickNext()
+    }
+
+
+
     render() {
+
+        console.log("this.props", this.props.renderedFromApp)
+
         const settings1 = {
             dots: true,
             className: "Slider1",
             speed: 500,
             autoplay: true,
-            autoplaySpeed: 3000,
+            autoplaySpeed: 1000,
             infinite: true,
             afterChange: () => this.pause()
         };
-        let {name, story,  description, productSlider, sell, procentege, priceSizes, category} = this.props.location.state.productInfo;
+        let {name, story,  description, productSlider, sell, procentege, priceSizes, category} = flowersMobile[this.state.productNum];
         this.props.pageView("MobileProductPage " + name)
         return (
             <div style={{direction: "rtl"}}>
                 <div className={'back-btn-div p-22-0'}>
-                        <button onClick={this.props.history.goBack} className={'pull-left, p-fixed back-btn'}>
+                        <button onClick={ () => this.props.renderedFromApp ? this.props.history.goBack() :  window.location.replace("https://zerbayad.co.il/")} className={'pull-left back-btn'}>
                             <MdArrowBack size={25} color={"#895ECC"}/>
                         </button>
                 </div>
@@ -46,7 +65,7 @@ class ProductPage extends Component {
                     {
                         productSlider && productSlider.map(pic => {
                             return (
-                                <div key={Math.random()} className={'slideHolder1'}>
+                                <div key={Math.random()} className={'slideHolder1'} onClick={() => this.moveSlide()}>
                                     <img src={pic} alt="MakeHerHappy" className={'sliderImage1'}/>
                                 </div>
                             )
@@ -57,7 +76,7 @@ class ProductPage extends Component {
                     <div className={'priceCategory'}>
                         {
                             priceSizes.map((price, index) => {
-                                let size = category ? ["ענף 1 ", "2 ענפים", "3 ענפים"] : ['רגיל', 'גדול', 'ענק']
+                                let size = category === 'pot' ? ["ענף 1 ", "2 ענפים", "3 ענפים"] : ['רגיל', 'גדול', 'ענק']
                                 return (
                                     <Fragment key={price}>
                                         {
@@ -106,9 +125,9 @@ class ProductPage extends Component {
                     <p className={'pl-4vw pr-4vw m-0 price-text mb-5 fs-16 ta-left lh sub-t-c mt-5'}>
                         {story}
                     </p>
-                    <p className={'pl-4vw pr-4vw m-0 price-text mb-5 fs-18'}>
+                    <h1 className={'pl-4vw pr-4vw m-0 price-text mb-5 fs-18'}>
                          {description}
-                    </p>
+                    </h1>
                 </div>
                 <Footer page={"ProductPageMobile"} eventGA={this.props.eventGA}/>
             </div>

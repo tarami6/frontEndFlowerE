@@ -10,6 +10,7 @@ import {azizimMobile} from "../../../services/Const/const";
 import ProducttItem from "../../componentsMobile/ProductItem/ProductItem";
 import Logo from "../../componentsMobile/Logo/Logo";
 import Event from "../../../services/Const/functions"
+import ActionToCall from "../MobileHome01/MobileHome01";
 
 
 class Pot extends Component {

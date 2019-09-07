@@ -4,14 +4,74 @@ body {
 
 .slideHolder {
     height: 100vw;
+    width: 100vw;
+    display: flex;
+    align-items: center !important;
+    justify-content: center;
+}
+.fullWidthProduct{
+    height: 95vw;
+    width: 95vw;
+    margin-bottom: 5vw;
+}
+.flowerOfTheWeek{
+    height: 95vw;
+    width: 95vw;
+    background-color: white;
+    background-size: 80vw;
+    background-repeat: no-repeat;
+    background-position: top;
+    display: flex;
+    align-items: flex-end;
+    margin-right: 2.5vw;
+    margin-top: 2.5vw;
+    box-shadow: 2px 2px 10px #eee;
+    border-radius: 5px;
 }
 
+.flowerOfTheWeekInfo{
+    width: 95vw;
+    height: 20vw;
+    display: flex;
+}
+.flowerOfTheWeekBuy{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.flowerOfTheWeekText{
+    width: 50%;
+}
+.flowerOfTheWeekBuyText{
+    margin: 0;
+    font-size: 18px;
+    color: #000;
+    opacity: 0.2;
+    background-color: #fff;
+
+
+}
+
+.sellTextIconFlowerOfTheWeek{
+    background-color: #efc368;
+    height: 6vw;
+    width: 24vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    color: #fff;
+    margin: 1vw;
+}
 .slideHolder1 {
     height: 98vw;
 }
 
 .Slider {
-    height: 350px;
+    height: 100vw;
+    width: 100vw;
     z-index: 0;
 }
 
@@ -48,12 +108,15 @@ body {
     border-radius: 5px;
     z-index: 0;
     display: flex;
+    width: 95vw;
+    height: 95vw;
     flex-direction: column;
     justify-content: space-between;
     margin: 0px 7px;
     margin-bottom: 5vw;
     box-shadow: 2px 2px 10px #eee;
-    background-size: contain;
+    background-size: 85vw;
+    background-position: center;
     background-repeat: no-repeat;
 }
 
@@ -76,15 +139,15 @@ body {
 .productText {
     width: 100%;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: space-between;
     text-align: right;
-    height: 40vw;
-    background-color: #fff;
+    height: 17vw;
     z-index: 2;
     border-radius: 5px;
-    box-shadow: 2px 2px 10px #eee;
+    /* box-shadow: 2px 2px 10px #eee; */
     margin-top: 35vw;
+
 }
 
 .sellPriceStrike {
@@ -102,23 +165,23 @@ body {
 
 .priceHolder {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    width: 35%;
+    align-items: flex-end;
+    padding: 5px 10px;
 }
 
 .priceHolderText {
-    height: 8vw;
-    width: 55%;
+    height: 25px;
     display: flex;
     flex-direction: row;
 }
 .howManyBuysText {
-    height: 8vw;
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 45%;
     color: grey;
-    font-size: 10px;
+    font-size: 12px;
     margin: 0;
 }
 
@@ -126,7 +189,7 @@ body {
 .buttonProductHome {
     background-image: linear-gradient(90deg, #f8d487, #eec367);
     position: relative;
-    z-index: 9;
+    z-index: 7;
     bottom: 0;
     display: flex;
     align-items: center;
@@ -140,7 +203,7 @@ body {
 
 
 .buquetNameText {
-    height: 10vw;
+    height: 7vw;
     margin: 0;
     padding: 5px 10px;
     color: #323232;
@@ -149,7 +212,6 @@ body {
 }
 
 .productTextdescription {
-    height: 12vw;
     margin: 0;
     padding: 0px 10px;
     color: grey;
@@ -158,14 +220,11 @@ body {
 }
 
 .buquetPriceText {
-    padding: 0;
-    padding-right: 10px;
-    padding-left: 3px;
     height: 8vw;
     display: flex;
     align-items: center;
     margin: 0;
-    font-size: 14px;
+    font-size: 18px;
     color: #efc368;
     direction: rtl;
 }
@@ -238,7 +297,7 @@ body {
 
 .back-btn-div {
     position: absolute;
-    z-index: 5;
+    z-index: 3;
 }
 
 .back-btn {

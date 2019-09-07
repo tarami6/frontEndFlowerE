@@ -38,14 +38,21 @@ hotjar.initialize(1410349,6);
 
 
 
-const Product = (props) => {
-    return <ProductPage {...props} pageView={PageView} eventGA={Event} />
-}
-
 class Routes extends Component {
     constructor(props) {
         super(props)
-        this.state = {width: 0, height: 0};
+        this.state = {
+            width: 0,
+            height: 0,
+            renderedFromApp: false
+        };
+
+    }
+
+    pageRenderedFromApp = () => {
+        this.setState({
+            renderedFromApp: true
+        })
     }
 
     componentWillMount() {
@@ -73,11 +80,11 @@ class Routes extends Component {
                     <Route exact path="/" render={() => {
                         if (!isMobile)
                             return <DeskHome1 eventGA={Event} />
-                        return <MobileHome01 pageView={PageView} eventGA={Event} />
+                        return <MobileHome01 pageRenderedFromApp={this.pageRenderedFromApp} pageView={PageView} eventGA={Event} />
                     }}/>
                     <Route path="/deskHome1" component={DeskHome1} eventGA={Event}/>
                     <Route path="/deskHome2" component={DeskHome2} eventGA={Event}/>
-                    <Route path="/productPage" component={Product} />
+                    <Route path="/productPage/:product"  component={() => <ProductPage {...this.props} renderedFromApp={this.state.renderedFromApp} pageView={PageView} eventGA={Event} />} />
                     <Route path="/potPage" component={Pot} />
 
                 </div>

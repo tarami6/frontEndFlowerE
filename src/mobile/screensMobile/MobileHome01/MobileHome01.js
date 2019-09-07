@@ -8,12 +8,12 @@ import ProducttItem from '../../componentsMobile/ProductItem/ProductItem'
 import BottomIcons from '../../componentsMobile/BottomIcons/BottomIcons'
 import SliderHome from '../../componentsMobile/Slider/SliderHome'
 import Logo from '../../componentsMobile/Logo/Logo'
-
-import Smile from "react-icons/lib/fa/smile-o";
 // produts
 import {flowersMobile} from '../../../services/Const/const';
 import imageAziz from '../../assetsMobile/imagesMobile/productPage/sahlavLavan01.jpg'
 import {Link} from "react-router-dom";
+import uniqueDesignIcon from "../../assetsMobile/imagesMobile/bottomIcons/uniqueDesign.jpg";
+
 
 class MobileHome01 extends Component {
     constructor(props) {
@@ -21,6 +21,7 @@ class MobileHome01 extends Component {
         this.state = {
             products: flowersMobile,
             callToActionPopUp: false,
+            choosedCategory: 'default'
         }
     }
 
@@ -28,19 +29,34 @@ class MobileHome01 extends Component {
         this.setState({callToActionPopUp: false})
     }
 
-    componentDidMount() {
-        this.props.pageView("MobileHome")
+    openPopUp = (category) => {
+        console.log("opne")
+        this.setState({callToActionPopUp: true, choosedCategory: category})
     }
 
 
+
+    componentDidMount() {
+        this.props.pageView("MobileHome")
+        this.props.pageRenderedFromApp()
+
+    }
+
     render() {
-
-
+        console.log("MobileHomeRendered")
         return (
             <div>
                 <div>
-                    <SliderHome/>
                     <Logo/>
+                    <SliderHome openPopUp={this.openPopUp}/>
+                    <div>
+                        <h2 className={"iconTitle lightGreyColor"}>
+                            <img src={uniqueDesignIcon}
+                                 className={"bottomIconsImage"} alt=""/> זר פרחים מדהים וייחודי</h2>
+                        <p className={'iconDescription'}>
+                            לרגעים הטובים ביותר בחיים, לחגיגה הכי מדהימה תמיד אפשר לסמוך על זר פרחים כדי לשפר את הרגע
+                        </p>
+                    </div>
                     <div className="mt-20">
                         <ProducttItem products={this.state.products} eventGA={this.props.eventGA}/>
                     </div>
@@ -56,13 +72,14 @@ class MobileHome01 extends Component {
                     <div className={'bottomIconsContainer'}>
                         <BottomIcons/>
                     </div>
-
-                    <div className={'forUServiceTextContainer'}>
-                        <p className={'serviceTitle lightGreyColor'}> זר ביד לשירותכם <Smile size={30}
-                                                                                             color={"#c0c0c0"}/></p>
-                    </div>
-                    <ActionToCall show={false} ref={() => this.action} page={"HomePageMobile"} homePage={true}
-                                  eventGA={this.props.eventGA}/>
+                    <ActionToCall
+                        callToActionPopUp={this.state.callToActionPopUp}
+                        show={false}
+                        page={"HomePageMobile"}
+                        homePage={true}
+                        eventGA={this.props.eventGA}
+                        category={this.state.choosedCategory}
+                        />
                 </div>
                 <Footer page={"HomePageMobile"} eventGA={this.props.eventGA}/>
             </div>
@@ -71,3 +88,5 @@ class MobileHome01 extends Component {
 }
 
 export default MobileHome01;
+
+
