@@ -21,12 +21,12 @@ const ProductItem = (props) => {
                     <div className={'slogenHolder'}>
                         <h2 className={"iconTitle lightGreyColor"}>
                             <img src={freshDlowersIcon}
-                                 className={"bottomIconsImage"} alt=""/>זרי פרחים טריים ויפים</h2>
+                                 className={"bottomIconsImage"} alt="זרי פרחים טריים"/>זרי פרחים טריים ויפים</h2>
                         <p className={'iconDescription'}>
                             אנחנו יוצרים את הזרים שלנו עם הפרחים הטריים ביותר בחנות הפרחים שלנו
                         </p>
                     </div>
-                    <div  className="p" onClick={() => {
+                    <div   title={description} onClick={() => {
                         props.eventGA("Flower pressed", name, "Home Page Mobile")
                     }}>
                         <Link to={{pathname: `/productPage/${index}`}}>
@@ -70,12 +70,12 @@ const ProductItem = (props) => {
                     <div className={'slogenHolder'}>
                         <h1 className={"iconTitle lightGreyColor"}>
                             <img src={fastDeliveryIcon}
-                                 className={"bottomIconsImage"} alt=""/>משלוח פרחים מהיר</h1>
+                                 className={"bottomIconsImage"} alt="משלוח פרחים"/>משלוח פרחים מהיר</h1>
                         <p className={'iconDescription'}>
                             משלוחי פרחים בחיפה, טירת הכרמל, נשר, קריות
                         </p>
                     </div>
-                    <div  className="p" onClick={() => {
+                    <div  title={description} onClick={() => {
                         props.eventGA("Flower pressed", name, "Home Page Mobile")
                     }}>
                         <Link to={{pathname: `/productPage/${index}`}}>
@@ -126,7 +126,7 @@ const ProductItem = (props) => {
                         </div>
                     </Link>
                     <PrivateOrder eventGA={props.eventGA}/>
-                    <div  className="p" onClick={() => {
+                    <div title={description}  onClick={() => {
                         props.eventGA("Flower pressed", name, "Home Page Mobile")
                     }}>
                         <Link to={{pathname: `/productPage/${index}`}}>
@@ -165,7 +165,7 @@ const ProductItem = (props) => {
                 )
         }
         return (
-            <div key={Math.random()} className="fullWidthProduct" onClick={() => {
+            <div title={description} key={Math.random()} className="fullWidthProduct" onClick={() => {
                 props.eventGA("Flower pressed", name, "Home Page Mobile")
             }}>
                 <Link to={{pathname: `/productPage/${index}`,params:{from: "app"}}} >

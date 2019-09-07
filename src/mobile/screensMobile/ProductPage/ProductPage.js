@@ -66,7 +66,7 @@ class ProductPage extends Component {
                         productSlider && productSlider.map(pic => {
                             return (
                                 <div key={Math.random()} className={'slideHolder1'} onClick={() => this.moveSlide()}>
-                                    <img src={pic} alt="MakeHerHappy" className={'sliderImage1'}/>
+                                    <img src={pic} alt={description} title={name} className={'sliderImage1'}/>
                                 </div>
                             )
                         })
