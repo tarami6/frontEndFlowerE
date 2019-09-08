@@ -31,6 +31,7 @@ class Pot extends Component {
             <div>
                <div className={'potPageFirstContainer'}
                    style={{backgroundImage: `url(${imageAziz})`}} >
+
                    <div className={'back-btn-div p-22-0'}>
                        <button onClick={() => this.props.renderedFromApp ? this.props.history.goBack() :  window.location.replace("https://zerbayad.co.il/")} className={'pull-left,  back-btn'}>
                            <MdArrowBack size={25} color={"#895ECC"}/>
