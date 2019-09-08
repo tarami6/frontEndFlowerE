@@ -22,7 +22,7 @@ const CallActionPopUP = (props) => {
     console.log("props.category",props.category)
 
     let textToCostumer = "חוויית שירות בלתי נשכחת"
-    let serViceText = "תנו לנציג שלנו לתת לכם שירות איש"
+    let serViceText = "תנו לנציג שלנו לתת לכם שירות אישי"
     let imgShowTo = greatService
     let alt = "שירות לקוחות זר ביד"
     let titleImg = "חנות פרחים"
