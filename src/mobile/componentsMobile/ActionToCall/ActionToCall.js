@@ -2,7 +2,6 @@ import React, {Component} from 'react';
 
 import CallButton from '../../componentsMobile/CallButton/CallButton.js'
 import CallActionPopUP from '../../componentsMobile/PopUps/CallActionPopUP/CallActionPopUP'
-import {flowersMobile} from "../../../services/Const/const";
 
 class ActionToCall extends Component {
     constructor(props) {
@@ -18,7 +17,6 @@ class ActionToCall extends Component {
         window.addEventListener('scroll', this.addActionButton)
         console.log("ActionToCall componentDidMount this.props.category", this.props)
         this.setState({ category: this.props.category})
-
     }
 
     callAction = (action, button, page, category) => {
@@ -39,6 +37,7 @@ class ActionToCall extends Component {
 
     exitPopUp = () => {
         this.setState({callToActionPopUp: false, category: 'default'})
+        if(this.props.exitPopUp) this.props.exitPopUp()
     }
 
     addActionButton = () => {
@@ -58,7 +57,7 @@ class ActionToCall extends Component {
         let showMe = this.state.showButton
         if(!showMe && !this.props.show && !this.state.callToActionPopUp) return null
         return (
-            <div>
+            <div >
                 {
                     this.props.homePage && showMe ?
                     <CallButton
@@ -66,7 +65,7 @@ class ActionToCall extends Component {
                         onPress={this.callAction}
                     />
                     :
-                        <div onClick={() => this.callAction("CallToAction", "BuyButton", this.props.page, { category: 'FLOWER_BUQUET'})} >
+                        <div onClick={() => this.callAction("CallToAction", "BuyButton", this.props.page,  'FLOWER_BUQUET')} >
                             <button   className={'buy-now-btn'}>להזמנה</button>
                         </div>
 

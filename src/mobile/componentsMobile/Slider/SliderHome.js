@@ -36,7 +36,7 @@ class SliderHome extends Component {
                 {/*<div onClick={() => this.pause()} className={'slideHolder'}>*/}
                     {/*<img src={sliderTuBeav} alt="MakeHerHappy" className={'sliderImage'}/>*/}
                 {/*</div>*/}
-                <div onClick={() => this.props.openPopUp( { category: 'FLOWER_OF_THE_WEEK',text: flowersMobile[5].name}) } className={'slideHolder'}>
+                <div onClick={() => this.props.openPopUp(  'FLOWER_OF_THE_WEEK') } className={'slideHolder'}>
                     {/*<img src={womanSmileMission} alt="MakeHerHappy" className={'sliderImage'}/>*/}
                     <div className={'flowerOfTheWeek'} style={{backgroundImage: `url(${require('../../../mobile/assetsMobile/imagesMobile/productPage/purpleBuquet02.jpg')})`}}>
 

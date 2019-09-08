@@ -8,7 +8,10 @@ const PrivateOrder = (props) => {
             <p className={'privateOrderText'}>בתקציב שלך</p>
             <p className={'privateOrderTextInto'}>אנחנו נעצב לך זר פרחים לפי התקציב שלך, לפני שהזר ישלח אנחנו
                 נשלח לך תמונה של הזר המדהים שהכנו עבורך... </p>
-            <ActionToCall show={true} title={"להזמנה"} page={"HomePageMobile"} homePage={false} eventGA={props.eventGA}/>
+            {
+                props.renderPopUp &&
+                <ActionToCall show={true}  page={"HomePageMobile"} homePage={false} eventGA={props.eventGA}/>
+            }
         </div>
     )
 }

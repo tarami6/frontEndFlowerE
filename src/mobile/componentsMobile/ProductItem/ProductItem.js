@@ -125,7 +125,7 @@ const ProductItem = (props) => {
                             </div>
                         </div>
                     </Link>
-                    <PrivateOrder eventGA={props.eventGA}/>
+                    <PrivateOrder renderPopUp={props.renderPopUp} eventGA={props.eventGA}/>
                     <div title={description}  onClick={() => {
                         props.eventGA("Flower pressed", name, "Home Page Mobile")
                     }}>

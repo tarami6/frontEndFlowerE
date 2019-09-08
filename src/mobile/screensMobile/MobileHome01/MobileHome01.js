@@ -10,8 +10,9 @@ import SliderHome from '../../componentsMobile/Slider/SliderHome'
 import Logo from '../../componentsMobile/Logo/Logo'
 // produts
 import {flowersMobile} from '../../../services/Const/const';
-import {Link} from "react-router-dom";
 import uniqueDesignIcon from "../../assetsMobile/imagesMobile/bottomIcons/uniqueDesign.jpg";
+import MenuIcon from 'react-icons/lib/io/android-menu';
+import Menu from '../../componentsMobile/Menu/Menu'
 
 
 class MobileHome01 extends Component {
@@ -20,7 +21,8 @@ class MobileHome01 extends Component {
         this.state = {
             products: flowersMobile,
             callToActionPopUp: false,
-            choosedCategory: 'default'
+            choosedCategory: 'default',
+            menu: false
         }
     }
 
@@ -28,24 +30,33 @@ class MobileHome01 extends Component {
         this.setState({callToActionPopUp: false})
     }
 
-    openPopUp = (category) => {
+    openPopUp = (category="default") => {
         console.log("opne")
         this.setState({callToActionPopUp: true, choosedCategory: category})
     }
 
 
-
     componentDidMount() {
         this.props.pageView("MobileHome")
         this.props.pageRenderedFromApp()
-
     }
 
+    toggleMenu = (toggle) => {
+        this.setState({menu: toggle})
+    }
+
+
+
     render() {
-        console.log("MobileHomeRendered")
+        console.log("MobileHomeRendered", this.state)
         return (
             <div>
                 <div>
+                    <div className={'menuIcon'} onClick={() => {
+                        this.toggleMenu(true)
+                    }}>
+                        <MenuIcon size={25} color={"#895ECC"}/>
+                    </div>
                     <Logo/>
                     <SliderHome openPopUp={this.openPopUp}/>
                     <div>
@@ -57,7 +68,7 @@ class MobileHome01 extends Component {
                         </p>
                     </div>
                     <div className="mt-20">
-                        <ProducttItem products={this.state.products} eventGA={this.props.eventGA}/>
+                           <ProducttItem renderPopUp={!this.state.menu} products={this.state.products} eventGA={this.props.eventGA}/>
                     </div>
 
                     <div className={'bottomIconsContainer'}>
@@ -70,7 +81,14 @@ class MobileHome01 extends Component {
                         homePage={true}
                         eventGA={this.props.eventGA}
                         category={this.state.choosedCategory}
-                        />
+                        exitPopUp={this.exitPopUp}
+                    />
+                    {
+                        this.state.menu && <Menu openPopUp={this.openPopUp} toggleMenu={this.toggleMenu}/>
+                    }
+
+
+
                 </div>
                 <Footer page={"HomePageMobile"} eventGA={this.props.eventGA}/>
             </div>

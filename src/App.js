@@ -7,11 +7,10 @@ class App extends React.Component {
 
     render() {
         return (
-            <HttpsRedirect>
                 <div className="App">
                     <Routes/>
                 </div>
-            </HttpsRedirect>
+
         )
     }
 }
