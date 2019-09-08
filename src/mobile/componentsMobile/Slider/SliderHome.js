@@ -1,6 +1,6 @@
 import React, {Component} from 'react'
 import sliderTuBeav from "../../assetsMobile/imagesMobile/sliderHomePage/toBeAv.jpg";
-import womanSmileMission from "../../assetsMobile/imagesMobile/sliderHomePage/womanSmileMission.jpg";
+import flowerOfTheWeekSagolBateva from "../../assetsMobile/imagesMobile/sliderHomePage/flowerOfTheWeekSagolBateva.jpg";
 import Slider  from "react-slick";
 import {flowersMobile} from '../../../services/Const/const';
 import {Link} from "react-router-dom";
@@ -38,7 +38,7 @@ class SliderHome extends Component {
                 {/*</div>*/}
                 <div onClick={() => this.props.openPopUp(  'FLOWER_OF_THE_WEEK') } className={'slideHolder'}>
                     {/*<img src={womanSmileMission} alt="MakeHerHappy" className={'sliderImage'}/>*/}
-                    <div className={'flowerOfTheWeek'} style={{backgroundImage: `url(${require('../../../mobile/assetsMobile/imagesMobile/productPage/purpleBuquet02.jpg')})`}}>
+                    <div className={'flowerOfTheWeek'} style={{backgroundImage: `url(${require('../../assetsMobile/imagesMobile/sliderHomePage/flowerOfTheWeekSagolBateva.jpg')})`}}>
 
                         <div className={'flowerOfTheWeekInfo'}>
                             <div className={'flowerOfTheWeekText'}>
