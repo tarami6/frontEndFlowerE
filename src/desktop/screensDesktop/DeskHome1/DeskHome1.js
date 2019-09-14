@@ -229,7 +229,7 @@ class DeskHome1 extends React.Component {
                 <div class='col-md-12 col-sm-12 col-xs-12 desk-footer w-100pr'>
                     <div class='col-md-11 col-sm-9 col-xs-12'>
                         <div class=''>
-                            <p class='desk-footer-text mb-0 pull-right'> 2019. All rights reserved IDT</p>
+                            <p class='desk-footer-text mb-0 pull-right'> 2019. All rights reserved IDT Version:1.1.9</p>
                         </div>
 
                     </div>
