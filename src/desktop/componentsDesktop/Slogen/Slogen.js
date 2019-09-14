@@ -18,7 +18,7 @@ const Slogen = (props) => {
                             {title}</h2>
                     }
 
-                    <p className={'iconDescription'}>{desription}</p>
+                    <p className={'iconDescriptionDesk'}>{desription}</p>
                 </div>
             </div>
         </div>
