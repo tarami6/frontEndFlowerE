@@ -3,14 +3,11 @@ import {withRouter} from 'react-router-dom';
 
 import './DeskProductPage.css'
 import {flowersMobile} from "../../../services/Const/const";
-import Phone from 'react-icons/lib/fa/phone';
-import Instagram from 'react-icons/lib/fa/instagram';
-import Facebook from 'react-icons/lib/fa/facebook';
-import Linkedin from 'react-icons/lib/fa/linkedin';
-import Twitter from 'react-icons/lib/fa/twitter';
 import MdArrowBack from "react-icons/lib/md/arrow-forward";
 import PhoneHeader from '../../componentsDesktop/PhoneHeader/PhoneHeader'
 import Footer from '../../componentsDesktop/Footer/Footer'
+import {ChangeMetaTags} from "../../../Seo";
+import {SeoMeta} from '../../../services/Const/const'
 
 class DeskProductPage extends React.Component {
     constructor(props) {
@@ -29,6 +26,12 @@ class DeskProductPage extends React.Component {
 
     componentDidMount() {
         window.scrollTo(0, 0)
+        this.updateMetaTags()
+    }
+
+    updateMetaTags = () => {
+        let { description } = flowersMobile[this.state.productNum];
+        ChangeMetaTags(description,description,` ${description} ,` + SeoMeta.homePage.keywords)
     }
 
     render() {

@@ -3,11 +3,12 @@ import '../Mobile.css'
 import Slider from "react-slick";
 import { withRouter } from 'react-router-dom';
 
-import {flowersMobile} from '../../../services/Const/const';
+import {flowersMobile, SeoMeta} from '../../../services/Const/const';
 import Footer from '../../componentsMobile/Footer/Footer'
 
 import MdArrowBack from 'react-icons/lib/md/arrow-forward';
 import ActionToCall from "../../componentsMobile/ActionToCall/ActionToCall";
+import {ChangeMetaTags} from "../../../Seo";
 
 
 class ProductPage extends Component {
@@ -27,6 +28,7 @@ class ProductPage extends Component {
 
     componentDidMount() {
         window.scrollTo(0, 0)
+        this.updateMetaTags()
     }
 
     pause() {
@@ -37,6 +39,11 @@ class ProductPage extends Component {
         this.sliderProduct.slickNext()
     }
 
+    updateMetaTags = () => {
+        let { description,category } = flowersMobile[this.state.productNum];
+        let keyWords = category === 'pot' ? ` ${description} ,` + SeoMeta.potPage.keywords : ` ${description} ,` + SeoMeta.homePage.keywords
+        ChangeMetaTags(description,description,keyWords)
+    }
 
 
     render() {

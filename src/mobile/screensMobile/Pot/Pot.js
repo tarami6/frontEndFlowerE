@@ -12,7 +12,8 @@ import ProducttItem from "../../componentsMobile/ProductItem/ProductItem";
 import Logo from "../../componentsMobile/Logo/Logo";
 import Event from "../../../services/Const/functions"
 import ActionToCall from "../../componentsMobile/ActionToCall/ActionToCall";
-
+import {ChangeMetaTags} from "../../../Seo";
+import {SeoMeta} from '../../../services/Const/const'
 
 class Pot extends Component {
     constructor(props) {
@@ -29,6 +30,8 @@ class Pot extends Component {
     componentDidMount() {
         window.scrollTo(0, 0)
         console.log("componentDidMount", this.props)
+        ChangeMetaTags(SeoMeta.potPage.title, SeoMeta.potPage.description,  SeoMeta.potPage.keywords)
+
     }
 
     render() {

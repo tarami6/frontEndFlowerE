@@ -13,7 +13,8 @@ import {flowersMobile} from '../../../services/Const/const';
 import uniqueDesignIcon from "../../assetsMobile/imagesMobile/bottomIcons/uniqueDesign.jpg";
 import MenuIcon from 'react-icons/lib/io/android-menu';
 import Menu from '../../componentsMobile/Menu/Menu'
-
+import {ChangeMetaTags} from "../../../Seo";
+import {SeoMeta} from '../../../services/Const/const'
 
 class MobileHome01 extends Component {
     constructor(props) {
@@ -39,6 +40,7 @@ class MobileHome01 extends Component {
     componentDidMount() {
         this.props.pageView("MobileHome")
         this.props.pageRenderedFromApp()
+        ChangeMetaTags(SeoMeta.homePage.title, SeoMeta.homePage.description, SeoMeta.homePage.keywords)
     }
 
     toggleMenu = (toggle) => {
@@ -55,7 +57,7 @@ class MobileHome01 extends Component {
                     <div className={'menuIcon'} onClick={() => {
                         this.toggleMenu(true)
                     }}>
-                        <MenuIcon size={25} color={"#895ECC"}/>
+                        <MenuIcon style={{backgroundColor: 'rgba(255,255,255,0.9)', borderRadius: '100px'}} size={25}  color={"#895ECC"}/>
                     </div>
                     <Logo/>
                     <SliderHome openPopUp={this.openPopUp}/>

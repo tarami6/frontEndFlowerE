@@ -8,7 +8,8 @@ import ProductItem from '../../componentsDesktop/ProductItem/ProductItem'
 import Slogen from '../../componentsDesktop/Slogen/Slogen'
 import FirstImpressionContainer from '../../componentsDesktop/FirstImpressionContainer/FirstImpressionContainer'
 
-
+import {ChangeMetaTags} from "../../../Seo";
+import {SeoMeta} from '../../../services/Const/const'
 
 class DeskHome1 extends React.Component {
     constructor(props) {
@@ -21,6 +22,8 @@ class DeskHome1 extends React.Component {
 
     componentDidMount() {
         this.props.pageRenderedFromApp()
+        ChangeMetaTags(SeoMeta.homePage.title, SeoMeta.homePage.description, SeoMeta.homePage.keywords)
+        console.log(document.getElementsByTagName("META")[1])
     }
 
     render() {

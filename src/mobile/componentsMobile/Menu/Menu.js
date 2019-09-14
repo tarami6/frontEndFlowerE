@@ -18,9 +18,6 @@ class Menu extends Component{
                         </div>
                         <div className={'menuList'}>
                             <div className={'menuObject'}>
-                                <a href="https://zerbayad.co.il/">זרי פרחים</a>
-                            </div>
-                            <div className={'menuObject'}>
                                 <a href="https://zerbayad.co.il/potPage">עציצים</a>
                             </div>
                             <div  className={'menuObject'} onClick={()=>this.props.openPopUp('BIRTH_DAY')}>

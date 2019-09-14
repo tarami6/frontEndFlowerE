@@ -100,7 +100,7 @@ export const flowersMobile = [
         price: '260',
         priceSizes: ['260', '310', '390'],
         image: flowerBox,
-        description: "סידור ורדים בקופסא",
+        description: "ורדים בקופסא",
         story: 'אני מאוהב בך, אני לא בהכחשה עצמית, אני נהנה לומר דברים אמיתיים. אני מאוהב בך, ואני יודע שאהבה היא רק צעקה אל תוך החלל, אני יודע  שמהאדמה באנו ולאדמה נשוב, ואני מאוהב בך',
         productSlider: [flowerBox01, flowerBox02]
     },
@@ -114,7 +114,7 @@ export const flowersMobile = [
         sells: 29,
         image: rosesBuquet01,
         productSlider: [rosesBuquet01, rosesBuquet02,],
-        description: "זר וורדים עשיר",
+        description: "זר ורדים ענק",
         story: 'אם אהבתי אלייך  תהיה אוקיינוס, לא תהיה עוד אדמה. אילו אהבתי תהיה מדבר, היית רואה רק חול. אם אהבתי תהיה כוכב - מאוחר בלילה, יהיה רק אור. ואם האהבה שלי יכולה לגדל כנפיים, אני אעוף אלייך'
     },
     {
@@ -126,7 +126,7 @@ export const flowersMobile = [
         price: '200',
         priceSizes: ["200", '270', '350'],
         image: hagigatHava01,
-        description: "סידור פרחי קיץ בקופסא",
+        description: "פרחים בקופסא",
         story: 'אני אוהבת לחגוג את חיי. יש לי חיים של ברת מזל, ולכן אני רוצה לוודא שכל דקה נספרת, ושאני צוברת את הזכרונות שלי עם אנשים שאני אוהבת, אני חולקת איתם את הרגעים הללו ואנחנו נהנים וצוחקים ביחד.',
         productSlider: [hagigatHava01, hagigatHava02]
     },
@@ -140,7 +140,7 @@ export const flowersMobile = [
         sells: 16,
         image: nesihaBelavan01,
         productSlider: [nesihaBelavan01, nesihaBelavan02],
-        description: "שושן צחור וליזיאנטוס",
+        description: "זר שושן צחור וליזיאנטוס",
         story: 'אני נסיכה. כל הבנות הן. גם אם הן גרות בעליית הגג הקטנה והזקנה. גם אם הן מתלבשות בסמרטוטים, גם אם הן לא יפות, או חכמות, או צעירות. הן עדיין נסיכות.'
     },
     {
@@ -153,7 +153,7 @@ export const flowersMobile = [
         sells: 31,
         image: shkiatHazfon01,
         productSlider: [shkiatHazfon01, shkiatHazfon02],
-        description: "פרחי ליזאנטוס לבן וורוד",
+        description: "זר ליזאנטוס לבן וורוד",
         story: 'שקיעה היא הזדמנות נפלאה עבורנו להעריך את כל הדברים הנהדרים שהשמש נותנת לנו!'
     },
     {
@@ -266,7 +266,7 @@ export const flowersMobile = [
         sell: false,
         image: prihaYafa01,
         productSlider: [prihaYafa01, prihaYafa02],
-        description: "ראש חרצית",
+        description: "זר ראש חרצית",
         story: 'הפריחה המושלמת היא דבר נדיר. אפשר לבלות את כל החיים בחיפוש אחרי פריחה יפה, ואלו לא יהיו חיים מבוזבזים.',
     },
 
@@ -279,7 +279,7 @@ export const flowersMobile = [
         sell: false,
         image: regaShelOsher01,
         productSlider: [regaShelOsher01, regaShelOsher02],
-        description: "ליליה חרצית וגרברה",
+        description: "זר ליליה חרצית וגרברה",
         story: 'אומרים שאדם זקוק רק לשלושה דברים כדי להיות מאושר באמת בעולם הזה: מישהו לאהוב, משהו לעשות ומשהו לקוות לו.'
     },
 
@@ -499,3 +499,18 @@ export const bottomIcons = [
     },
 
 ]
+
+
+export const SeoMeta = {
+    homePage: {
+        title: 'זר ביד חנות פרחים אונליין',
+        description: 'חנות פרחים משגעת בחיפה והצפון הזמנות אונליין משלוח פרחים מהיר, מבחר גדול של זרים ועציצים שירות מדהים יחס אישי לכל לקוח',
+        keywords: "חנות פרחים,משלוח פרחים,משלוח פרחים בחיפה, משלוח פרחים בקריות, משלוח פרחים בנשר, משלוח פרחים בטירת הכרמל"
+    },
+    potPage: {
+        title: 'זר ביד משלוח עציצים אונליין',
+        description: 'חנות פרחים משגעת בחיפה והצפון הזמנות אונליין משלוח עציצים מהיר, מבחר גדול של עציצים וזרים',
+        keywords: "חנות פרחים,משלוח עציצים,משלוח עציצים בחיפה, משלוח עציצים בקריות, משלוח עציצים בנשר, משלוח עציצים בטירת הכרמל, סחלב, סחלבים, גוזמניה, סנסיווריה"
+
+    }
+}
