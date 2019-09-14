@@ -248,7 +248,8 @@ a {
   border-radius: 30px;
   text-align: -webkit-center;
   padding-top: 10px;
-  margin-right: 25px
+  margin-right: 25px;
+    cursor: pointer;
 }
 .phone-text {
   font-family: Rubik;
