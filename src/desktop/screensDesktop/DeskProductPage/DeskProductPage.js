@@ -9,6 +9,8 @@ import Facebook from 'react-icons/lib/fa/facebook';
 import Linkedin from 'react-icons/lib/fa/linkedin';
 import Twitter from 'react-icons/lib/fa/twitter';
 import MdArrowBack from "react-icons/lib/md/arrow-forward";
+import PhoneHeader from '../../componentsDesktop/PhoneHeader/PhoneHeader'
+import Footer from '../../componentsDesktop/Footer/Footer'
 
 class DeskProductPage extends React.Component {
     constructor(props) {
@@ -90,15 +92,7 @@ class DeskProductPage extends React.Component {
                         </div>
                     </div>
                     <div class="col-md-6">
-                        <div class='col-md-11 display-inline-box mt-50'>
-                            <div class=''>
-                                <p class='phone-text1'>972-054-229-1101+</p>
-                                <p class='phone-text1'>054-2291101</p>
-                            </div>
-                            <div onClick={() => this.props.openChat()} class='phone-icon-div'>
-                                <Phone size={24} color={"#efc368"}/>
-                            </div>
-                        </div>
+                        <PhoneHeader openChat={this.props.openChat} white={false}/>
                         <div class='col-md-12 p-0-5vw'>
                             <p class='desk2-title'>{name}</p>
                             <p class='desk2-title-text'>{description}</p>
@@ -155,33 +149,7 @@ class DeskProductPage extends React.Component {
                         </div>
                     </div>
                 </div>
-                <div class='col-md-12 col-sm-12 col-xs-12 desk-footer'>
-                    <div class='col-md-11 col-sm-9 col-xs-12'>
-                        <div class=''>
-                            <p class='desk-footer-text mb-0 pull-right'>(c) 2019. All rights reserved</p>
-                        </div>
-                        <div class=''>
-                            <p class='desk-footer-text mb-0 pull-right brdr-right'>Terms&Conditions</p>
-                        </div>
-                        <div class=''>
-                            <p class='desk-footer-text mb-0 pull-right brdr-right'>Privacy Policy</p>
-                        </div>
-                    </div>
-                    <div class='col-md-1 display-inline-box'>
-                        <div class='p-0-10'>
-                            <Instagram size={24} color={"#efc368"}/>
-                        </div>
-                        <div class='p-0-10'>
-                            <Facebook size={20} color={"#efc368"}/>
-                        </div>
-                        <div class='p-0-10'>
-                            <Twitter size={20} color={"#efc368"}/>
-                        </div>
-                        <div class='p-0-10'>
-                            <Linkedin size={20} color={"#efc368"}/>
-                        </div>
-                    </div>
-                </div>
+                <Footer/>
             </div>
         )
     }

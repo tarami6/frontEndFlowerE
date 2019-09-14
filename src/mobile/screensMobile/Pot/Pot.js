@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import '../Mobile.css'
 import {withRouter} from "react-router-dom";
+import {isMobile} from 'react-device-detect';
 import Footer from '../../componentsMobile/Footer/Footer'
 
 
@@ -19,6 +20,10 @@ class Pot extends Component {
         this.state = {
             products: azizimMobile,
         }
+    }
+
+    componentWillMount() {
+        if(!isMobile) window.location.href = "https://zerbayad.co.il/";
     }
 
     componentDidMount() {

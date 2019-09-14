@@ -54,9 +54,6 @@ const ProductItem = (props) => {
                                         </div>
                                         <p className={'howManyBuysText'}>השבוע קנו-{sellWeek}</p>
                                     </div>
-                                    {/*<div className={'buttonProductHome'} >*/}
-                                    {/*<p className={'buttonProductHomeText'}>עוד פרטים  </p>*/}
-                                    {/*</div>*/}
                                 </div>
                             </div>
                         </Link>
