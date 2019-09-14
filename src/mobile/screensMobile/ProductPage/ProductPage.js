@@ -89,7 +89,7 @@ class ProductPage extends Component {
                                         {
                                             sell ?
                                                 <div
-                                                    className={index === 0 ? 'priceCategoryHolder' : 'priceCategoryHolder currentPriceHolder'}>
+                                                    className={index === 1 ? 'priceCategoryHolder' : 'priceCategoryHolder currentPriceHolder'}>
                                                     <p className={' pr-4vw  price-text '}>
                                                         {size[index]}
                                                     </p>
@@ -97,12 +97,10 @@ class ProductPage extends Component {
                                                         {price * procentege} ₪ <span
                                                         className={'sellPriceStrike'}><strike>{price}</strike></span>
                                                     </p>
-
                                                 </div>
-
                                                 :
                                                 <div
-                                                    className={index === 0 ? 'priceCategoryHolder' : 'priceCategoryHolder currentPriceHolder'}>
+                                                    className={index === 1 ? 'priceCategoryHolder' : 'priceCategoryHolder currentPriceHolder'}>
                                                     {priceSizes.length > 1 &&
                                                         <p className={' pr-4vw  price-text '}>
                                                         {size[index]}
