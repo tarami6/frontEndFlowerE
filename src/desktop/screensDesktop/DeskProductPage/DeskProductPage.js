@@ -98,7 +98,7 @@ class DeskProductPage extends React.Component {
                         <PhoneHeader openChat={this.props.openChat} white={false}/>
                         <div class='col-md-12 p-0-5vw'>
                             <p class='desk2-title'>{name}</p>
-                            <p class='desk2-title-text'>{description}</p>
+                            <h1 class='desk2-title-text'>{description}</h1>
                         </div>
                         <div class='col-md-12 p-0-5vw '>
                             <p class='desk2-info'>
