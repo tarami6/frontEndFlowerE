@@ -103,10 +103,12 @@ class ProductPage extends Component {
                                                     className={index === 1 ? 'priceCategoryHolder' : 'priceCategoryHolder currentPriceHolder'}>
                                                     {priceSizes.length > 1 &&
                                                         <p className={' pr-4vw  price-text '}>
-                                                        {size[index]}
+                                                            {
+                                                                price.length ? size[index] : ''
+                                                            }
                                                     </p>}
                                                     <p className={'pl-4vw pr-4vw m-0 price-text mb-5'}>
-                                                        {price} ₪
+                                                        { price.length ? `${price} ₪` : ''}
                                                     </p>
                                                 </div>
                                         }
