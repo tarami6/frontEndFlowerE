@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {Fragment} from 'react'
 import './DeskHome1.css'
 import {flowersMobile} from "../../../services/Const/const";
 import zerBayadLogo from "../../../desktop/assetsDesktop/imagesDesk/homeSlider/headerLogo.png";
@@ -8,6 +8,11 @@ import Phone from 'react-icons/lib/fa/phone';
 import Instagram from 'react-icons/lib/fa/instagram';
 import Facebook from 'react-icons/lib/fa/facebook';
 import Linkedin from 'react-icons/lib/fa/linkedin';
+import freshDlowersIcon from "../../../mobile/assetsMobile/imagesMobile/bottomIcons/freshDlowersIcon.png";
+import uniqueDesignIcon from "../../../mobile/assetsMobile/imagesMobile/bottomIcons/uniqueDesign.jpg";
+import fastDeliveryIcon from "../../../mobile/assetsMobile/imagesMobile/bottomIcons/fastDeliveryIcon.png";
+import {Link} from "react-router-dom";
+import {isMobile} from "react-device-detect";
 
 
 class DeskHome1 extends React.Component {
@@ -17,6 +22,10 @@ class DeskHome1 extends React.Component {
             flowers: flowersMobile,
             flowerLoad: false
         }
+    }
+
+    componentDidMount() {
+        this.props.pageRenderedFromApp()
     }
 
     render() {
@@ -30,120 +39,192 @@ class DeskHome1 extends React.Component {
                             </div>
                             <div className='phoneHeaderContainer'>
                                 <div className="">
-                                    <p className='phone-text'>972-054-671-2717+</p>
-                                    <p className='phone-text'>0546712717</p>
+                                    <p className='phone-text'>972-054-229-1101+</p>
+                                    <p className='phone-text'>054-2291101</p>
                                 </div>
-                                <div className='phone-icon-div'>
+                                <div className='phone-icon-div' onClick={()=>this.props.openChat()}>
                                     <Phone size={24} color={"#eec368"}/>
                                 </div>
                             </div>
                         </div>
                         <div className={"homePageFirstScreen"}>
-                            <h1>בזר ביד תמצאו זרי פרחים מדהימים<br/> עציצים, סלסלות, ומתנות.</h1>
+                            <h1>זר ביד כאן תמצאו זרי פרחים מדהימים<br/> ורדים, חמניות, סחלבים ועוד.</h1>
                             <p>לחג, למשרד, לחתונה, או סתם מאהבה</p>
                         </div>
                     </div>
-                    <div>
-                        <div className={"contentHolder01"}>
-                            <div className='mt-80 mb-70 '>
-                                <p className="popular-text">פופולרי</p>
-                                <p className="popular-info">
-                                    פרחים הם אחת היצירות היפות ביותר של הטבע. הדבר המושלם לביטוי רגשות.
+                    <div className={'deskSlogenContainer'}>
+                        <div className={'deskSlogenHolder'}>
+                            <div className={'deskSlogenIconHolder'}>
+                                <img src={uniqueDesignIcon}
+                                     className={"bottomIconsImage"} alt=""/>
+                            </div>
+                            <div className={'deskTextIconHolder'}>
+                                <h2 className={"iconTitleDesk lightGreyColor"}>
+                                    זר פרחים מדהים וייחודי</h2>
+                                <p className={'iconDescription'}>
+                                    לרגעים הטובים ביותר בחיים, לחגיגה הכי מדהימה תמיד אפשר לסמוך על זר פרחים כדי לשפר את
+                                    הרגע
                                 </p>
-
-                            </div>
-                        </div>
-
-                    </div>
-
-                    <div onClick={() => console.log("clicked")} className='deskSlideHolder col-md-12'>
-                        <div class="col-md-4">
-                            <div class="w-100pr">
-                                    <div className={'deskProductHolder'}
-                                         style={{backgroundImage: `url(${require('../../../desktop/assetsDesktop/imagesDesk/desktopBuquets/flowerBox.jpg')})`}}>
-
-                                        <div className={"deskProductText"}>
-                                            <p className={'title'}>אהבה בוערת</p>
-                                            <p className={'info'}>סידור ורדים בקופסא</p>
-                                            <p className={'price'}>החל מ: 150 ש"ח </p>
-                                        </div>
-                                    </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="w-100pr">
-                                    <div className={'deskProductHolder'}
-                                         style={{backgroundImage: `url(${require('../../../desktop/assetsDesktop/imagesDesk/desktopBuquets/flowerBox2.jpg')})`}}>
-                                        <div className={"deskProductText"}>
-                                            <p className={'title'}>אהבה בוערת</p>
-                                            <p className={'info'}>סידור ורדים בקופסא</p>
-                                            <p className={'price'}>החל מ: 150 ש"ח </p>
-                                        </div>
-                                    </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="w-100pr">
-                                    <div className={'deskProductHolder'}
-                                         style={{backgroundImage: `url(${require('../../../desktop/assetsDesktop/imagesDesk/desktopBuquets/rosesBuquet.jpg')})`}}>
-                                        <div className={"deskProductText"}>
-                                            <p className={'title'}>תשוקה אינסופית</p>
-                                            <p className={'info'}>זר וורדים עשיר</p>
-                                            <p className={'price'}>החל מ: 120 ש"ח </p>
-                                        </div>
-                                    </div>
                             </div>
                         </div>
                     </div>
-                    {/* ---------------------------------------------------------------------------------- */}
-                    <div className={"contentHolder01"}>
-                        <div class='col-md-12 mt-80 mb-70 align-content-center'>
-                            <p class="popular-text">קלאסי</p>
-                            <p class="popular-info">
-                                בזר ביד אתם תמצאו מגוון זרי פרחים מדהים וגדול שמתאים לכל אירוע, מימי הולד, יום אהבה,
-                                לידה, מתנה למשרד, סידור לחתונה, ולמגוון אירועים נוספים
-                            </p>
-                        </div>
-                    </div>
+                    {
+                        flowersMobile.map((product, index) => {
+                            let {image, name, price, description, sell, procentege, sells} = product
+                            let d = new Date();
+                            let day = d.getDay()
+                            if (day === 0) day = 0.5
+                            let sellWeek = Math.round(day * 0.5 * sells)
+                            if (index === 6) {
+                                return (
+                                    <Fragment key={index}>
+                                        <div className={'deskSlogenContainer'}>
+                                            <div className={'deskSlogenHolder'}>
+                                                <div className={'deskSlogenIconHolder'}>
+                                                    <img src={freshDlowersIcon}
+                                                         className={"bottomIconsImage"} alt=""/>
+                                                </div>
+                                                <div className={'deskTextIconHolder'}>
+                                                    <h2 className={"iconTitleDesk lightGreyColor"}>
+                                                        זרי פרחים טריים ויפים</h2>
+                                                    <p className={'iconDescription'}>
+                                                        אנחנו יוצרים את הזרים שלנו עם הפרחים הטריים ביותר בחנות הפרחים
+                                                        שלנו
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <Link to={{pathname: `/productPage/${index}`}}>
+                                        <div title={description} className="col-md-4 deskProductContainer">
+                                                <div className="w-100pr">
+                                                    <div className={'deskProductHolder'}
+                                                         style={{backgroundImage: `url(${image})`}}>
 
-                    <div onClick={() => console.log("clicked")} className='deskSlideHolder col-md-12'>
-                        <div class="col-md-4">
-                            <div class="w-100pr">
-                                    <div className={'deskProductHolder'}
-                                         style={{backgroundImage: `url(${require('../../../desktop/assetsDesktop/imagesDesk/desktopBuquets/pinkBuquet.jpg')})`}}>
-                                        <div className={"deskProductText"}>
-                                            <p className={'title'}>נעורים בוורוד</p>
-                                            <p className={'info'}>זר גרברות יפייפה</p>
-                                            <p className={'price'}>החל מ: 120 ש"ח </p>
+                                                        <div className={"sellIconDesk"}>
+                                                            {sell &&  <p className={'sellTextIconDesk'}>מבצע</p>}
+                                                        </div>
+                                                        <div className={"deskProductText"}>
+                                                            <div className={'deskProductInfo'}>
+                                                                <p className={'title'}>{name}</p>
+                                                                <p className={'info'}>{description}</p>
+                                                            </div>
+                                                            <div className={'deskProductPriceContainer'}>
+                                                                {sell ?
+                                                                    <div className={'deskPriceHolder'}>
+                                                                        <p className={'price'}>{price * procentege} ₪ </p>
+                                                                        <p className={'priceSell'}>
+                                                                            <strike>{price} </strike>
+                                                                        </p>
+                                                                    </div>
+                                                                    :
+                                                                    <p className={'price'}>{price} ₪ </p>
+                                                                }
+                                                                <p className={'deskHowManyBuysText'}>השבוע
+                                                                    קנו-{sellWeek}</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
                                         </div>
-                                    </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="w-100pr">
-                                    <div className={'deskProductHolder'}
-                                         style={{backgroundImage: `url(${require('../../../desktop/assetsDesktop/imagesDesk/desktopBuquets/sunFlower.jpg')})`}}>
-                                        <div className={"deskProductText"}>
-                                            <p className={'title'}>טיול בגן</p>
-                                            <p className={'info'}>זר חמניות גרברות וליזאנטוס</p>
-                                            <p className={'price'}>החל מ: 80 ש"ח </p>
+                                        </Link>
+                                    </Fragment>
+
+                                )
+                            }
+                            if (index === 12) {
+                                return (
+                                    <Fragment key={index}>
+                                    <div className={'deskSlogenContainer'}>
+                                            <div className={'deskSlogenHolder'}>
+                                                <div className={'deskSlogenIconHolder'}>
+                                                    <img src={fastDeliveryIcon}
+                                                         className={"bottomIconsImage"} alt=""/>
+                                                </div>
+                                                <div className={'deskTextIconHolder'}>
+                                                    <h1 className={"iconTitleDesk lightGreyColor"}>
+                                                        משלוח פרחים מהיר</h1>
+                                                    <p className={'iconDescription'}>
+                                                        משלוחי פרחים בחיפה, טירת הכרמל, נשר, קריות
+                                                    </p>
+                                                </div>
+                                            </div>
                                         </div>
-                                    </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="w-100pr">
-                                    <div className={'deskProductHolder'}
-                                         style={{backgroundImage: `url(${require('../../../desktop/assetsDesktop/imagesDesk/desktopBuquets/purpleBuquet.jpg')})`}}>
-                                        <div className={"deskProductText"}>
-                                            <p className={'title'}>סגול בטבע</p>
-                                            <p className={'info'}>זר שושן צחור ליזאנטוס וחרצית</p>
-                                            <p className={'price'}>החל מ: 120 ש"ח </p>
+                                        <Link to={{pathname:  `/productPage/${index}`}}>
+                                        <div title={description} className="col-md-4 deskProductContainer">
+
+                                                <div className="w-100pr">
+                                                    <div className={'deskProductHolder'}
+                                                         style={{backgroundImage: `url(${image})`}}>
+                                                        <div className={"sellIconDesk"}>
+                                                            {sell &&  <p className={'sellTextIconDesk'}>מבצע</p>}
+                                                        </div>
+                                                        <div className={"deskProductText"}>
+                                                            <div className={'deskProductInfo'}>
+                                                                <p className={'title'}>{name}</p>
+                                                                <p className={'info'}>{description}</p>
+                                                            </div>
+                                                            <div className={'deskProductPriceContainer'}>
+                                                                {sell ?
+                                                                    <div className={'deskPriceHolder'}>
+                                                                        <p className={'price'}>{price * procentege} ₪ </p>
+                                                                        <p className={'priceSell'}>
+                                                                            <strike>{price} </strike></p>
+                                                                    </div>
+                                                                    :
+                                                                    <p className={'price'}>{price} ₪ </p>
+                                                                }
+                                                                <p className={'deskHowManyBuysText'}>השבוע
+                                                                    קנו-{sellWeek}</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
                                         </div>
-                                    </div>
-                            </div>
-                        </div>
-                    </div>
+                                        </Link>
+                                    </Fragment>
+
+                                )
+                            }
+                            return (
+
+                                <Fragment key={index}>
+
+                                <Link to={{pathname:  `/productPage/${index}`}}>
+                                <div title={description} className="col-md-4 deskProductContainer">
+
+                                        <div className="w-100pr">
+                                            <div className={'deskProductHolder'}
+                                                 style={{backgroundImage: `url(${image})`}}>
+                                                <div className={"sellIconDesk"}>
+                                                    {sell &&  <p className={'sellTextIconDesk'}>מבצע</p>}
+                                                </div>
+                                                <div className={"deskProductText"}>
+                                                    <div className={'deskProductInfo'}>
+                                                        <p className={'title'}>{name}</p>
+                                                        <p className={'info'}>{description}</p>
+                                                    </div>
+                                                    <div className={'deskProductPriceContainer'}>
+                                                        {sell ?
+                                                            <div className={'deskPriceHolder'}>
+                                                                <p className={'price'}>{price * procentege} ₪ </p>
+                                                                <p className={'priceSell'}><strike>{price} </strike></p>
+                                                            </div>
+                                                            :
+                                                            <p className={'price'}>{price} ₪ </p>
+                                                        }
+                                                        <p className={'deskHowManyBuysText'}>השבוע קנו-{sellWeek}</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                </div>
+                                </Link>
+
+                                </Fragment>
+                            )
+                        })
+                    }
+
                 </div>
                 <div class='col-md-12 col-sm-12 col-xs-12 desk-footer w-100pr'>
                     <div class='col-md-11 col-sm-9 col-xs-12'>
@@ -153,7 +234,7 @@ class DeskHome1 extends React.Component {
 
                     </div>
                     <div class='col-md-1 display-inline-box'>
-                        <a href="https://www.instagram.com/zerbayad/" target="_blank" >
+                        <a href="https://www.instagram.com/zerbayad/" target="_blank">
                             <Instagram size={30} color={"#efc368"}/>
                         </a>
                         <div className={'mr-2vh'}>
@@ -167,6 +248,7 @@ class DeskHome1 extends React.Component {
                         </div>
                     </div>
                 </div>
+
             </div>
         )
     }

@@ -1,9 +1,6 @@
 import React, {Component} from 'react'
-import sliderTuBeav from "../../assetsMobile/imagesMobile/sliderHomePage/toBeAv.jpg";
-import flowerOfTheWeekSagolBateva from "../../assetsMobile/imagesMobile/sliderHomePage/flowerOfTheWeekSagolBateva.jpg";
 import Slider  from "react-slick";
 import {flowersMobile} from '../../../services/Const/const';
-import {Link} from "react-router-dom";
 
 
 

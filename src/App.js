@@ -11,6 +11,7 @@ class App extends React.Component {
                 <div className="App">
                     <Routes/>
                 </div>
+
             </HttpsRedirect>
         )
     }
@@ -19,3 +20,5 @@ class App extends React.Component {
 export default App;
 
 // "start": "serve -s build",
+
+

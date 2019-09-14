@@ -186,8 +186,8 @@ export const flowersMobile = [
     {
         category: 'flower',
         name: 'יום יפה',
-        price: '75',
-        priceSizes: ["75", '90'],
+        price: '70',
+        priceSizes: ["70", '90', '120'],
         sells: 12,
         sell: false,
         image: yomYafe01,
@@ -224,8 +224,8 @@ export const flowersMobile = [
     {
         category: 'flower',
         name: 'רגע טבעי',
-        price: '75',
-        priceSizes: ["75", '90'],
+        price: '80',
+        priceSizes: ["80", '110', '150'],
         sells: 14,
         sell: false,
         image: regaTvei01,
@@ -236,8 +236,8 @@ export const flowersMobile = [
     {
         category: 'flower',
         name: 'זריחה מוקדמת',
-        price: '90',
-        priceSizes: ["90", '120', '150'],
+        price: '70',
+        priceSizes: ["70", '90', '110'],
         sells: 15,
         sell: false,
         image: zrihaMukdemet01,
@@ -273,8 +273,8 @@ export const flowersMobile = [
     {
         category: 'flower',
         name: 'רגע של אושר',
-        price: '65',
-        priceSizes: ["", '65', '95'],
+        price: '40',
+        priceSizes: ["40", '65', '95'],
         sells: 13,
         sell: false,
         image: regaShelOsher01,

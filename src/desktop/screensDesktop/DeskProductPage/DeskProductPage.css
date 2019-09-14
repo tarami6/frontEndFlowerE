@@ -70,14 +70,14 @@ a {
   font-size: 3.3vw;
   font-weight: 600;
   color: #353535;
-  text-align: left;
+  text-align: right;
   margin-top: 60px;
 }
 .desk2-title-text {
   font-family: Rubik;
   font-size: 28px;
   font-weight: 300;
-  text-align: left;
+  text-align: right;
   color: #353535;
 }
 .desk2-title-sub {
@@ -92,7 +92,7 @@ a {
   font-size: 20px;
   font-weight: 300;
   line-height: 1.75;
-  text-align: left;
+  text-align: right;
   color: #353535;
 }
 .desk2-price  {
@@ -129,8 +129,16 @@ a {
 .desk2-slide-btn {
   height: 70px !important;
   width: 70px !important;
-  background: rgba(255,255,255,0.6);
+  background: #eec367;
   border-radius: 35px;
   padding-top: 20px;
   /* filter: inherit; */
+}
+.glyphicon-chevron-left, .glyphicon-chevron-right{
+  margin-top: 160px !important;
+}
+
+.price-textDesk {
+  font-size: 20px;
+  font-weight: 500 !important;
 }

@@ -108,7 +108,7 @@ const CallActionPopUP = (props) => {
                     <div className={'buttonsHolder'}>
                         <div className={'callToButton'}
                              onClick={() => props.eventGA("ContactMade", "Phone pressed", props.page)}>
-                            <a className={'callToButton'} href="tel:0546712717"> חייג <Phone size={20}
+                            <a className={'callToButton'} href="tel:0542291101"> חייג <Phone size={20}
                                                                                              color={"darkgreen"}
                                                                                              style={{marginRight: 5}}/>
                             </a>

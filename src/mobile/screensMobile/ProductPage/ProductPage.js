@@ -137,3 +137,6 @@ class ProductPage extends Component {
 }
 
 export default withRouter(ProductPage)
+
+
+
