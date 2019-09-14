@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="cf6233b1-380a-47a6-88cf-bf5b7addc960" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/src/desktop/screensDesktop/DeskProductPage/DeskProductPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/desktop/screensDesktop/DeskProductPage/DeskProductPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/services/Const/const.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/Const/const.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -16,7 +15,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.3585185">
+    <splitter split-orientation="horizontal" split-proportion="0.61407405">
       <split-first>
         <leaf>
           <file pinned="false" current-in-tab="false">
@@ -92,8 +91,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/desktop/screensDesktop/DeskProductPage/DeskProductPage.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="370">
-                  <caret line="100" column="31" selection-start-line="100" selection-start-column="31" selection-end-line="100" selection-end-column="31" />
+                <state relative-caret-position="198">
+                  <caret line="121" column="91" selection-start-line="121" selection-start-column="91" selection-end-line="121" selection-end-column="91" />
                   <folding>
                     <element signature="e#0#37#0" expanded="true" />
                   </folding>
@@ -574,18 +573,18 @@
       <workItem from="1567427281644" duration="1101000" />
       <workItem from="1567527753269" duration="13100000" />
       <workItem from="1567717513234" duration="53823000" />
-      <workItem from="1568442018004" duration="15146000" />
+      <workItem from="1568442018004" duration="15308000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="324854000" />
+    <option name="totallyTimeSpent" value="325016000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18625678" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18625678" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -600,7 +599,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32884398" />
       <window_info anchor="bottom" id="GraphQL" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.33979592" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.33979592" />
       <window_info anchor="bottom" id="TypeScript" order="12" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -1041,8 +1040,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/desktop/screensDesktop/DeskProductPage/DeskProductPage.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="370">
-          <caret line="100" column="31" selection-start-line="100" selection-start-column="31" selection-end-line="100" selection-end-column="31" />
+        <state relative-caret-position="198">
+          <caret line="121" column="91" selection-start-line="121" selection-start-column="91" selection-end-line="121" selection-end-column="91" />
           <folding>
             <element signature="e#0#37#0" expanded="true" />
           </folding>

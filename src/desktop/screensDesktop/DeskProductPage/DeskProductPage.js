@@ -119,7 +119,7 @@ class DeskProductPage extends React.Component {
                                                             {size[index]}
                                                         </p>
                                                         <p className={'pl-4vw  m-0 price-text mb-5'}>
-                                                            {price * procentege} ₪ <span
+                                                            { Math.round(price * procentege)} ₪ <span
                                                             className={'sellPriceStrike'}><strike>{price}</strike></span>
                                                         </p>
 
@@ -135,7 +135,7 @@ class DeskProductPage extends React.Component {
                                                             }
                                                         </p>}
                                                         <p className={'pl-4vw pr-4vw m-0 price-text mb-5'}>
-                                                            { price.length ? `${price} ₪` : ''}
+                                                            { price.length ? `${Math.round(price)} ₪` : ''}
 
                                                         </p>
                                                     </div>
