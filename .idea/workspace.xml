@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cf6233b1-380a-47a6-88cf-bf5b7addc960" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mobile/screensMobile/Pot/Pot.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/mobile/screensMobile/Pot/Pot.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -57,7 +53,7 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/desktop/screensDesktop/DeskHome1/DeskHome1.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="360">
+                <state relative-caret-position="225">
                   <caret line="24" selection-start-line="24" selection-end-line="25" />
                   <folding>
                     <element signature="e#0#37#0" expanded="true" />
@@ -154,6 +150,17 @@
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/index.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state>
+                  <folding>
+                    <element signature="e#0#26#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/App.js">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="315">
@@ -177,23 +184,11 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/desktop/componentsDesktop/Footer/Footer.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="255">
-                  <caret line="21" column="62" selection-start-line="21" selection-start-column="62" selection-end-line="21" selection-end-column="62" />
-                  <folding>
-                    <element signature="e#0#25#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/routes.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="229">
-                  <caret line="73" column="27" lean-forward="true" selection-start-line="73" selection-start-column="27" selection-end-line="73" selection-end-column="27" />
+                <state relative-caret-position="196">
+                  <caret line="32" column="38" selection-start-line="32" selection-start-column="24" selection-end-line="32" selection-end-column="38" />
                   <folding>
                     <element signature="e#0#39#0" expanded="true" />
                   </folding>
@@ -204,20 +199,11 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/mobile/screensMobile/Pot/Pot.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="90">
-                  <caret line="21" column="34" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="34" />
+                <state relative-caret-position="240">
+                  <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
                   <folding>
                     <element signature="e#0#39#0" expanded="true" />
                   </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/public/index.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="105">
-                  <caret line="7" column="65" selection-start-line="7" selection-start-column="65" selection-end-line="7" selection-end-column="65" />
                 </state>
               </provider>
             </entry>
@@ -332,7 +318,6 @@
         <option value="$PROJECT_DIR$/src/desktop/componentsDesktop/Slogen/Slogen.js" />
         <option value="$PROJECT_DIR$/src/Seo/index.js" />
         <option value="$PROJECT_DIR$/src/desktop/screensDesktop/DeskHome1/DeskHome1.js" />
-        <option value="$PROJECT_DIR$/src/mobile/screensMobile/Pot/Pot.js" />
         <option value="$PROJECT_DIR$/src/mobile/screensMobile/MobileHome01/MobileHome01.js" />
         <option value="$PROJECT_DIR$/src/mobile/screensMobile/Mobile.css" />
         <option value="$PROJECT_DIR$/src/mobile/componentsMobile/Menu/Menu.js" />
@@ -343,6 +328,7 @@
         <option value="$PROJECT_DIR$/src/desktop/screensDesktop/DeskProductPage/DeskProductPage.css" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/src/routes.js" />
+        <option value="$PROJECT_DIR$/src/mobile/screensMobile/Pot/Pot.js" />
       </list>
     </option>
   </component>
@@ -370,6 +356,22 @@
             <path>
               <item name="igarde" type="b2602c69:ProjectViewProjectNode" />
               <item name="igarde" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="igarde" type="b2602c69:ProjectViewProjectNode" />
+              <item name="igarde" type="462c0819:PsiDirectoryNode" />
+              <item name="build" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="igarde" type="b2602c69:ProjectViewProjectNode" />
+              <item name="igarde" type="462c0819:PsiDirectoryNode" />
+              <item name="build" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="igarde" type="b2602c69:ProjectViewProjectNode" />
+              <item name="igarde" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="igarde" type="b2602c69:ProjectViewProjectNode" />
@@ -506,12 +508,12 @@
       <workItem from="1567527753269" duration="13100000" />
       <workItem from="1567717513234" duration="53823000" />
       <workItem from="1568442018004" duration="16715000" />
-      <workItem from="1568625597653" duration="1577000" />
+      <workItem from="1568625597653" duration="2009000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="328000000" />
+    <option name="totallyTimeSpent" value="328432000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -605,12 +607,6 @@
     </option>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/mobile/assetsMobile/imagesMobile/productPage/hamanit02.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/mobile/assetsMobile/imagesMobile/productPage/hamanit01.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/mobile/assetsMobile/imagesMobile/productPage/yomYafe02.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -892,23 +888,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/mobile/screensMobile/Pot/Pot.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="21" column="34" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="34" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="65" selection-start-line="7" selection-start-column="65" selection-end-line="7" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/desktop/screensDesktop/DeskProductPage/DeskProductPage.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1125">
@@ -964,6 +943,15 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/serviceWorker.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -971,10 +959,36 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="65" selection-start-line="7" selection-start-column="65" selection-end-line="7" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mobile/screensMobile/Pot/Pot.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/routes.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="73" column="27" lean-forward="true" selection-start-line="73" selection-start-column="27" selection-end-line="73" selection-end-column="27" />
+        <state relative-caret-position="196">
+          <caret line="32" column="38" selection-start-line="32" selection-start-column="24" selection-end-line="32" selection-end-column="38" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>

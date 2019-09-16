@@ -4,7 +4,6 @@ import {withRouter} from "react-router-dom";
 import {isMobile} from 'react-device-detect';
 import Footer from '../../componentsMobile/Footer/Footer'
 
-
 import imageAziz from '../../assetsMobile/imagesMobile/productPage/orchidSlider01.jpg'
 import MdArrowBack from 'react-icons/lib/md/arrow-forward';
 import {azizimMobile} from "../../../services/Const/const";
@@ -14,6 +13,7 @@ import Event from "../../../services/Const/functions"
 import ActionToCall from "../../componentsMobile/ActionToCall/ActionToCall";
 import {ChangeMetaTags} from "../../../Seo";
 import {SeoMeta} from '../../../services/Const/const'
+
 
 class Pot extends Component {
     constructor(props) {
