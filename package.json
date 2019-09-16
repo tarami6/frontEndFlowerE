@@ -12,6 +12,7 @@
     "react-dom": "^16.8.6",
     "react-facebook-pixel": "^0.1.3",
     "react-ga": "^2.5.7",
+    "react-gtm-module": "^2.0.8",
     "react-hotjar": "^2.0.0",
     "react-https-redirect": "^1.1.0",
     "react-icons": "^2.2.7",

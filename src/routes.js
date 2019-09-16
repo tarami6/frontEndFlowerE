@@ -8,18 +8,30 @@ import DeskProductPage from './desktop/screensDesktop/DeskProductPage/DeskProduc
 import Pot from './mobile/screensMobile/Pot/Pot'
 import ReactGA from 'react-ga';
 import ReactPixel from 'react-facebook-pixel';
+import TagManager from 'react-gtm-module'
 import smoothscroll from 'smoothscroll-polyfill';
 import {createBrowserHistory} from "history";
 import { hotjar } from 'react-hotjar';
 import LiveChat from 'react-livechat'
 
+const tagManagerArgs = {
+    gtmId: 'GTM-T5TRHP2'
+}
 
+const tagManagerArgsL = {
+    dataLayer: {
+        userId: '001',
+        userProject: 'project',
+        page: 'home'
+    },
+    dataLayerName: 'PageDataLayer'
+}
 
 const history = createBrowserHistory()
 
 function initializeReactGA() {
     ReactGA.initialize('UA-141866567-1');
-
+    TagManager.initialize(tagManagerArgs)
 }
 
 function Event(category, action, label) {
@@ -63,6 +75,7 @@ class Routes extends Component {
         this.updateWindowDimensions();
         smoothscroll.polyfill();
         window.addEventListener('resize', this.updateWindowDimensions);
+        TagManager.dataLayer(tagManagerArgsL)
     }
 
     componentWillUnmount() {
