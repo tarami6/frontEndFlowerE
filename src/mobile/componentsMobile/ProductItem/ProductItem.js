@@ -37,10 +37,6 @@ const ProductItem = (props) => {
                                     {sell &&  <p className={'sellTextIcon'}>מבצע</p>}
                                 </div>
                                 <div className={"productText"}>
-                                    <div>
-                                        <p className={'buquetNameText'}>{name}</p>
-                                        <p className={'productTextdescription'}>{description}</p>
-                                    </div>
                                     <div className={'priceHolder'}>
                                         <div className={'priceHolderText'}>
                                             { sell ?
@@ -54,6 +50,11 @@ const ProductItem = (props) => {
                                         </div>
                                         <p className={'howManyBuysText'}>השבוע קנו-{sellWeek}</p>
                                     </div>
+                                    <div>
+                                        <p className={'buquetNameText'}>{name}</p>
+                                        <p className={'productTextdescription'}>{description}</p>
+                                    </div>
+
                                 </div>
                             </div>
                         </Link>
@@ -83,10 +84,6 @@ const ProductItem = (props) => {
                                     {sell &&  <p className={'sellTextIcon'}>מבצע</p>}
                                 </div>
                                 <div className={"productText"}>
-                                    <div>
-                                        <p className={'buquetNameText'}>{name}</p>
-                                        <p className={'productTextdescription'}>{description}</p>
-                                    </div>
                                     <div className={'priceHolder'}>
                                         <div className={'priceHolderText'}>
                                             { sell ?
@@ -100,6 +97,11 @@ const ProductItem = (props) => {
                                         </div>
                                         <p className={'howManyBuysText'}>השבוע קנו-{sellWeek}</p>
                                     </div>
+                                    <div>
+                                        <p className={'buquetNameText'}>{name}</p>
+                                        <p className={'productTextdescription'}>{description}</p>
+                                    </div>
+
                                     {/*<div className={'buttonProductHome'} >*/}
                                     {/*<p className={'buttonProductHomeText'}>עוד פרטים  </p>*/}
                                     {/*</div>*/}
@@ -134,10 +136,6 @@ const ProductItem = (props) => {
                                     {sell &&  <p className={'sellTextIcon'}>מבצע</p>}
                                 </div>
                                 <div className={"productText"}>
-                                    <div>
-                                        <p className={'buquetNameText'}>{name}</p>
-                                        <p className={'productTextdescription'}>{description}</p>
-                                    </div>
                                     <div className={'priceHolder'}>
                                         <div className={'priceHolderText'}>
                                             { sell ?
@@ -151,6 +149,11 @@ const ProductItem = (props) => {
                                         </div>
                                         <p className={'howManyBuysText'}>השבוע קנו-{sellWeek}</p>
                                     </div>
+                                    <div>
+                                        <p className={'buquetNameText'}>{name}</p>
+                                        <p className={'productTextdescription'}>{description}</p>
+                                    </div>
+
                                     {/*<div className={'buttonProductHome'} >*/}
                                         {/*<p className={'buttonProductHomeText'}>עוד פרטים  </p>*/}
                                     {/*</div>*/}
@@ -162,7 +165,7 @@ const ProductItem = (props) => {
                 )
         }
         return (
-            <div title={description} key={Math.random()} className="fullWidthProduct" onClick={() => {
+            <div title={description} key={Math.random()}  onClick={() => {
                 props.eventGA("Flower pressed", name, "Home Page Mobile")
             }}>
                 <Link to={{pathname: `/productPage/${index}`,params:{from: "app"}}} >
@@ -173,10 +176,6 @@ const ProductItem = (props) => {
                             {sell &&  <p className={'sellTextIcon'}>מבצע</p>}
                         </div>
                         <div className={"productText"}>
-                            <div>
-                                <p className={'buquetNameText'}>{name}</p>
-                                <p className={'productTextdescription'}>{description}</p>
-                            </div>
                             <div className={'priceHolder'}>
                                 <div className={'priceHolderText'}>
                                     { sell ?
@@ -188,8 +187,13 @@ const ProductItem = (props) => {
                                         <p className={'buquetPriceText'}>{price} ₪ </p>
                                     }
                                 </div>
-                                    <p className={'howManyBuysText'}>השבוע קנו-{sellWeek}</p>
+                                <p className={'howManyBuysText'}>השבוע קנו-{sellWeek}</p>
                             </div>
+                            <div>
+                                <p className={'buquetNameText'}>{name}</p>
+                                <p className={'productTextdescription'}>{description}</p>
+                            </div>
+
                             {/*<div className={'buttonProductHome'} >*/}
                                     {/*<p className={'buttonProductHomeText'}>  עוד פרטים </p>*/}
                             {/*</div>*/}

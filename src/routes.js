@@ -75,7 +75,6 @@ class Routes extends Component {
         this.updateWindowDimensions();
         smoothscroll.polyfill();
         window.addEventListener('resize', this.updateWindowDimensions);
-        TagManager.dataLayer(tagManagerArgsL)
     }
 
     componentWillUnmount() {
