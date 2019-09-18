@@ -36,7 +36,7 @@ class Menu extends Component{
                                 <p>פרחים ללויה</p>
                             </div>
                             <div className={'menuObject'}>
-                                <a href="tel:0546712717">שירות לקוחות</a>
+                                <a href="tel:0542291101">שירות לקוחות</a>
                             </div>
                         </div>
                     </div>

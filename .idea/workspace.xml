@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cf6233b1-380a-47a6-88cf-bf5b7addc960" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/mobile/componentsMobile/PopUps/CallActionPopUP/CallActionPopUP.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/mobile/componentsMobile/PopUps/CallActionPopUP/CallActionPopUP.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mobile/componentsMobile/Menu/Menu.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/mobile/componentsMobile/Menu/Menu.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -16,13 +16,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/mobile/componentsMobile/ProductItem/ProductItem.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="325">
               <caret line="56" lean-forward="true" selection-start-line="56" selection-end-line="56" />
               <folding>
                 <element signature="e#0#37#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/mobile/componentsMobile/Menu/Menu.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="465">
+              <caret line="33" column="34" lean-forward="true" selection-start-line="33" selection-start-column="34" selection-end-line="33" selection-end-column="34" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -51,7 +63,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>price-text</find>
       <find>רגע</find>
       <find>יום</find>
       <find>מבצ</find>
@@ -76,11 +87,12 @@
       <find>TagManager</find>
       <find>title</find>
       <find>.productHolder</find>
-      <find>fullWidthProduct</find>
       <find>priceHolder</find>
       <find>productText</find>
       <find>.productText</find>
       <find>howManyBuysText</find>
+      <find>הפרפרי</find>
+      <find>fullWidthProduct</find>
     </findStrings>
     <replaceStrings>
       <replace>כפולה</replace>
@@ -136,7 +148,6 @@
         <option value="$PROJECT_DIR$/src/Seo/index.js" />
         <option value="$PROJECT_DIR$/src/desktop/screensDesktop/DeskHome1/DeskHome1.js" />
         <option value="$PROJECT_DIR$/src/mobile/screensMobile/MobileHome01/MobileHome01.js" />
-        <option value="$PROJECT_DIR$/src/mobile/componentsMobile/Menu/Menu.js" />
         <option value="$PROJECT_DIR$/src/mobile/screensMobile/ProductPage/ProductPage.js" />
         <option value="$PROJECT_DIR$/src/services/Const/const.js" />
         <option value="$PROJECT_DIR$/src/desktop/screensDesktop/DeskProductPage/DeskProductPage.js" />
@@ -150,6 +161,7 @@
         <option value="$PROJECT_DIR$/src/mobile/componentsMobile/ProductItem/ProductItem.js" />
         <option value="$PROJECT_DIR$/src/mobile/screensMobile/Mobile.css" />
         <option value="$PROJECT_DIR$/src/mobile/componentsMobile/PopUps/CallActionPopUP/CallActionPopUP.js" />
+        <option value="$PROJECT_DIR$/src/mobile/componentsMobile/Menu/Menu.js" />
       </list>
     </option>
   </component>
@@ -204,6 +216,14 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="mobile" type="462c0819:PsiDirectoryNode" />
               <item name="componentsMobile" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="igarde" type="b2602c69:ProjectViewProjectNode" />
+              <item name="igarde" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="mobile" type="462c0819:PsiDirectoryNode" />
+              <item name="componentsMobile" type="462c0819:PsiDirectoryNode" />
+              <item name="Menu" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="igarde" type="b2602c69:ProjectViewProjectNode" />
@@ -343,15 +363,16 @@
       <workItem from="1567527753269" duration="13100000" />
       <workItem from="1567717513234" duration="53823000" />
       <workItem from="1568442018004" duration="16715000" />
-      <workItem from="1568625597653" duration="9931000" />
+      <workItem from="1568625597653" duration="9984000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="336354000" />
+    <option name="totallyTimeSpent" value="336407000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22603978" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -661,16 +682,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/mobile/componentsMobile/Menu/Menu.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/mobile/screensMobile/MobileHome01/MobileHome01.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="870">
@@ -823,6 +834,16 @@
           <caret line="56" lean-forward="true" selection-start-line="56" selection-end-line="56" />
           <folding>
             <element signature="e#0#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mobile/componentsMobile/Menu/Menu.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="33" column="34" lean-forward="true" selection-start-line="33" selection-start-column="34" selection-end-line="33" selection-end-column="34" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
           </folding>
         </state>
       </provider>
