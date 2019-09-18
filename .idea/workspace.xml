@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cf6233b1-380a-47a6-88cf-bf5b7addc960" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mobile/componentsMobile/ProductItem/ProductItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/mobile/componentsMobile/ProductItem/ProductItem.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mobile/screensMobile/Mobile.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/mobile/screensMobile/Mobile.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mobile/componentsMobile/PopUps/CallActionPopUP/CallActionPopUP.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/mobile/componentsMobile/PopUps/CallActionPopUP/CallActionPopUP.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -23,8 +19,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/mobile/componentsMobile/ProductItem/ProductItem.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="430">
-              <caret line="63" column="9" lean-forward="true" selection-start-line="63" selection-start-column="9" selection-end-line="63" selection-end-column="9" />
+            <state relative-caret-position="325">
+              <caret line="56" lean-forward="true" selection-start-line="56" selection-end-line="56" />
               <folding>
                 <element signature="e#0#37#0" expanded="true" />
               </folding>
@@ -55,7 +51,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>size</find>
       <find>price-text</find>
       <find>רגע</find>
       <find>יום</find>
@@ -82,9 +77,10 @@
       <find>title</find>
       <find>.productHolder</find>
       <find>fullWidthProduct</find>
-      <find>.productText</find>
       <find>priceHolder</find>
       <find>productText</find>
+      <find>.productText</find>
+      <find>howManyBuysText</find>
     </findStrings>
     <replaceStrings>
       <replace>כפולה</replace>
@@ -130,7 +126,6 @@
         <option value="$PROJECT_DIR$/src/mobile/componentsMobile/Slider/SliderHome.js" />
         <option value="$PROJECT_DIR$/src/services/ConstDesktop/const.js" />
         <option value="$PROJECT_DIR$/src/mobile/componentsMobile/Footer/Footer.js" />
-        <option value="$PROJECT_DIR$/src/mobile/componentsMobile/PopUps/CallActionPopUP/CallActionPopUP.js" />
         <option value="$PROJECT_DIR$/src/desktop/componentsDesktop/ProductItem/Item/Item.js" />
         <option value="$PROJECT_DIR$/src/desktop/componentsDesktop/ProductItem/ProductItem.js" />
         <option value="$PROJECT_DIR$/src/desktop/componentsDesktop/FirstImpressionContainer/FirstImpressionContainer.js" />
@@ -154,6 +149,7 @@
         <option value="$PROJECT_DIR$/src/App.js" />
         <option value="$PROJECT_DIR$/src/mobile/componentsMobile/ProductItem/ProductItem.js" />
         <option value="$PROJECT_DIR$/src/mobile/screensMobile/Mobile.css" />
+        <option value="$PROJECT_DIR$/src/mobile/componentsMobile/PopUps/CallActionPopUP/CallActionPopUP.js" />
       </list>
     </option>
   </component>
@@ -347,12 +343,12 @@
       <workItem from="1567527753269" duration="13100000" />
       <workItem from="1567717513234" duration="53823000" />
       <workItem from="1568442018004" duration="16715000" />
-      <workItem from="1568625597653" duration="9408000" />
+      <workItem from="1568625597653" duration="9931000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="335831000" />
+    <option name="totallyTimeSpent" value="336354000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -823,8 +819,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/mobile/componentsMobile/ProductItem/ProductItem.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="430">
-          <caret line="63" column="9" lean-forward="true" selection-start-line="63" selection-start-column="9" selection-end-line="63" selection-end-column="9" />
+        <state relative-caret-position="325">
+          <caret line="56" lean-forward="true" selection-start-line="56" selection-end-line="56" />
           <folding>
             <element signature="e#0#37#0" expanded="true" />
           </folding>

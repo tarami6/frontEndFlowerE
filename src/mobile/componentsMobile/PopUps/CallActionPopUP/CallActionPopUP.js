@@ -64,7 +64,7 @@ const CallActionPopUP = (props) => {
             imgShowTo = loveInTheAir
             alt = "אהבה"
             titleImg = "אהבה"
-            textToCostumer = "אוייש הפרפרים הבבטן איזה כייף"
+            textToCostumer = "אוייש הפרפרים בבטן איזה כייף"
             serViceText="אנחנו מכירים את הנושא אנחנו נכין בדיוק את מה שצריך"
             break;
         case "GIVE":
