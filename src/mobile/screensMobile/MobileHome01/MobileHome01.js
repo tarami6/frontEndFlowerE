@@ -60,9 +60,9 @@ class MobileHome01 extends Component {
                         <MenuIcon style={{backgroundColor: 'rgba(255,255,255,0.9)', borderRadius: '100px'}} size={25}  color={"#895ECC"}/>
                     </div>
                     <Logo/>
-                    {/*<div className={'homeFirstImage'} style={{backgroundImage: `url(${require('../../assetsMobile/imagesMobile/sliderHomePage/shanaTova.jpg')})`}}>*/}
+                    <div className={'homeFirstImage'} style={{backgroundImage: `url(${require('../../assetsMobile/imagesMobile/sliderHomePage/shanaTova.jpg')})`}}>
 
-                    {/*</div>*/}
+                    </div>
                     <SliderHome openPopUp={this.openPopUp}/>
                     <div>
                         <h2 className={"iconTitle lightGreyColor"}>
