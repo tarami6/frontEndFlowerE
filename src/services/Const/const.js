@@ -60,6 +60,10 @@ import shilgia02 from "../../mobile/assetsMobile/imagesMobile/productPage/shilgi
 import prihaYafa01 from "../../mobile/assetsMobile/imagesMobile/productPage/prihaYafa01.jpg";
 import prihaYafa02 from "../../mobile/assetsMobile/imagesMobile/productPage/prihaYafa02.jpg";
 
+import withVase01 from "../../mobile/assetsMobile/imagesMobile/productPage/withVase01.jpg";
+import withVase02 from "../../mobile/assetsMobile/imagesMobile/productPage/withVase02.jpg";
+
+
 import ferrerorosheGadol from "../../mobile/assetsMobile/imagesMobile/productPage/ferrerorosheGadol.jpg";
 
 //AZIZM
@@ -245,18 +249,7 @@ export const flowersMobile = [
         description: "זר חמניות שמש יפייפה",
         story: 'תמיד יש סיפור. הכל סיפורים, באמת. השמש שעולה כל יום זה סיפור. לכל דבר יש סיפור. לשנות את הסיפור, לשנות את העולם.'
     },
-    {
-        category: 'flower',
-        name: 'מלכת הכפר',
-        price: '140',
-        priceSizes: ["140", '180', '270'],
-        sells: 17,
-        sell: false,
-        image: malcatHacfar01,
-        productSlider: [malcatHacfar01, malcatHacfar02],
-        description: "זר סייפן מהמם",
-        story: 'היא למדה לא מספרים, אלא בשדות, ביער, על גדת הנהר. המורים שלה היו הציפורים עצמן, כששרו לה, השמש כשהיא השאירה מאחוריה זוהר של ארגמן, העצים, עם רוח ועשבי הבר.'
-    },
+
     {
         category: 'flower',
         name: 'פריחה יפה',
@@ -318,6 +311,18 @@ export const flowersMobile = [
         productSlider: [levHanak01, levHanak02],
         description: "ורד מקסים באגרטל",
         story: 'אהבה אינה כתובה על נייר, שכן ניתן למחוק דברים על נייר. זה גם לא חרוט על אבן, שכן ניתן לשבור אבן. אבל זה נחרט בלב ושם היא תישאר לנצח.'
+    },
+    {
+        category: 'flower',
+        name: 'גיברות על',
+        price: '120',
+        priceSizes: ["120"],
+        sells: 9,
+        sell: false,
+        image: withVase01,
+        productSlider: [withVase01, withVase02],
+        description: "סידור פרחים בתוך ואזה כולל משלוח רק ב ₪120 ",
+        story: 'סידור פרחים בכל הצבעים, כולל ואזה ומשלוח, מתאים למשרדים, לעסקים, בתי חולים'
     },
     {
         category: "pot",

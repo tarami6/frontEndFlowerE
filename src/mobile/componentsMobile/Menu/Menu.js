@@ -33,7 +33,7 @@ class Menu extends Component{
                                 <p>זר פרחים כמתנה</p>
                             </div>
                             <div className={'menuObject' } onClick={()=>this.props.openPopUp('SORROW')}>
-                                <p>פרחים ללויה</p>
+                                <p>פרחים ללוויה</p>
                             </div>
                             <div className={'menuObject'}>
                                 <a href="tel:0542291101">שירות לקוחות</a>
