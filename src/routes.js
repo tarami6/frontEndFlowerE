@@ -85,8 +85,6 @@ class Routes extends Component {
         if(window.innerWidth > 505){
             this.setState({width: window.innerWidth, height: window.innerHeight});
         }
-
-
     }
 
     openChat= () => {
